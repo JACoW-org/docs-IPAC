@@ -1,0 +1,17 @@
+site_name: JACoW - Running an IPAC
+#site_url: https://docs-IPAC.JACoW.org
+theme: material
+repo_name: 'jacow-org/docs-IPAC'
+repo_url: 'https://github.com/jacow-org/docs-IPAC'
+nav:
+  - Introduction: index.md
+  - Glossary: glossary.md 
+  - Organising Committees: committees.md
+  - Invited Oral Presentations:
+    - Introduction: InvitedOrals/intro.md
+    - Scientific Secretariat/Admin: 
+      - Call for Proposals for Invited Oral Presentations: InvitedOrals/SScall.md
+      - Abstract Initial QA: InvitedOrals/SSinitialQA.md
+    - OC/SPC/SAB:
+      - Submission of Proposals for Invited Oral Presentations: InvitedOrals/SABsubmission.md
+
