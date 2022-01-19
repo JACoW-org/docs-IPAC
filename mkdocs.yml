@@ -7,6 +7,9 @@ nav:
   - Introduction: index.md
   - Glossary: glossary.md 
   - Organising Committees: committees.md
+  - Delivery and Initial Setup - Admin:
+    - Access to new event: InitialSetup/intro.md
+    - Management area: InitialSetup/mgmt_area.md
   - Invited Oral Presentations:
     - Introduction: InvitedOrals/intro.md
     - Scientific Secretariat/Admin: 

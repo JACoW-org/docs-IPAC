@@ -13,6 +13,9 @@ As per the original document, the documentation is split in various chapters fol
 the normal IPAC workflow (e.g., *Initial setup*, *Proposals for Invited Contributions*, *General abstract submission*, etc.).
 However, an approach based on the *type of user* following the instructions has been chosen, as highlighted by the structure of the tree menu on the left.
 
+## Credits
+
+Most of the documentation here available has been written by [Christine Petit-Jean Genaz](mailto:Christine.Petit-Jean-Genaz@cern.ch) during the first Indico testing for JACoW conferences in 2020 and 2021.
 
 ## Resources
 
