@@ -9,7 +9,12 @@ nav:
   - Organising Committees: committees.md
   - Delivery and Initial Setup - Admin:
     - Access to new event: InitialSetup/intro.md
-    - Management area: InitialSetup/mgmt_area.md
+    - Management area: 
+      - Settings, Timetable, Protection: InitialSetup/mgmt_area_01.md
+      - Organization: InitialSetup/mgmt_area_02.md
+      - Workflows: InitialSetup/mgmt_area_03.md
+      - Reports: InitialSetup/mgmt_area_04.md
+      - Customization: InitialSetup/mgmt_area_05.md
   - Invited Oral Presentations:
     - Introduction: InvitedOrals/intro.md
     - Scientific Secretariat/Admin: 
