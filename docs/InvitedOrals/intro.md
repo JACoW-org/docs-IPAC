@@ -6,15 +6,26 @@ Conference programmes are generally composed of three types of
 presentation: *Invited Oral*, *Contributed Oral* and *Poster*. The ratio of 
 the invited orals vs. contributed orals is decided by the Committee 
 responsible for the scientific programme (for IPAC: SPC, for HB: IOC, 
-etc.)
+etc.).
 
-The invited orals are - in the case of IPAC - proposed
-by members of the OC, SPC and SAB. All of them need to have JACOW 
-profiles and must have the necessary privileges. For IPAC, the call for 
-Invited Oral proposals goes out to OC, SPC and SAB approx. 15 months 
-prior to the conference.
+For IPAC, and several other JACoW conference series, there is a ***call
+for proposals for invited oral presentations approx. 15 months 
+prior to the conference*** – the aim being to have ***a
+complete programme of invited orals***, the backbone of the
+conference programme, when the conference website goes online around ***9 or 10 months in advance of the event.***
 
-The sequence of events for IPAC is as follows:
+The persons contacted for proposals are normally members of the
+**Organizing Committee** (OC), the **Scientific Programme Committee** (SPC),
+and the **Scientific Advisory Board** (SAB), though persons outside of
+these bodies may also be called upon to submit. All of them need to have JACOW 
+profiles and must have the necessary privileges. 
+The **number of persons** concerned for IPAC is in the region of **120**. The **number of proposals** averages around **400**. 
+
+It is wise to invite speakers **a year in advance** since many have full agendas.
+
+The IPAC SPC normally meets at the so called **SPC/2** meeting just over a year in advance of the conference to decide the look and feel of the event, the overall schedule, and the invited orals (ensuring swift invitations). The Track Groups and Tracks (Main and Sub-classifications) are generally also reviewed at this meeting.
+
+The IPAC workflow of the submission of proposals for Invited Oral Presentations is as follows:
 
 1. **SAB/OC/SPC** members enter proposals into Indico via their 
    own profiles. Proposals consist of a title, a brief description of what
