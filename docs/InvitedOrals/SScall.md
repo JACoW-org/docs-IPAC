@@ -17,5 +17,3 @@ A log of all e-mails sent may be found in the interface Reports / Logs. Select "
 ![](img/email_logs.png)
 
 Once the email are sent the [workflow for the *Submission of Proposals for Invited Oral Presentations*](intro.md#normal-ipac-workflow) can be started. [Instructions for SAB/OC/SPC ](SABsubmission.md)are also published in this manual.
-
-When the deadline for submission of proposals for invited orals is over, the SS/Admin should remove the names of **Authorized Submitters** from the screen **Workflow / Call for Abstracts / Submission / Settings / Authorized Submitters**, leaving only those persons who may be authorized to continue submitting beyond the deadline, for example, MC Conveners, SPC Chair.
