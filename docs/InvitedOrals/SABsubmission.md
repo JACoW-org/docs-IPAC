@@ -1,10 +1,16 @@
 # OC/SPC/SAB: Submission of Proposals for Invited Oral Presentations
 
-In this first step of the [workflow for the *Submission of Proposals for Invited Oral Presentations*](intro.md) the three committees create abstracts to be proposed to the SPC.
+In this first step of the [workflow for the *Submission of Proposals for Invited Oral Presentations*](intro.md#normal-ipac-workflow) the three committees create abstracts to be proposed to the SPC.
 
 ## Login to the IPAC Indico event
 
 The usual URL for IPAC events is [https://indico.jacow.org/e/IPAC**XX**](https://indico.jacow.org/e/IPACXX) (e.g., [IPAC'23](https://indico.jacow.org/e/IPAC23), [IPAC'24](https://indico.jacow.org/e/IPAC24) etc.)
+
+**To login to this special JACoW Indico installation, please be sure to use your JACoW account from the [JACoW Central Repository](https://oraweb.cern.ch/pls/jacow/profile.html), which usually is *not* your email address.**
+
+From this page it is also possible to **reset your password** - read the instructions in the Central Repository login page.
+
+**If you cannot access this Indico event**, please try logging in the [JACoW Central Repository](https://oraweb.cern.ch/pls/jacow/profile.html) first. If this works succesfully, try logging in this Indico with the same username/password. In case this won't work, contact the Event Administrator (contacts are usually provided in the IPAC event pages).
 
 ## Create a new proposed abstract
 
@@ -48,8 +54,6 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
 
 * **Track**: select the Main Classification for this contribution
   ![](img/tracks.png)
-
-
 
 ## Optional fields
 

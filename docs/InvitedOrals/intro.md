@@ -25,6 +25,8 @@ It is wise to invite speakers **a year in advance** since many have full agendas
 
 The IPAC SPC normally meets at the so called **SPC/2** meeting just over a year in advance of the conference to decide the look and feel of the event, the overall schedule, and the invited orals (ensuring swift invitations). The Track Groups and Tracks (Main and Sub-classifications) are generally also reviewed at this meeting.
 
+## Normal IPAC workflow
+
 The IPAC workflow of the submission of proposals for Invited Oral Presentations is as follows:
 
 1. **SAB/OC/SPC** members enter proposals into Indico via their 

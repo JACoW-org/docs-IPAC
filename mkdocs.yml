@@ -18,6 +18,9 @@ nav:
   - Invited Oral Presentations:
     - Introduction: InvitedOrals/intro.md
     - Scientific Secretariat/Admin: 
+      - Intial Setup: InvitedOrals/SSsetup.md
+      - Submission of Proposals: InvitedOrals/SSsubmission.md
+      - Post submission duties: InvitedOrals/SSpostsubmit.md
       - Call for Proposals for Invited Oral Presentations: InvitedOrals/SScall.md
       - Abstract Initial QA: InvitedOrals/SSinitialQA.md
     - OC/SPC/SAB:

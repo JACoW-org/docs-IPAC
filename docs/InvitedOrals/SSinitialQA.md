@@ -2,9 +2,13 @@
 
 Prior to handing over all proposals to the SPC to decide invited oral presentations, the Scientific Secretariat/Editor-in-Chief/Admin quality assures all proposals. In JACoW jargon this is known as Abstract Initial QA.
 
+This job should be performed on all initial proposals, which means between steps 1 and 2 of the [IPAC workflow](intro.md#normal-ipac-workflow). It *could* be done, however, only on the abstracts having a score (i.e., between steps 4 and 5) .
+
+
+
 The procedure of Abstract Initial QA is simply the technical editing of submissions performed by the SS/Admin/Editor-in-Chief. It consists of checking each individual submission to ensure that the formatting of the title is correct, including names of machines, etc., since this is how the title will appear in conference publications, the programme booklet, the abstracts brochure, and in the proceedings. The SS also checks there are no strange characters in the abstract text, or other problems, with footnotes for example. Abstract Initial QA is thus a form of technical editing prior to turning over the abstract to the SPC for scientific review.
 
-The SS with Event Manager/full Admin privileges, scrolls through submissions in the **Workflows / Call for Abstracts / List of abstracts / Manage** interface, where the total number of abstracts submitted is shown:
+The Scientific Secretariat with Event Manager/full Admin privileges, scrolls through submissions in the **Workflows / Call for Abstracts / List of abstracts / Manage** interface, where the total number of abstracts submitted is shown:
 
 ![](img/manage_button.png)
 
@@ -22,7 +26,7 @@ To facilitate the search and filtering it may be useful to create a "hidden" fie
 
 ![](img/custom_fields.png)
 
-Abstract submissions with the status "Awaiting Review" can be withdrawn, edited, or converted to PDF.
+Abstract submissions can be withdrawn, edited, or converted to PDF via three buttons on the top right of the abstract details.
 
 ![](img/abstracts_actions.png)
 
