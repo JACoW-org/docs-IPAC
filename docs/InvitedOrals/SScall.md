@@ -16,4 +16,4 @@ A log of all e-mails sent may be found in the interface Reports / Logs. Select "
 
 ![](img/email_logs.png)
 
-Once the email are sent the [workflow for the *Submission of Proposals for Invited Oral Presentations*](intro.md#normal-ipac-workflow) can be started. [Instructions for SAB/OC/SPC ](SABsubmission.md)are also published in this manual.
+Once the email are sent the [workflow for the *Submission of Proposals for Invited Oral Presentations*](intro.md#normal-ipac-workflow) can be started. [Instructions for SAB/OC/SPC ](SABsubmission.md)are also published in this manual, so it would be useful to link them in the text of the email.

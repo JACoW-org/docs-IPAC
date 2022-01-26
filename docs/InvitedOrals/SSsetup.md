@@ -1,5 +1,11 @@
 # Setting up by the Scientific Secretary/Admin/Editor-in-Chief for the submission of proposals for invited oral presentations by members of SAB/OC/SPC etc.
 
+---
+
+*These are the instructions for the Scientific Secretariat/Admin about how to setup Indico for the **first step of the [workflow for the Submission of Proposals for Invited Oral Presentations](intro.md#normal-ipac-workflow)**.*
+
+---
+
 Since Indico does not allow for several abstract submission exercises, the submission of proposals for invited oral presentations is managed outside of the general abstract submission setup.
 Prior to opening for the submission of proposals for invited oral presentations it is necessary to populate several of the screens in the JACoW-Indico Event:
 

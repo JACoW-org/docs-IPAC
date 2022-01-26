@@ -1,6 +1,10 @@
 # Submission of proposals for invited oral presentations by the SAB/OC/SPC
 
-*This is an explanation for the Scientific Secretariat/Admin about what the SAB/OC/SPC will see and do during the first step of the [workflow for the *Submission of Proposals for Invited Oral Presentations*](intro.md#normal-ipac-workflow)*.
+---
+
+*This is an explanation for the Scientific Secretariat/Admin about what the SAB/OC/SPC will see and do during the **first step of the [workflow for the Submission of Proposals for Invited Oral Presentations](intro.md#normal-ipac-workflow)**.*
+
+---
 
 Once abstract submission (or proposals for invited orals in this case) is configured as explained above, the persons entered as "Authorized submitters" will see a link to Submit an Abstract from the Event Home Page (display view):
 

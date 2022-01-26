@@ -8,9 +8,13 @@ The usual URL for IPAC events is [https://indico.jacow.org/e/IPAC**XX**](https:/
 
 **To login to this special JACoW Indico installation, please be sure to use your JACoW account from the [JACoW Central Repository](https://oraweb.cern.ch/pls/jacow/profile.html), which usually is *not* your email address.**
 
-From this page it is also possible to **reset your password** - read the instructions in the Central Repository login page.
+From the Central Repository it is also possible to **reset your password** by clicking the "**Forgotten Password**" button. However, you must enter your **username name** to retrieve your password - *if you have lost your username as well, please contact the specific IPAC Scientific Secretariat for help*.
 
-**If you cannot access this Indico event**, please try logging in the [JACoW Central Repository](https://oraweb.cern.ch/pls/jacow/profile.html) first. If this works succesfully, try logging in this Indico with the same username/password. In case this won't work, contact the Event Administrator (contacts are usually provided in the IPAC event pages).
+---
+
+**If you cannot login to the IPAC Indico event**, please try logging in the [JACoW Central Repository](https://oraweb.cern.ch/pls/jacow/profile.html) first. If this works succesfully, try logging in this Indico with the same username/password. In case this won't work, contact the Scientific Secretariat/Event Administrator (contacts are usually provided in the IPAC event pages).
+
+---
 
 ## Create a new proposed abstract
 
