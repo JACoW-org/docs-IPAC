@@ -1,8 +1,8 @@
-# # Setting up for the SPC reviewal process
+# Setting up for the SPC reviewal process
 
 ---
 
-*These are the instructions for the Scientific Secretariat/Admin about how to setup Indico for the **second step of the [workflow for the Submission of Proposals for Invited Oral Presentations](intro.md#normal-ipac-workflow)**.*
+*These are the instructions for the Scientific Secretariat/Admin about how to setup Indico for the **second and following steps of the [workflow for the Submission of Proposals for Invited Oral Presentations](intro.md#normal-ipac-workflow)**.*
 
 ---
 

@@ -32,7 +32,8 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
 
 * **Content**: the description, or abstract text, is needed here. Please describe what the proposed presenter is expected to develop with this contribution. A couple of notes:
   
-  * with Indico you can enrich the abstract content by using [Markdown](https://www.markdownguide.org) of [LaTeX](https://www.latex-project.org). However, we ask you to refrain from using this feature. For IPAC abstracts **please only use plain text**  
+      * with Indico you can enrich the abstract content by using [Markdown](https://www.markdownguide.org) of [LaTeX](https://www.latex-project.org). However, we ask you to refrain from using this feature. For IPAC abstracts **please only use plain text**  
+  
   * also refrain from copying and pasting from word processors like Microsoft Word or LibreOffice. Special characters like non-standard ticks (``, ´´, etc.) or the *three-dots character* (...) could get bad results when creating the final abstracts booklet. Be sure that these kind of special characters are avoided
 
 * **Contribution Type**: be sure to select "Invited Oral Presentation"
@@ -49,6 +50,8 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
   
   * now press the **Confirm** button. The user will be added to the list of authors: 
     ![](img/author_add_3.png)
+  
+  * then make the author a speaker by **clicking on the "*Speaker*" button**: its colour will turn from grey to light blue  
   
   * *In case that it is not possible to find the wanted person by searching*, enter their details manually by way of the "**Enter manually**" button. This should **not** be used normally
   
