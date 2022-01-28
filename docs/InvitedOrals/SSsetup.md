@@ -60,6 +60,23 @@ An e-mail archive is to be found in the Management Area under Reports / Logs.
 
 The Roles Setup screen thus allows the Event Administrator to create the roles, and enter the names of the persons in those roles.
 
+
+
+### Important notes on Permissions
+
+At this stage we are preparing for submission of proposals for invited  oral presentations: this means that the numer of people that need access to the Indico event is relatively small. *Only the Scientific Secretariat, the Organising Committee, the Scientific Programme Committee and the Scientific Advisory Board need to login and operate in this event*. 
+In other words, you don't want any free access to the event details.
+
+For this reason, we recommend that you [set the event as **Protected** under the **Protection section** of the Admin interface](../InitialSetup/mgmt_area_01.md#protection). You also want to add **Access Permissions** to the Roles created above, otherwise they won't be able to login and submit proposals.
+
+![](img/event_protection.png)
+
+*This settting will also prevent proposed authors for inadvertently discover their names in any submitted abstract before time in case they logged in to this event.*
+
+
+
+
+
 ## Organization / Contributions / Settings
 
 For the submission of proposals for invited oral presentations it is necessary to set the type of contribution that will appear for selection in the Abstract Submission Form. To create Contribution types, click on the Contributions, and then the Settings link:

@@ -89,6 +89,14 @@ There are three **Protection modes** for the event:
 - **Protected**: Only accessible by the users specified above
   and the managers of parent resources.
 
+---
+
+**We suggest that the event be set as *Protected* until the general submission for contributed presentations opens.**
+
+For this to work, be sure that all people that needs access to this event is listed in the Protection section above. It is wise to define all [Roles](../InitialSetup/mgmt_area_02.md#roles-setup) and **add Roles under Protection** instead of single individuals.
+
+---
+
 The ***Access key*** should **not** be used for security reasons.
 
 The ***No access contact*** may be used to enter contact

@@ -30,32 +30,32 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
 
 * **Title**: here goes the proposed title for the Invited Oral Presentation
 
-* **Content**: the description, or abstract text, is needed here. Please describe what the proposed presenter is expected to develop with this contribution. A couple of notes:
+* **Content**: the description, or abstract text, is needed here. Please describe what the proposed presenter is expected to develop with this contribution. A couple of notes: 
   
-      * with Indico you can enrich the abstract content by using [Markdown](https://www.markdownguide.org) of [LaTeX](https://www.latex-project.org). However, we ask you to refrain from using this feature. For IPAC abstracts **please only use plain text**  
+    * with Indico you can enrich the abstract content by using [Markdown](https://www.markdownguide.org) of [LaTeX](https://www.latex-project.org). However, we ask you to refrain from using this feature. For IPAC abstracts **please only use plain text**  
   
-  * also refrain from copying and pasting from word processors like Microsoft Word or LibreOffice. Special characters like non-standard ticks (``, ´´, etc.) or the *three-dots character* (...) could get bad results when creating the final abstracts booklet. Be sure that these kind of special characters are avoided
+    * also refrain from copying and pasting from word processors like Microsoft Word or LibreOffice. Special characters like non-standard ticks (``, ´´, etc.) or the *three-dots character* (...) could get bad results when creating the final abstracts booklet. Be sure that these kind of special characters are avoided
 
 * **Contribution Type**: be sure to select "Invited Oral Presentation"
   ![](img/contribution_type.png)
 
 * **Authors**: enter the proposed speakers for this contribution by clicking on the **Search** button:
   
-  * search for the person from the **JACoW Central Repository** by providing *Family name* and/or *Given (First) name* and/or *Email address* and/or *Affiliation*. Be sure that the "**Include users with no Indico account**" is selected![](img/author_search.png)
+    * search for the person from the **JACoW Central Repository** by providing *Family name* and/or *Given (First) name* and/or *Email address* and/or *Affiliation*. Be sure that the "**Include users with no Indico account**" is selected![](img/author_search.png)
   
-  * any found person will appear to the right. **Click on the plus sign**
-    ![](img/author_add_1.png)
+    * any found person will appear to the right. **Click on the plus sign**
+      ![](img/author_add_1.png)
   
-  * the plus will change to a green tick ![](img/author_add_2.png)
+    * the plus will change to a green tick ![](img/author_add_2.png)
   
-  * now press the **Confirm** button. The user will be added to the list of authors: 
-    ![](img/author_add_3.png)
+    * now press the **Confirm** button. The user will be added to the list of authors: 
+      ![](img/author_add_3.png)
   
-  * then make the author a speaker by **clicking on the "*Speaker*" button**: its colour will turn from grey to light blue  
+    * then make the author a speaker by **clicking on the "*Speaker*" button**: its colour will turn from grey to light blue  
   
-  * *In case that it is not possible to find the wanted person by searching*, enter their details manually by way of the "**Enter manually**" button. This should **not** be used normally
+    * *In case that it is not possible to find the wanted person by searching*, enter their details manually by way of the "**Enter manually**" button. This should **not** be used normally
   
-  * do **not** enter yourself in the list of authors
+    * do **not** enter yourself in the list of authors
 
 * **Comments**: this space is for any notes possibly needed for this contribution
 
@@ -64,4 +64,4 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
 
 ## Optional fields
 
-The instructions above cover a generic IPAC. However, any specific edition can request to enter additional data by way of additional fields at the bottom of the submission form. Please refer to the particular instructions for the specific event.
+The instructions above cover a generic IPAC. However, any specific edition can request to enter additional data by way of additional fields at the bottom of the submission form. Please refer to the particular instructions for the specific event. 
