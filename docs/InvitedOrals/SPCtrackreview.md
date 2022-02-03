@@ -47,7 +47,7 @@ Clicking on the **Review button** brings up the following screen with a dropdown
 
 ---
 
-*SPC members should carefully read the reviewing instructions before starting. The aim of this exercise is to check that Tracks are correct.*
+*SPC members should carefully read the reviewing instructions available after pressing the "Review" button before starting. The aim of this exercise is to check that Tracks are correct.*
 
 ---
 

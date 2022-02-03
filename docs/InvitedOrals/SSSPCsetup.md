@@ -149,6 +149,8 @@ With the above in place, a mail may be sent to the SPC providing [instructions](
 
 When the prioritization exercise is over it is necessary to **give *Judgement* power to the MC Coordinators** (*Conveners*). This can be done by getting back to the *Workflows > Call for Abstracts > Settings* pane and **enabling the Allow track conveners to judge** setting.
 
+![](img/allow_convener_to_judge.png)
+
 This will enable MC Coordinators to actually accept the wanted proposals. It may be convenient to prepare statistics on the scoring gave to the abstracts, prepare an export of the abstracts into XL etc. The MC Coordinators should come to the SPC/2 with a detailed proposal.
 
 ---

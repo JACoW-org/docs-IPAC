@@ -24,7 +24,10 @@ As before, the options for review are:
 
 - **Merge** is a request to merge this proposal with another. *This should not be used*
 
-
 Since all abstracts should now be in the correct Tracks, SPC members should now go to the Track of their interest and enter their priorities with an *Accept* review. **They should NOT Review/Enter priorities if the abstract is of no interest.**
 
+---
 
+*SPC members should carefully read the reviewing instructions available after pressing the "Review" button before posting their review. Special requirements may be present for the specific IPAC.*
+
+---
