@@ -91,7 +91,9 @@ The Scientific Secretariat will go to the *Roles Setup* or *Participant Roles* s
 
 ## 2. MC Coordinators review Track changes proposals
 
-First action to do after the deadline for submission of proposals for invited oral presentations is to remove *Review* permissions to the SPC. This way the MC conveners will be able to work through the next phase without fear of having new reviews coming in. To do so, refer to the [instructions above](#1-assign-review-permission-to-the-spc) and click on the "**X**" sign in the *Review orange button* for the Scientific Programme Committee member.
+First action to do after the deadline for submission of proposals for invited oral presentations is to remove *Review* permissions to the SPC. This way the MC conveners will be able to work through the next phase without fear of having new reviews coming in. To do so, refer to the [instructions above](#1-assign-review-permission-to-the-spc) and click on the "**X**" sign in the *Review orange button* for the Scientific Programme Committee member. After this action the MC Coordinators will still have Convener permissions on their assigned MC/Track - it may be wise to also give them *Review permissions on all tracks* so that they can access all abstracts.
+
+![](img/convener_permissions.png)
 
 Next, go to *Workflows > Call for Abstracts > Reviewing > Settings* and enable the "**Allow conveners to change tracks**". Remember to save the change.
 
@@ -109,11 +111,11 @@ The next task is to reconfigure the abstract reviewing interface via the *Workfl
 
 - **Scale from/to**: Enter here the scale to weight the value of proposals, for example from 1 to 3 to be used for the invited oral selection – we are proposing:
   
-  - **3** = top priority/highest ranking
+    - **3** = top priority/highest ranking
   
-  - **2** = second priority
+    - **2** = second priority
   
-  - **1** = lowest priority/lowest ranking
+    - **1** = lowest priority/lowest ranking
 
 Note that the *Questions* interface should only be completed when the prioritization begins. It is better to enable this second activity only after the Track change proposals are complete.
 
