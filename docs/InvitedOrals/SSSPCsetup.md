@@ -129,6 +129,10 @@ Note that the *Questions* interface should only be completed when the prioritiza
 
 To be able to enter a priority for consideration of invited oral presentations, it is necessary to configure abstract reviewing **questions** via the **Workflows > Call for Abstracts > Reviewing > Questions** interface:
 
+![](img/questions.png)
+
+For this exercise we are adding a question of type ***Rating***:
+
 ![](img/priority_field.png)
 
 ## 4. Set Review privilege to all SPC members

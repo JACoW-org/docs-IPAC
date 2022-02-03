@@ -24,8 +24,6 @@ The reviewer can **customize the list** to show more or less information, limite
 
 **Attention**: SPC members should ***not review proposals which they deem are of no interest***.
 
-
-
 ## Reviewing a proposal
 
 Clicking on the title of the abstract (in blue) brings the Reviewer to the overview of the submission showing the contribution type (*invited oral presentation*), the track proposed by the submitter, the authors, speakers, etc.
@@ -67,9 +65,3 @@ To the other reviewers and conveners the same abstract will appear like this:
 ![](img/abstract_reviewed_2.png)
 
 When the SPC members have reviewed all the proposals in the system, this excercise is completed.
-
-
-
-
-
-

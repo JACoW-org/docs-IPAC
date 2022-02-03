@@ -1,5 +1,11 @@
 # Accept/Reject Proposals for Track Changes by MC Coordinators
 
+---
+
+*This is an explanation for the Scientific Programme Committee MC Coordinators (SPC-MCC) on how to perform the **third step of the [workflow for the Submission of Proposals for Invited Oral Presentations](intro.md#normal-ipac-workflow)**.*
+
+---
+
 The Coordinator/Convener clicks on the Track for which they are responsible and sees the following (*example for MC1*):
 
 ![](img/abstracts_to_retrack.png)
@@ -29,5 +35,3 @@ Abstract ID#39 then disappears from the MC1 list:
 and appears under MC2. Now, ff the MC2 Coordinator/Convener agrees, they will leave the abstract as it is. If he disagrees he will edit the Track List again.
 
 Coordinators/Conveners should at this stage refrain from using any other functionality.
-
- 
