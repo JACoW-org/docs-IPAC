@@ -10,10 +10,8 @@ To make all scheduled invited oral contributions visible in the display view, go
 
 Now switch to display view, and click on Timetable. 
 
----
 
-**Who can see the timetable now?**
+
+## Who can see the timetable now?
 
 At this point invitations has not been sent out yet and we don't want that anybody, by logging in the event, would be able to see the programme, nor any abstract or contribution possibly under their name. This is accomplished by keeping the event protected (see the [Protection Settings page](../InitialSetup/mgmt_area_01.md#protection)): only people having explicit permissions to access the event will be able to get to this data.
-
----
