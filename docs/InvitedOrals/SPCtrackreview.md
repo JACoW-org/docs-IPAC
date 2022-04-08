@@ -8,7 +8,7 @@
 
 ## The Reviewing Area
 
-Upon logging in and clicking on the *Call for Abstracts / Reviewing Area*, all SPC Members with (now having Review permissons) will see the list of Tracks and their permissions, for each track the number of abstracts to be reviewed, in Green are those with no abstracts to review:
+Upon logging in and clicking on the *Call for Abstracts / Reviewing Area*, all SPC Members (now having Review permissons) will see the list of Tracks, for each track the number of abstracts to be reviewed, in Green are those with no more abstracts to review:
 
 ![](img/reviewing_area-reviewer.png)
 
@@ -33,13 +33,13 @@ Towards the bottom of the page it is possible, either to *leave a comment*, or t
 
 ### Leaving a comment
 
-If the SPC member wishes to leave a comment they need to ensure it is *visible to reviewers, conveners and judges* first: 
+If the SPC member just wishes to leave a comment (in particular for the MC Coordinator, but also for the other SPC members) they need to ensure it is *visible to reviewers, conveners and judges* first: 
 
 ![](img/comment_visibility.png)
 
 Comments should be left when no explicit request to change tracks is considered needed, and they will be visible to the other SPC members (reviewers).
 
-It will be possible to leave comments also when asking for a track change, in which case this option is not needed.
+It will be possible to leave comments also when asking for a track change, in which case the present action is not needed.
 
 ### Review the proposed track
 
@@ -51,7 +51,7 @@ Clicking on the **Review button** brings up the following screen with a dropdown
 
 ---
 
-For this stage SPC members are asked to limit themselves to the *Change track option* in this interface, and then to ""save"" it:
+For this exercise SPC members are asked to limit themselves to the *Change track option* in this interface, and then to ""save"" it:
 
 ![](img/change_track.png)
 

@@ -32,6 +32,7 @@ Abstract ID#39 then disappears from the MC1 list:
 
 ![](img/abstracts_list_wo_39.png)
 
-and appears under MC2. Now, ff the MC2 Coordinator/Convener agrees, they will leave the abstract as it is. If he disagrees he will edit the Track List again.
+and appears under MC2. 
+Now, if the MC2 Coordinator/Convener agrees, they will leave the abstract as it is. If he disagrees he will edit the Track List again. Good communication among MC coordinators will ease this task for sure.
 
-Coordinators/Conveners should at this stage refrain from using any other functionality.
+**Note**: *Coordinators/Conveners should at this stage refrain from using any other functionality.*

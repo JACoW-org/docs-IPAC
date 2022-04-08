@@ -109,16 +109,6 @@ The next task is to reconfigure the abstract reviewing interface via the *Workfl
 
  Work through the various issues:
 
-- **Scale from/to**: Enter here the scale to weight the value of proposals, for example from 1 to 3 to be used for the invited oral selection – we are proposing:
-  
-    - **3** = top priority/highest ranking
-  
-    - **2** = second priority
-  
-    - **1** = lowest priority/lowest ranking
-
-Note that the *Questions* interface should only be completed when the prioritization begins. It is better to enable this second activity only after the Track change proposals are complete.
-
 - **Allow track conveners to judge**: keep this *disabled* until the next step in the workflow
 
 - **Allow conveners to change tracks**: *disable* this to avoid MC Coordinators to make any changes that should have already been performed in the previous step - you can enable it at any time upon special requests
@@ -131,9 +121,27 @@ To be able to enter a priority for consideration of invited oral presentations, 
 
 ![](img/questions.png)
 
-For this exercise we are adding a question of type ***Rating***:
+---
+
+Note that the *Questions* interface should only be completed when the prioritization begins. It is better to enable this second activity only after the Track change proposals are complete.
+
+---
+
+For this exercise we are adding a question of type ***Yes/No***:
 
 ![](img/priority_field.png)
+
+Normally IPAC conferences use **two questions** of type Yes/No:
+
+- First priority
+
+- Second priority
+
+Any SPC member is asked to select a number of abstracts (general rule of thumb: 5 per MC) to be proposed as invited oral presentations: for those abstracts this person will set question "First priority" to *Yes*. It is not really needed to strike a *No* for the non-selected abstracts: this question can be left unanswered.
+
+Same process will be used for a number of abstracts to be proposed as second priority (second choice).
+
+
 
 ## 4. Set Review privilege to all SPC members
 
@@ -155,6 +163,6 @@ This will enable MC Coordinators to actually accept the wanted proposals. It may
 
 ---
 
-**Note**: these workflow put the responsibility of finally accepting abstracts and turn them into contributions to the MC Coordinators, which need to be well educated about the tool. It may be safer **NOT to assign judging permissions to Coordinators/**Conveners and **leave this to the Scientific Secretariat**.
+**Note**: these workflow put the responsibility of finally accepting abstracts and turn them into contributions to the MC Coordinators, which need to be well educated about the tool. It may be safer **NOT to assign judging permissions to Coordinators/Conveners and leave this to the Scientific Secretariat**.
 
 ---
