@@ -10,7 +10,17 @@ To make all scheduled invited oral contributions visible in the display view, go
 
 Now switch to display view, and click on Timetable. 
 
+## Allowing authors to modify the content of their contributions
 
+By default Indico doesn't allow the end users (submitters) to modify the title, content and authors of a contribution as it is possible with abstracts. Only the Indico event manager can do it.
+
+To enable authors (submitters) to modify their own contributions, go to **Management Area > Contributions > Settings** and then choose **Submitter privileges**:
+
+![](img/contributions_settings.png)
+
+Then, enable **Edit** in the popup window. Remember to save.
+
+![](img/submitter_privileges.png)
 
 ## Who can see the timetable now?
 
