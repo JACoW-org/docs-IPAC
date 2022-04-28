@@ -33,9 +33,9 @@ After scoring a First or Second Priority, an action must be selected from the po
 
 - **Merge** is a request to merge this proposal with another. *This should not be used*
 
-
-
 Since all abstracts should now be in the correct Tracks, SPC members should now go to the Track of their interest and enter their priorities with an *Accept* review. **They should NOT Review/Enter priorities if the abstract is of no interest.**
+
+To complete this task please remember to click on the **Submit review** button.
 
 ---
 
