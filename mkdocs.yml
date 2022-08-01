@@ -34,4 +34,6 @@ nav:
       - "SPC MC Coordinators: review tracks": InvitedOrals/MCCtrackreview.md
       - "SPC: give priority to proposals": InvitedOrals/SPCprioritization.md
       - "SPC MC Coordinators: accept proposals": InvitedOrals/MCCaccept.md
+  - Abstract Booklet:
+    - Mail Merge to RTF: AbstractBooklet/MailMerge.md
 
