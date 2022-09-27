@@ -7,6 +7,8 @@ nav:
   - Introduction: index.md
   - Glossary: glossary.md 
   - Organising Committees: committees.md
+  - General instructions:
+    - How to login to the Indico event: General/JACoWlogin.md
   - Delivery and Initial Setup - Admin:
     - Access to new event: InitialSetup/intro.md
     - Management area: 
@@ -34,6 +36,8 @@ nav:
       - "SPC MC Coordinators: review tracks": InvitedOrals/MCCtrackreview.md
       - "SPC: give priority to proposals": InvitedOrals/SPCprioritization.md
       - "SPC MC Coordinators: accept proposals": InvitedOrals/MCCaccept.md
+  - Contributed Abstracts:
+    - How to submit an abstract: ContributedAbstracts/submission.md
   - Abstract Booklet:
     - Mail Merge to RTF: AbstractBooklet/MailMerge.md
 
