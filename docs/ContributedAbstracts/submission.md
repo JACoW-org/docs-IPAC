@@ -45,7 +45,7 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
 
 * **Comments**: this space is for any notes to the Scientific Secretariat possibly needed for this contribution
 
-* **Track**: select the Main Classification for this contribution
+* **Track**: select the Main and Sub Classification for this contribution
   ![](img/tracks.png)
 
 ## Optional fields

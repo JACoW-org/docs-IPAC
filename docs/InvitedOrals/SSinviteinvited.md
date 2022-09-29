@@ -28,8 +28,6 @@ then compose the email as usual and send them.
 
 To further customise the email or for using other methods of communication (like normal/snail mail), you can use the CSV/Excel export feature available under **Organisation > Contributions**. As usual, you have to select the contributions you want to export and click on the "**Export** button.
 
-
-
 ## Cleaning up to remove proposals
 
 At this stage, the invited oral proposals submitted as "abstracts" and which have been "accepted" for presentation have become "contributions".
@@ -50,12 +48,10 @@ To export contributions go to **Workflows > Call for Abstracts > Manage**, filte
 
 To remove unwanted abstracts/proposals, from **Workflows > Call for Abstracts > Manage**, select all unwanted proposals via *Customise list* then *Select all*  and finally *Remove* (the bin). Be sure to *remove only the abstracts and not abstracts + linked contributions*.
 
-You may want to delete only the abstracts whose proposals were not accepted. However, **we recommend to remove all the abstracts proposed for invited presentations** at this stage. If not, when the authors will login to the event and acces the *Call for Abstracts* area, they will be able to see the original SAB/SPC/OC submitter (proposer) name under "My abstracts", which would result in a possibly unpleasant situation.
-
-
+You may want to delete only the abstracts whose proposals were not accepted. However, **we recommend to remove all the abstracts proposed for invited presentations** at this stage. If not, when the authors will login to the event and access the *Call for Abstracts* area, they will be able to see the original SAB/SPC/OC submitter (proposer) name under "My abstracts", which would result in a possibly unpleasant situation.
 
 ## Setting public access to the event
 
 At this point the general call for abstracts is still closed. The system contains only the invited talks scheduled in sessions, but their authors cannot access their contributions to modify any attribute (title, content, co-authors...).
 
-It's time to open the event to the public: following the []same instructions seen when starting this exercise](SSsetup.md/#important-notes-on-permissions), you now want to set the **Event protection** to **Public** (or *Inheriting*, whenever the parte event category is set to Public.)
+It's time to open the event to the public: following the [same instructions seen when starting this exercise](../SSsetup/#important-notes-on-permissions), you now want to set the **Event protection** to **Public** (or *Inheriting*, whenever the parent event category is set to Public.)

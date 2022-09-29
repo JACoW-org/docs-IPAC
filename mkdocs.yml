@@ -37,6 +37,8 @@ nav:
       - "SPC: give priority to proposals": InvitedOrals/SPCprioritization.md
       - "SPC MC Coordinators: accept proposals": InvitedOrals/MCCaccept.md
   - Contributed Abstracts:
+    - Scientific Secretariat/Admin: 
+      - Setup review: ContributedAbstracts/SSsetup.md
     - How to submit an abstract: ContributedAbstracts/submission.md
   - Abstract Booklet:
     - Mail Merge to RTF: AbstractBooklet/MailMerge.md
