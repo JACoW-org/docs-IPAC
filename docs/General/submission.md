@@ -2,7 +2,7 @@
 
 ## Login to the IPAC Indico event
 
-See [How to login to the Indico event](../General/JACoWlogin.md) for details on how to login to the IPAC Indico event.
+See [How to login to the Indico event](JACoWlogin.md) for details on how to login to the IPAC Indico event.
 
 ## Create a new abstract
 
@@ -37,7 +37,7 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
     * the plus will change to a green tick ![](../InvitedOrals/img/author_add_2.png)
   
     * now press the **Confirm** button. The user will be added to the list of authors: 
-      ![](./img/author_add_3.png)
+      ![](img/author_add_3.png)
   
     * then mark the person that will present this abstract at the conference as "**Speaker**" (for posters this will be "*presenter*"). To perform this action  **click on the "*Speaker*" icon** to the right of the name
   
@@ -54,19 +54,19 @@ The instructions above cover a generic IPAC. However, any specific edition can r
 
 ## Creating JACoW profiles for new authors
 
-As explained in [JACoW Profiles and Accounts](../General/JACoWlogin/#your-jacow-account) whenever you need to add a person (usually, co-author) to an abstract it is necessary to create a profile for them in the JACoW Central Repository. To do this, follow this easy steps:
+As explained in [JACoW Profiles and Accounts](JACoWlogin/#your-jacow-account) whenever you need to add a person (usually, co-author) to an abstract it is necessary to create a profile for them in the JACoW Central Repository. To do this, follow this easy steps:
 
 1. access the [JACoW Central Repository User Profiles](https://oraweb.cern.ch/pls/jacow/profile.find_author?abs_id=1001) web page and search by way of last name or email address:
-   ![](./img/ProfilesSearch.png)
+   ![](img/ProfilesSearch.png)
 
 2. from the search results page, click on the "**Create a new author**" link towards the bottom of the page:
-   ![](./img/ProfileSearchResults.png)
+   ![](img/ProfileSearchResults.png)
 
 3. Enter all needed information in the New profile entry form:
-   ![](./img/NewProfileForm.png)
+   ![](img/NewProfileForm.png)
    take particular care in selecting the right affiliation by searching with the "**Search for Affiliation**" button
 
 4. When all the information is ready press the "**Submit**" button. You'll get a notification of the completion of the process:
-   ![](./img/ProfileAdded.png)
+   ![](img/ProfileAdded.png)
 
 5. Now, **do not click on "Continue"**. Instead, go back to the [search for authors in Indico](#create-a-new-abstract) above.

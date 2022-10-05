@@ -9,6 +9,8 @@ nav:
   - Organising Committees: committees.md
   - General instructions:
     - How to login to the Indico event: General/JACoWlogin.md
+    - How to submit an abstract: General/submission.md
+    - How to edit your abstracts: General/editing.md
   - Delivery and Initial Setup - Admin:
     - Access to new event: InitialSetup/intro.md
     - Management area: 
@@ -39,7 +41,6 @@ nav:
   - Contributed Abstracts:
     - Scientific Secretariat/Admin: 
       - Setup review: ContributedAbstracts/SSsetup.md
-    - How to submit an abstract: ContributedAbstracts/submission.md
   - Abstract Booklet:
     - Mail Merge to RTF: AbstractBooklet/MailMerge.md
 
