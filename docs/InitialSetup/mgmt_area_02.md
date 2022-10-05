@@ -47,6 +47,18 @@ Please note that some roles are built-in in Indico and are *not* definable in th
 
 - Conveners
 
+Indico, by default, allows use and creation of local-only accounts (i.e., not linked in the JACoW Central Repository). For JACoW conferences this is not convenient: people will be tempted to input new data into Indico instead of selecting the normalised data from the Central Repository (e.g.: standard and correct format of affiliation names). Fortunately, it is possible to disable input of local profiles, as well editing the existing ones. To do this, it is necessary to go to "**Organization / Participant Roles**", open the **settings** menu, then the "**Person lists**" item:
+
+![](img/persons_list.png)
+
+at this stage, be sure that the "**Disallow manually entering persons**" toggle is **selected**.
+
+![](img/disable_manual_person_entry.png)
+
+
+
+
+
 ### Programme
 
 In Indico, *Tracks represent the subject matter of the

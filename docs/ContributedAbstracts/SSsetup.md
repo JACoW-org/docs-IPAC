@@ -4,9 +4,13 @@ In the first phase of setting up [Invited Presentations in the Programme](../Inv
 
 Some changes in the Indico setup are needed before starting this important part of the conference organisation.
 
+Again, before letting anybody submitting abstracts, please check that [manual entry of authors/speakers is disallowed](/InitialSetup/mgmt_area_02/#participant-roles). This way, authors will be forced to only use profiles from the JACoW Central Repository when submitting or editing abstracts or contributions.
+
 ## 1. Removal of all the abstract proposals for invited orals
 
-Before opening the general abstract submission and contemporary access to existing contributions by invited authors it is necessary to remove all the abstracts (not the contributions!). If not, any proposed author for invited orals will be able to see who proposed their abstracts and get evidence of their acceptance or not, which won't be nice.
+Before opening the general abstract submission and contemporary access to existing contributions by invited authors it is necessary to remove all the abstracts (not the contributions!). If not, any proposed author for invited orals will be able to see who proposed their abstracts and get evidence of their acceptance or not, which won't be nice. 
+
+This operation is also described in the [final Admin steps for the Invited Oral proposals](../InvitedOrals/SSinviteinvited.md#cleaning-up-to-remove-proposals).
 
 ## 2. Changing visibility of Contribution types
 

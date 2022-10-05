@@ -14,6 +14,8 @@ Prior to opening for the submission of proposals for invited oral presentations 
 - Organization / Programme
 - Workflows / Call for Abstracts
 
+Before entering this particular setup, please be sure that [manual entry of authors/speakers is disallowed](/InitialSetup/mgmt_area_02/#participant-roles). This way, authors will be forced to only use profiles from the JACoW Central Repository when submitting or editing abstracts or contributions.
+
 ## Organization / Roles Setup
 
 The Event Administrator creates the Roles for the different actors who will participate in the organization of the conference. This is done via the Organization / Roles Setup Screen in the Management Area of the event.
