@@ -16,7 +16,7 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
 
 ![](../InvitedOrals/img/abstract_submission_form.png)
 
-* **Title**: here goes the proposed title for the abstract
+* **Title**: enter the title of the abstract using initial capital letters ("Title Caps"). For example: `This is a Paper Title in Initial Capital Letters`.
 
 * **Content**: the description, or abstract text, is needed here. Please describe what you intend to present at this conference. A couple of notes: 
   

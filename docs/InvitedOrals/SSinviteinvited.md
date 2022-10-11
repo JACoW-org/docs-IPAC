@@ -34,19 +34,17 @@ At this stage, the invited oral proposals submitted as "abstracts" and which hav
 
 Abstracts not "accepted" remain as "abstracts" in the system unless removed.
 
-It is possible to **withdraw** abstracts/proposals, but these remain in the system and will be visible to designated Speakers who may later login. 
-
 It is thus desirable to **remove them entirely** once all invited speakers have accepted the invitations – though it may be advisable to **export** a copy of all proposals for later reference should a Speaker later be unable to participate.
 
 ---
 
-To export contributions go to **Workflows > Call for Abstracts > Manage**, filter them accordingly, select all, then press the "export" button. We suggest to export to *CSV* .
+To export contributions go to **Workflows > Call for Abstracts > Manage**, filter them accordingly, select all, then press the "**Extended Export**" button. We suggest to export to *XLSX (Excel)*. Then, it could be wise to also press the "**Export**" button and save a copy in *JSON* format.
 
 **Note**: so far it is not yet possible to import back affiliations with this format. A request to the Indico developers team has been filed to ease these operations.
 
 ---
 
-To remove unwanted abstracts/proposals, from **Workflows > Call for Abstracts > Manage**, select all unwanted proposals via *Customise list* then *Select all*  and finally *Remove* (the bin). Be sure to *remove only the abstracts and not abstracts + linked contributions*.
+To remove unwanted abstracts/proposals, from **Workflows > Call for Abstracts > Manage**, select all unwanted proposals via *Customise list* then *Select all*  and finally *Remove* (the bin). Be sure to ***remove only the abstracts** and not abstracts + linked contributions*.
 
 You may want to delete only the abstracts whose proposals were not accepted. However, **we recommend to remove all the abstracts proposed for invited presentations** at this stage. If not, when the authors will login to the event and access the *Call for Abstracts* area, they will be able to see the original SAB/SPC/OC submitter (proposer) name under "My abstracts", which would result in a possibly unpleasant situation.
 
