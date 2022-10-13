@@ -64,8 +64,6 @@ The only mandatory field here is the *name* of this session type.
 
 Be sure, however, to switch on the **Poster flag** where appropriate.
 
-
-
 ### Sessions
 
 ---
@@ -101,7 +99,6 @@ As seen above, a session in Indico lacks any information about "when" it will ha
 A *Session Block* is (one part of) a session with a date, a starting time and a duration, plus optional Conveners (chairpersons), a (possibly different) location and programme code.
 
 Indico then permits to split one session into multiple blocks: the result is that it is possible to have different times and/or locations for a session. Normally this is *never the case for JACoW conferences*, hence **we here assume a relationship 1 to 1 between sessions and blocks**.
-
 
 ***For this reason one Session Block's Programme Code will be identical to its Session Code.*** 
 
@@ -151,8 +148,6 @@ Go to **Organization > Contributions**. Work down the list of contributions and 
 
 You may want to *filter* the contributions not yet assigned to any session.
 
-
-
 #### Automatic assignment
 
 *This fits better for contributed orals and posters, since at the time of opening the contributed abstracts submission the programme, hence the sessions, would be defined.*
@@ -160,10 +155,6 @@ You may want to *filter* the contributions not yet assigned to any session.
 The trick is to **modify all the tracks** and **specify a default session** for each one. Whenever an abstract will be accepted for a track, the resulting contribution will be automatically assigned to the designated session.
 
 ![](img/default_session.png)
-
-
-
-
 
 ### Scheduling a contribution from a Session into a Session Block
 
@@ -219,9 +210,13 @@ Now press the **Assign programme codes** button to enter the multiple assignment
 
 ![](img/multiple_assignment_pcodes.png)
 
-As you can see this screen presents the "**New code**" fields pre-filled with some data and suggest to review this codes by manually editing them. This is the result of the 
+As you can see this screen presents the "**New code**" fields pre-filled with some data and suggest to review this codes by manually editing them. This is the result of the ***Programme Code Templates*** setting discussed below.
 
-***Programme Code Templates*** setting discussed below.
+### Automatically assign programme codes (Village System)
+
+An automatic assignment of programme codes is also available. This is an utility external to but integrated with Indico which is normally used for assigning programme codes to several contributions, like in poster sessions. 
+
+Please refer to the [section of the manual dedicated to Contributed abstracts](../ContributedAbstracts/SSpcodes.md) for all the details.
 
 ## Programme Code Templates
 
@@ -256,5 +251,3 @@ Similarly, you may want to define the Contributions template as `{session_block_
 However, this template will pre-fill the fields when manually assigning the programme codes in bulk, as presented above.
 
 ---
-
-
