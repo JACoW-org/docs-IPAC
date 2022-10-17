@@ -24,7 +24,7 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
   
     * also **refrain from copying and pasting from word processors** like Microsoft Word or LibreOffice. Special characters like non-standard ticks (``, ´´, etc.) or the *three-dots character* (...) could get bad results when creating the final abstracts booklet. Be sure that these kind of special characters are avoided
 
-* **Contribution Type**: choose between "Contributed Oral Presentation" (i.e.: a *talk*) or "Poster Presentation"
+* **Contribution Type**: choose among the types available here. This may vary from conference to conference, but for IPACs it's normal to only being able to select Poster Presentations. The Scientific Programme Committee will eventually select Contributed Oral presentations from the submitted Poster presentations.
   ![](./img/PresentationType.png)
 
 * **Authors**: enter the list of authors by clicking on the **Search** button:
