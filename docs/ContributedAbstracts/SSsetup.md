@@ -66,12 +66,34 @@ The instructions here will be displayed above the abstract submission form. It s
 
 All remaining controls should be left unchanged from the previous exercise related to invited oral proposals.
 
-## 5. Change of event access mode/rights
+## 5. Setup email notifications to submitters
+
+It will be nice for the submitters to receive an email confirming reception of their abstracts. Indico can do this by way of the Notificatons tool available at *Workflows / Call for Abstracts / Submission / Notifications*.
+
+Start adding a new notification by way of the "**Add new one**" button:
+
+![](img/emailnotifications.png)
+
+Give a name to this new ruleset (visible only to admins in Indico) and choose the "**Submit**" email template.
+
+Press the button "**Add new rule**" and choose "**Submitted**" from the popup menu. The result should be similar to this image:
+
+![](img/emailnewrule.png)
+
+Now you can setup the details of the email. Placeholders can be uses (e.g. `{abstract_id}`, `{submitter_name}`, etc.) Refer to the legenda below the Body of the email.
+
+![](img/emailnotificationtext.png)
+
+We recommend that only submitters are notified (not the other authors), so be sure to deselect "Send to primary authors" and "Send to co-authors".
+
+It may be useful for the scientific secretariat to receive copy of these emails to monitor the submission activity. For this purpose, enter their email address in the "CC" field.
+
+## 6. Change of event access mode/rights
 
 To let people to access the Indico event, go to *Protection* and change the *Protection mode* to *Inheriting* (or *Public*, which should be inherited from the IPAC category).
 
 ![](img/ProtectionInheriting.png)
 
-## 6. Opening abstract submission
+## 7. Opening abstract submission
 
 When you're ready to open abstract submission, go back to [Submission / Settings](#submission-settings) and either schedule it or open it explicitely.
