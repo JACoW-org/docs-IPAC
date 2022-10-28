@@ -51,13 +51,9 @@ Indico, by default, allows use and creation of local-only accounts (i.e., not li
 
 ![](img/persons_list.png)
 
-at this stage, be sure that the "**Disallow manually entering persons**" toggle is **selected**.
+at this stage, be sure that the "**Disallow manually entering persons**" and "**Include users with no Indico account by default**" toggles are **selected**.
 
 ![](img/disable_manual_person_entry.png)
-
-
-
-
 
 ### Programme
 
