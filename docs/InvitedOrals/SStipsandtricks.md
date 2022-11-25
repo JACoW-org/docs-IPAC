@@ -8,9 +8,35 @@ The Scientific Secretariat/Admin can export an extended spreadsheet with average
 2. select all the (filtered) abstracts by way of the "All" checkbox top left of the list ![](img/abstracts_list.png)
 3. use the **Extended Export** button to export to an `XSLX` file.
 
+### Syntax of the Extended Export `XSLX` file
+
+The **Extended Export** permits to access the abstracts data in `CVS`/`XSLX` (Microsoft Excel XML) format. The columns shown in the list of abstract page, plus the various questions, are exported. The exact data exported for the questions varies according to the type of the question itself.
+
+#### "Yes/No" question type
+
+For every abstract, and for every Yes/No question, three columns are created, according to the possible values: Yes/No/Null. The third is possible whenever the question is not mandatory and it's not answered by somebody that reviewed this abstract. The columns are called, respectively:
+
+- **Question *name of question* (True)**
+
+- **Question *name of question* (False)**
+
+- **Question *name of question* (Null)**
+
+#### "Rating" question type
+
+Whenever there is one or more questions of type "Rating" the export will contain the following columns:
+
+- **Score**: the average of *all the scores* cast* for all the questions* of type "Rating" (the same value shown on the Indico abstracts web page.
+
+- **Question *name of question* (total count)**: number of votes given to this abstract for this question
+
+- **Question *name of question* (AVG score)**: average of the votes given to this abstract for this question
+
+- **Question *name of question* (STD deviation)**: standard deviation of the votes given to this abstract for this question
+
 ## 2. Statistics of abstracts in tracks/MCs
 
-### Number of obstracts originally submitted for a track/MC
+### Number of abstracts originally submitted for a track/MC
 
 1. From the *Workflows > Call for Abstracts > List of Abstracts: Manage*,  filter all the submitted abstracts selecting only one track/MC by way of the "*Submitted for tracks*" button/filter
 
@@ -30,7 +56,7 @@ Similarly to the previous exercise:
 
 ### Final number of proposals
 
-Similarly to the "Number of obstracts originally submitted for a track/MC" section, but considering only the "Reviewed for tracks" filter:
+Similarly to the "Number of abstracts originally submitted for a track/MC" section, but considering only the "Reviewed for tracks" filter:
 
 1. From the *Workflows > Call for Abstracts > List of Abstracts: Manage*, filter all the submitted abstracts selecting only one track/MC by way of the "*Reviewed for tracks*" button/filter
 
@@ -41,9 +67,9 @@ Similarly to the "Number of obstracts originally submitted for a track/MC" secti
 ## 3. Count of first/second priorities by SPC members
 
 This exercise is a little bit trickier since the Extended Export is not sufficient. 
-To this purpouse, we need to count all the "yes" to a question (e.g., *First priority*) a member of the SPC gave to the abstracts.
+To this purpose, we need to count all the "yes" to a question (e.g., *First priority*) a member of the SPC gave to the abstracts.
 
-We will use the **JSON export converted to a spreadsheed**.
+We will use the **JSON export converted to a spreadsheet**.
 
 ---
 

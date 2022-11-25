@@ -8,16 +8,20 @@
 
 Logging in SPC members will be able to return to the "*Call for Abstracts > Review*" interface that was already used for [proposing Track changes](SPCtrackreview.md).
 
-It is now necessary to review the abstract again, this time to assign a priority to those abstracts that are meant to be valid invited orals. The SPC Chair, via the Scientific Secretary, will give precise instructions on how many priorities an SPC member is allowed to assign.
+It is now necessary to review the abstract again, this time to assign a priority to those abstracts that are meant to be valid invited orals.
 
 To perform the actual review it is necessary to open an abstract and then click on the *Review button*. 
 **Note**: if a change of track was already proposed for this abstract, a *Change Review* button will be present in place of the previous *Review* one. 
 
-For a normal IPAC it is possible to assign a *First Priority* or a *Second Priority* to an abstract, by way of a Yes/No widget: 
+For a normal IPAC it is possible to assign a *First Priority* (i.e., "I strongly support this abstract to be accepted as invited oral") or a *Second Priority* (i.e., "I also support this abstract to be considered as an invited oral") to an abstract, by way of a Yes/No widget: 
 
 ![](img/ratings.png)
 
-Again, the maximum number of first and second priorities is decided by the SPC chair.
+**At a typical IPAC every SPC member is allowed to cast a maximum of *five* first priorities and a maximum of *five* second priorities for each Main Classification.** If we consider that we normally have eight Main Classifications (MC1 through MC8) this will allow 80 maximum votes per SPC member (40 first and 40 second priority).
+
+The SPC Chair, however, may choose a different number of possible votes to be cast. The Scientific Secretary will confirm and give precise instructions on how many priorities an SPC member is allowed to assign for a specific IPAC.
+
+
 
 After scoring a First or Second Priority, an action must be selected from the pop-up menu:
 
