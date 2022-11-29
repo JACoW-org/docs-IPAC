@@ -8,7 +8,7 @@
 
 ## The Reviewing Area
 
-Upon logging in and clicking on the *Call for Abstracts / Reviewing Area*, all SPC Members (now having Review permissons) will see the list of Tracks, for each track the number of abstracts to be reviewed, in Green are those with no more abstracts to review:
+Upon logging in and clicking on the *Call for Abstracts / Reviewing Area*, all SPC Members (now having Review permissions) will see the list of Tracks, for each track the number of abstracts to be reviewed, in Green are those with no more abstracts to review:
 
 ![](img/reviewing_area-reviewer.png)
 
@@ -16,7 +16,7 @@ Clicking on the track name (in blue) above brings the reviewer to the **review i
 
 ![](img/abstracts_list_reviewer.png)
 
-The reviewer can **customize the list** to show more or less information, limited however to state, submitter, accepted type, submitted type:
+The reviewer can **customise the list** to show more or less information, limited however to state, submitter, accepted type, submitted type:
 
 ![](img/abstracts_list_customisation-reviewer1.png)
 
@@ -64,4 +64,4 @@ To the other reviewers and conveners the same abstract will appear like this:
 
 ![](img/abstract_reviewed_2.png)
 
-When the SPC members have reviewed all the proposals in the system, this excercise is completed.
+When the SPC members have reviewed all the proposals in the system, this exercise is completed.

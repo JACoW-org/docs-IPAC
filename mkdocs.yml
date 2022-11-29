@@ -40,9 +40,15 @@ nav:
       - "SPC: give priority to proposals": InvitedOrals/SPCprioritization.md
       - "SPC MC Coordinators: accept proposals": InvitedOrals/MCCaccept.md
   - Contributed Abstracts:
+    - Introduction: ContributedAbstracts/intro.md
     - Scientific Secretariat/Admin: 
       - Setup review: ContributedAbstracts/SSsetup.md
       - Programme codes: ContributedAbstracts/SSpcodes.md
+    - SPC:
+      - "SPC: proposal of track changes": ContributedAbstracts/SPCtrackreview.md
+      - "SPC MC Coordinators: review tracks": ContributedAbstracts/MCCtrackreview.md
+      - "SPC: give priority to proposals": ContributedAbstracts/SPCprioritization.md
+      - "SPC MC Coordinators: accept proposals": ContributedAbstracts/MCCaccept.md
   - Abstract Booklet:
     - Mail Merge to RTF: AbstractBooklet/MailMerge.md
   - FAQ: FAQ.md
