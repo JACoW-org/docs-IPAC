@@ -1,4 +1,4 @@
-# Setting up for the SPC reviewal process
+# Setting up for the SPC review process
 
 ---
 
@@ -14,13 +14,13 @@ a) Verify all Tracks are correct/Propose Track changes
 
 b) Accept/reject proposals for Track changes
 
-c) Prioritize invited oral proposals
+c) Prioritise invited oral proposals
 
 d) Accept/Reject proposals for invited orals
 
 The setting up for the above will necessarily be in **several distinct steps** with careful attention to permissions and deadlines:
 
-1. because in order for **all** SPC members to see **all** proposals (both for Tracks and Prioritization) they must **all** have *Review privilege* on **all** abstracts submitted. MC Coordinators will have *Convene permissions* which include the possibility to actually change the Track for the abstracts. SPC members must therefore be warned to limit themselves to proposing Track changes and comments;
+1. because in order for **all** SPC members to see **all** proposals (both for Tracks and Prioritisation) they must **all** have *Review privilege* on **all** abstracts submitted. MC Coordinators will have *Convene permissions* which include the possibility to actually change the Track for the abstracts. SPC members must therefore be warned to limit themselves to proposing Track changes and comments;
 2. because currently the two activities, a) and c) are grouped in the same screen and it would be possible for SPC members to return to Track changes when that exercise is normally closed.
 
 The process we will follow is:
@@ -29,7 +29,7 @@ The process we will follow is:
 
 2. **MC Coordinators** (*Track Conveners*) are assigned *Convene permissions* in their designated Tracks and are invited to "edit" the proposals for Track changes and eventually change track for the given abstract.
 
-3. The **Administrator** then prepares the Prioritization as described further on.
+3. The **Administrator** then prepares the Prioritisation as described further on.
 
 4. **All SPC members** are again given **Review** privilege to prioritize **proposals** for invited orals.
 
@@ -99,9 +99,9 @@ Next, go to *Workflows > Call for Abstracts > Reviewing > Settings* and enable t
 
 ### Call for the MC Coordinators review
 
-As usal, it's time now to notify the MC Coordinators to review the track changes requests. With the email utility of your choice in the *Roles Setup* or *Participant Roles* screens, the Scientific Secretariat will send [instructions](MCCtrackreview.md) to the Track Conveners, together with a clear deadline. This exercise should last **one/two weeks**.
+As usual, it's time now to notify the MC Coordinators to review the track changes requests. With the email utility of your choice in the *Roles Setup* or *Participant Roles* screens, the Scientific Secretariat will send [instructions](MCCtrackreview.md) to the Track Conveners, together with a clear deadline. This exercise should last **one/two weeks**.
 
-## 3. Preparation for the Prioritization of proposed abstracts
+## 3. Preparation for the Prioritisation of proposed abstracts
 
 The next task is to reconfigure the abstract reviewing interface via the *Workflows > Call for Abstracts > Settings* pane:
 
@@ -115,7 +115,7 @@ The next task is to reconfigure the abstract reviewing interface via the *Workfl
 
 - **Reviewing Instructions**: you may want to modify the text to now give the SPC detailed instructions about the scores to be given to the proposals
 
-- **Judgment Instructions**: put here the instructions for the MC Coordinators on how to accept (or not) the proposals and turn them into contributions
+- **Judgement Instructions**: put here the instructions for the MC Coordinators on how to accept (or not) the proposals and turn them into contributions
 
 To be able to enter a priority for consideration of invited oral presentations, it is necessary to configure abstract reviewing **questions** via the **Workflows > Call for Abstracts > Reviewing > Questions** interface:
 
@@ -123,7 +123,7 @@ To be able to enter a priority for consideration of invited oral presentations, 
 
 ---
 
-Note that the *Questions* interface should only be completed when the prioritization begins. It is better to enable this second activity only after the Track change proposals are complete.
+Note that the *Questions* interface should only be completed when the prioritisation begins. It is better to enable this second activity only after the Track change proposals are complete.
 
 ---
 
@@ -141,21 +141,19 @@ Any SPC member is asked to select a number of abstracts (general rule of thumb: 
 
 Same process will be used for a number of abstracts to be proposed as second priority (second choice).
 
-
-
 ## 4. Set Review privilege to all SPC members
 
 Similarly to what done in the [first step of this process](#1-assign-review-permission-to-the-spc), the SPC members need to have assigned *Review privilege* again.
 
 MC Coordinators (Conveners) should still have *Convene privilege* from the start, which won't change.
 
-### Call for the prioritization exercise
+### Call for the prioritisation exercise
 
 With the above in place, a mail may be sent to the SPC providing [instructions](SPCprioritization.md) which should guide members through this tasks with appropriate warnings, together with a clear deadline. This exercise should last **two/three weeks**.
 
 ## 5. Accept/Reject proposals by MC Coordinators during SPC/2
 
-When the prioritization exercise is over it is necessary to **give *Judgement* power to the MC Coordinators** (*Conveners*). This can be done by getting back to the *Workflows > Call for Abstracts > Settings* pane and **enabling the Allow track conveners to judge** setting.
+When the prioritisation exercise is over it is necessary to **give *Judgement* power to the MC Coordinators** (*Conveners*). This can be done by getting back to the *Workflows > Call for Abstracts > Settings* pane and **enabling the Allow track conveners to judge** setting.
 
 ![](img/allow_convener_to_judge.png)
 

@@ -43,6 +43,9 @@ nav:
     - Introduction: ContributedAbstracts/intro.md
     - Scientific Secretariat/Admin: 
       - Setup review: ContributedAbstracts/SSsetup.md
+      - Post submission duties: ContributedAbstracts/SSpostsubmit.md
+      - Abstract Initial QA: ContributedAbstracts/SSinitialQA.md
+      - Setups for the SPC review: ContributedAbstracts/SSSPCsetup.md
       - Programme codes: ContributedAbstracts/SSpcodes.md
     - SPC:
       - "SPC: proposal of track changes": ContributedAbstracts/SPCtrackreview.md
