@@ -54,7 +54,7 @@ The instructions above cover a generic IPAC. However, any specific edition can r
 
 ## Creating JACoW profiles for new authors
 
-As explained in [JACoW Profiles and Accounts](JACoWlogin/#your-jacow-account) whenever you need to add a person (usually, co-author) to an abstract it is necessary to create a profile for them in the JACoW Central Repository. To do this, follow this easy steps:
+As explained in [JACoW Profiles and Accounts](JACoWlogin.md#your-jacow-account) whenever you need to add a person (usually, co-author) to an abstract it is necessary to create a profile for them in the JACoW Central Repository. To do this, follow this easy steps:
 
 1. access the [JACoW Central Repository User Profiles](https://oraweb.cern.ch/pls/jacow/profile.find_author?abs_id=1001) web page and search by way of last name or email address:
    ![](img/ProfilesSearch.png)

@@ -47,11 +47,15 @@ nav:
       - Abstract Initial QA: ContributedAbstracts/SSinitialQA.md
       - Setups for the SPC review: ContributedAbstracts/SSSPCsetup.md
       - Programme codes: ContributedAbstracts/SSpcodes.md
-    - SPC:
+    - SPC - normal workflow:
       - "SPC: proposal of track changes": ContributedAbstracts/SPCtrackreview.md
       - "SPC MC Coordinators: review tracks": ContributedAbstracts/MCCtrackreview.md
       - "SPC: give priority to proposals": ContributedAbstracts/SPCprioritization.md
       - "SPC MC Coordinators: accept proposals": ContributedAbstracts/MCCaccept.md
+    - SPC - simplified workflow:
+      - "SPC: review abstracts": ContributedAbstracts/SPCreview-s.md
+      - "SPC MC Coordinators: finalise classifications": ContributedAbstracts/MCtrackreview-s.md
+      - "SPC MC Coordinators: accept proposals": ContributedAbstracts/MCCaccept-s.md
   - Abstract Booklet:
     - Mail Merge to RTF: AbstractBooklet/MailMerge.md
   - FAQ: FAQ.md
