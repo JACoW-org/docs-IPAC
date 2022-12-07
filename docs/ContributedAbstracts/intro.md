@@ -37,12 +37,11 @@ If the time available for the SPC to perform the above tasks is limited, it may 
 1. **Authors** submit their abstracts consisting of a title, a brief description of what
    the talk will cover, one or more authors and a proposed Track/Classification;
 2. **SPC** members review *all* the abstracts by proposing Track changes and assigning priorities for oral presentations selection;
-3. **MC Coordinators** accept/reject requests of classification changes and review the priorities given in the previous step to produce a preliminary list of preferred contributed oral presentations and reserves;
-4. at the SPC/3 meeting the **SPC** reviews the proposals from the previous step, selects the final candidates, put the contributions in the Scientific Programme.
+3. **MC Coordinators** accept/reject requests of classification changes from previous step;
+4. **MC Coordinators** review the priorities given in the step #2 to produce a preliminary list of preferred contributed oral presentations and reserves;
+5. at the SPC/3 meeting the **SPC** reviews the proposals from the previous step, selects the final candidates, put the contributions in the Scientific Programme.
 
 ![](img/workflow-s.png)
-
-
 
 ## Instructions for the SPC
 

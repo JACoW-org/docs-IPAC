@@ -54,7 +54,7 @@ nav:
       - "SPC MC Coordinators: accept proposals": ContributedAbstracts/MCCaccept.md
     - SPC - simplified workflow:
       - "SPC: review abstracts": ContributedAbstracts/SPCreview-s.md
-      - "SPC MC Coordinators: finalise classifications": ContributedAbstracts/MCtrackreview-s.md
+      - "SPC MC Coordinators: finalise classifications": ContributedAbstracts/MCCtrackreview-s.md
       - "SPC MC Coordinators: accept proposals": ContributedAbstracts/MCCaccept-s.md
   - Abstract Booklet:
     - Mail Merge to RTF: AbstractBooklet/MailMerge.md
