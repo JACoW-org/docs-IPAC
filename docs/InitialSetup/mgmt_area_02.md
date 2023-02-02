@@ -6,9 +6,21 @@
 
 ![](img/materials.png)
 
-The above gives the possibility of making any material
-downloadable from the event's homepage, i.e. logo,
-programme booklet, poster, etc.
+The above gives the possibility of making any material downloadable from the event's homepage, i.e. logo, programme booklet, poster, etc.
+
+**Note**: Indico allows material to be uploaded by submitters to contributions, like presentation material. This is NOT compliant with the way JACoW conferences handle this material (see the Paper/Slides management area for more details).
+
+To inhibit the upload of general material per contribution, access the "**Upload permissions**" area from the **Materials Settings** menu:
+
+![](img/materials_settings.png)
+
+then, be sure that the "**Managers only**" flag is set for your event.
+
+
+
+![](img/upload_permissions.png)
+
+
 
 ### Contributions
 
