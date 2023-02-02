@@ -1,8 +1,8 @@
-# Reviewing abstracts by the SPC (simplified workflow)
+# Reviewing proposals for invited orals contributions by the SPC (simplified workflow)
 
 ---
 
-*This is an explanation for the Scientific Programme Committee (SPC) on how to  perform the **second step of the [Simplified workflow for selection of Contributed Abstracts](intro.md#simplified-workflow)**. SPC members will review proposed classifications for abstracts and prioritise them in one round.*
+*This is an explanation for the Scientific Programme Committee (SPC) on how to  perform the **second step of the [Simplified workflow for the selection of proposals of Invited Oral Contributions](intro.md#simplified-workflow)**. SPC members will review proposed classifications for abstracts and prioritise them in one round.*
 
 ---
 
@@ -26,11 +26,11 @@ The reviewer can **customise the list** to show more or less information, limite
 
 ## Reviewing a proposal
 
-Clicking on the title of the abstract (in blue) brings the Reviewer to the overview of the submission showing the contribution type (*poster presentation*), the track proposed by the submitter, the authors, speakers, etc.
+Clicking on the title of the abstract (in blue) brings the Reviewer to the overview of the submission showing all the details, in particular the track proposed by the submitter, the speakers, etc.
 
 The SPC members at this stage are called to perform two actions:
 
-- give priority (first/second) to abstracts they would like to propose to be considered as contributed oral presentations;
+- give priority (first/second) to abstracts they would like to propose to be considered as invited oral presentations;
 
 - propose a track/classification change wherever they think the proposed track is not appropriate.
 
@@ -38,13 +38,13 @@ These two tasks can be performed independently and are described below.
 
 The six different cases are as follow:
 
-1. [proposed track is appropriate, abstract to be proposed as oral presentation](#1-proposed-track-is-appropriate-abstract-to-be-proposed-as-oral-presentation): the reviewer will only assign a priority to the abstract;
+1. [proposed track is appropriate, abstract to be proposed as invited oral presentation](#1-proposed-track-is-appropriate-abstract-to-be-proposed-as-invited-oral-presentation): the reviewer will only assign a priority to the abstract;
 
-2. [proposed track is **not** appropriate, abstract should be left as poster presentation](#2-proposed-track-is-not-appropriate-abstract-should-be-left-as-poster-presentation): the reviewer will only propose a track change;
+2. [proposed track is **not** appropriate, abstract is not to be proposed for invited oral presentation](#2-proposed-track-is-not-appropriate-abstract-is-not-to-be-proposed-for-invited-oral-presentation): the reviewer will only propose a track change;
 
-3. [proposed track is **not** appropriate, abstract to be proposed as oral presentation](#3-proposed-track-is-not-appropriate-abstract-to-be-proposed-as-oral-presentation): the reviewer will assign a priority to the abstract **and** propose a track change;
+3. [proposed track is **not** appropriate, abstract to be proposed as invited oral presentation](#3-proposed-track-is-not-appropriate-abstract-to-be-proposed-as-invited-oral-presentation): the reviewer will assign a priority to the abstract **and** propose a track change;
 
-4. [proposed track is appropriate, abstract should be left as poster presentation](#4-proposed-track-is-appropriate-abstract-should-be-accepted-as-poster-presentation-leaving-a-comment-optional): the reviewer leave the abstract as it is. An optional comment can be left;
+4. [proposed track is appropriate, abstract is not to be proposed for invited oral presentation](#4-proposed-track-is-appropriate-abstract-is-not-to-be-proposed-for-invited-oral-presentation-leaving-a-comment-optional): the reviewer leave the abstract as it is. An optional comment can be left;
 
 5. [the abstract is not appropriate for some reasons](#5-the-abstract-is-not-appropriate-for-some-reasons): the reviewer will ask the abstract to be rejected;
 
@@ -60,9 +60,9 @@ For all cases but #4 it is first needed to press the "Review" button in the inte
 
 ---
 
-### 1. Proposed track is appropriate, abstract to be proposed as oral presentation
+### 1. Proposed track is appropriate, abstract to be proposed as invited oral presentation
 
-For a normal IPAC it is possible to assign a *First Priority* (i.e., "I strongly support this abstract to be accepted as contributed oral") or a *Second Priority* (i.e., "I also support this abstract to be considered as a contributed oral") to an abstract, by way of Yes/No widgets: 
+For a normal IPAC it is possible to assign a *First Priority* (i.e., "I strongly support this abstract to be accepted as invited oral presentation") or a *Second Priority* (i.e., "I also support this abstract to be considered as an invited oral presentation") to an abstract, by way of Yes/No widgets: 
 
 ![](../InvitedOrals/img/ratings.png)
 
@@ -78,15 +78,15 @@ After scoring a First or Second Priority, an action must be selected from the po
 
 ![](../InvitedOrals/img/action.png)
 
-For this particular case the right option is **Accept**, which means a suggestion for the MC Coordinator to accept this proposal as contributed oral with the selected priorities.
+For this particular case the right option is **Accept**, which means a suggestion for the MC Coordinator to accept this proposal as invited oral presentation with the selected priorities.
 
 To complete this task please remember to click on the **Submit review** button.
 
-### 2. Proposed track is **not** appropriate, abstract should be left as poster presentation
+### 2. Proposed track is **not** appropriate, abstract is not to be proposed for invited oral presentation
 
 After having clicked on the **Review** button the screen depicted here above is presented.
 
-Since you are **not** proposing this abstract to be selected as contributed oral, **do not** give any priority - in other words, do not press any Yes/No buttons shown.
+Since you are **not** proposing this abstract to be selected as invited oral presentation, **do not** give any priority - in other words, do not press any Yes/No buttons shown.
 
 Instead, click on the drop-down menu "**Propose an action...**" and select "**Change track**". The list of all the other possible classifications are shown, as in the example below:
 
@@ -102,11 +102,11 @@ To the other reviewers and conveners the same abstract will appear like this:
 
 ![](../InvitedOrals/img/abstract_reviewed_2.png) 
 
-### 3. Proposed track is **not** appropriate, abstract to be proposed as oral presentation
+### 3. Proposed track is **not** appropriate, abstract to be proposed as invited oral presentation
 
-This option is the natural merge of the first two above. In practice, follow all the steps described for [case #1](#1-proposed-track-is-appropriate-abstract-to-be-proposed-as-oral-presentation) but, instead of selecting "Accept" in the end, select "**Change track**". More details in [case #2](#2-proposed-track-is-not-appropriate-abstract-should-be-left-as-poster-presentation).
+This option is the natural merge of the first two above. In practice, follow all the steps described for [case #1](#1-proposed-track-is-appropriate-abstract-to-be-proposed-as-invited-oral-presentation) but, instead of selecting "Accept" in the end, select "**Change track**". More details in [case #2](#2-proposed-track-is-not-appropriate-abstract-is-not-to-be-proposed-for-invited-oral-presentation).
 
-### 4. Proposed track is appropriate, abstract should be accepted as poster presentation: leaving a comment (optional)
+### 4. Proposed track is appropriate, abstract is not to be proposed for invited oral presentation: leaving a comment (optional)
 
 In this case the SPC member should not perform any action. However, if the SPC member wishes to leave a comment (in particular for the MC Coordinator, but also for the other SPC members) they first need to click on the "*Leave a comment...*" area towards the bottom of the page:
 

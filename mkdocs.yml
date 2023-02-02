@@ -35,9 +35,14 @@ nav:
       - Tips and tricks: InvitedOrals/SStipsandtricks.md
     - SPC/OC/SAB:
       - Submission of Proposals for Invited Oral Presentations: InvitedOrals/SABsubmission.md
+    - SPC - normal workflow:
       - "SPC: proposal of track changes": InvitedOrals/SPCtrackreview.md
       - "SPC MC Coordinators: review tracks": InvitedOrals/MCCtrackreview.md
       - "SPC: give priority to proposals": InvitedOrals/SPCprioritization.md
+      - "SPC MC Coordinators: accept proposals": InvitedOrals/MCCaccept.md
+    - SPC - simplified workflow:
+      - "SPC: review abstracts": InvitedOrals/SPCreview-s.md
+      - "SPC MC Coordinators: finalise classifications": InvitedOrals/MCCtrackreview.md
       - "SPC MC Coordinators: accept proposals": InvitedOrals/MCCaccept.md
   - Contributed Abstracts:
     - Introduction: ContributedAbstracts/intro.md
