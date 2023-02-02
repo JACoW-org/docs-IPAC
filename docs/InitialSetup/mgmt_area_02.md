@@ -20,8 +20,6 @@ then, be sure that the "**Managers only**" flag is set for your event.
 
 ![](img/upload_permissions.png)
 
-
-
 ### Contributions
 
 Contributions to the conference are created and managed
