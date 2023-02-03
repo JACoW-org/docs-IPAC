@@ -2,7 +2,7 @@
 
 ## Introduction
 
-After having [selected the Invited Orals](InvidedOrals/intro.md) authors are allowed to submit their contributed abstracts, both of Oral and Poster type. The SPC then needs to select the proposed Contributed Orals and enter them in the conference programme.
+After having [selected the Invited Orals](/InvitedOrals/intro) authors are allowed to submit their contributed abstracts, both of Oral and Poster type. The SPC then needs to select the proposed Contributed Orals and enter them in the conference programme.
 
 The deadline for abstract submission for the large JACoW events is generally around 5 or 6 months prior to the conference, and around 2 or 3 months prior to the
 deadline for early registration.

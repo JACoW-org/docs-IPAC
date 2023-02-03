@@ -63,5 +63,16 @@ nav:
       - "SPC MC Coordinators: accept proposals": ContributedAbstracts/MCCaccept-s.md
   - Abstract Booklet:
     - Mail Merge to RTF: AbstractBooklet/MailMerge.md
+  - Paper submission:
+    - Light Peer Review:
+      - Introduction: Paper/LPRintro.md
+      - Submitting a paper: Paper/LPRSubmit.md
+      - Communicating with reviewers: Paper/LPRcomm.md
+      - Submitting the paper for JACoW publication: Paper/LPRSubmit2.md
+    - JACoW publication: 
+      - Submitting a paper: Paper/submit.md
+      - Sending comments to editors: Paper/Author/comment.md
+      - Uploading new version: Paper/Author/upload.md
+      - Approving new version by editor: Paper/Author/approve.md
   - FAQ: FAQ.md
 
