@@ -71,8 +71,8 @@ nav:
       - Submitting the paper for JACoW publication: Paper/LPRSubmit2.md
     - JACoW publication: 
       - Submitting a paper: Paper/submit.md
-      - Sending comments to editors: Paper/Author/comment.md
-      - Uploading new version: Paper/Author/upload.md
-      - Approving new version by editor: Paper/Author/approve.md
+      - Sending comments to editors: Paper/comment.md
+      - Uploading new version: Paper/upload.md
+      - Approving new version by editor: Paper/approve.md
   - FAQ: FAQ.md
 
