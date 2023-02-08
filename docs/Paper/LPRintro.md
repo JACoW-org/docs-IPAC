@@ -5,7 +5,7 @@ of publication between a non-refereed IPAC paper published in the JACoW
 conference proceedings and a refereed journal like [PRAB](https://journals.aps.org/prab/).
 
 Successful peer reviewed papers are normally published in a refereed Journal as the [Institute of Physics Journal of Physics: Conference Series](https://ioppublishing.org/publications/conference-series/) and therefore visible in the known publication and citation databases.
-The papers submitted to the Peer Reviewed IPAC proceedings are normally reviewed by members of the Scientific Publication Board (SPB) and by volunteers selected by the Scientific Program Committee.  All papers are reviewed by two or more referees.  In the event of disagreement between  referees, the SPB shall resolve the case.
+The papers submitted to the Peer Reviewed IPAC proceedings are reviewed by referees selected among senior conference participants by the Scientific Publication Board (SPB).  All papers are reviewed by two or more referees.  In the event of disagreement between  referees, the SPB shall resolve the case.
 
 Due to limitations on time and number of referees, it cannot be guaranteed that all papers submitted will be reviewed.  An average IPAC normally expects that around 200 papers will be processed on a first come, first served basis pro rata of the number of papers per Main Classification.
 
