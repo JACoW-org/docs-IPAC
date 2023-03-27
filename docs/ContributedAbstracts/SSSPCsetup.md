@@ -9,3 +9,5 @@
 ## The Process
 
 The details of this process are identical to what is described for the [proposals for invited oral presentations](../InvitedOrals/SSSPCsetup.md). Please refer to those instructions for all the single steps to follow.
+
+After having accepted the selected abstracts as Contributed Oral Presentation, it is possible to bulk [accept all the remaining contributed abstracts as Poster Presentation](SSPosters.md).

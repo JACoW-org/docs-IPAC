@@ -2,7 +2,7 @@
 
 ---
 
-*This is an explanation for the Main Classification Coordinators (MCC) on how to perform the **fourth fifth steps of the [Simplified workflow for selection of Contributed Abstracts](intro.md#simplified-workflow)**..*
+*This is an explanation for the Main Classification Coordinators (MCC) on how to perform the **fifth steps of the [Simplified workflow for selection of Contributed Abstracts](intro.md#simplified-workflow)**..*
 
 ---
 

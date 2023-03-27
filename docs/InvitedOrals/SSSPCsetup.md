@@ -161,6 +161,26 @@ This will enable MC Coordinators to actually accept the wanted proposals. It may
 
 ---
 
-**Note**: these workflow put the responsibility of finally accepting abstracts and turn them into contributions to the MC Coordinators, which need to be well educated about the tool. It may be safer **NOT to assign judging permissions to Coordinators/Conveners and leave this to the Scientific Secretariat**.
+**Note**: these workflow put the responsibility of finally accepting abstracts and turn them into contributions to the MC Coordinators, which need to be well educated about the tool. It may be safer **NOT to assign judging permissions to Coordinators/Conveners and leave this to the Scientific Secretariat**. For this option, read on section 6 here below.
 
 ---
+
+## 6. Accept/Reject proposals by Scientific Secretariat after SPC/2 (on behalf of MC Coordinators)
+
+The Scientific Secretariat can perform this task on behalf of the MC Coordinators from the "Call for abstracts" Indico module. 
+
+First select the abstracts to be accepted, then choose "**Accept**" from the "**Judge**" pop-up button:
+
+![](img/bulk_judge.png)
+
+A new window will appear. Please select "Use review track" to keep the track that was chosen before during the review phase.
+
+"Override contribution type" is not needed (all abstracts should be of type "Invited Orals").
+
+If sessions has already been created, it is possible to directly assign abstracts (in bulk) to sessions. This is usually not the case at this stage for Invited Oral Contributions.
+
+![](img/bulk_accept.png)
+
+You may NOT want to notify the submitter, so leave this option unchecked.
+
+By pressing "Judge" contributions will be created from the previously selected abstracts.
