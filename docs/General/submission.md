@@ -24,9 +24,6 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
   
     * also **refrain from copying and pasting from word processors** like Microsoft Word or LibreOffice. Special characters like non-standard ticks (``, ´´, etc.) or the *three-dots character* (...) could get bad results when creating the final abstracts booklet. Be sure that these kind of special characters are avoided
 
-* **Contribution Type**: choose among the types available here. This may vary from conference to conference, but for IPACs it's normal to only being able to select Poster Presentations. The Scientific Programme Committee will eventually select Contributed Oral presentations from the submitted Poster presentations.
-  ![](./img/PresentationType.png)
-
 * **Authors**: enter the list of authors by clicking on the **Search** button:
   
     * search for the persons from the **JACoW Central Repository** by providing *Family name* and/or *Given (First) name* and/or *Email address* and/or *Affiliation*. Be sure that the "**Include users with no Indico account**" is selected![](../InvitedOrals/img/author_search.png)
@@ -42,6 +39,17 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
     * then mark the person that will present this abstract at the conference as "**Speaker**" (for posters this will be "*presenter*"). To perform this action  **click on the "*Speaker*" icon** to the right of the name
   
     * if you cannot find the right person in the Central Repository, please follow the directions in the [Creating JACoW profiles for new authors](#creating-jacow-profiles-for-new-authors) section below, then do the search again and select the newly created profile
+
+---
+
+**Note**: *Only the* **first (contributing) author** *should be put as* "**Author**" (which also is referred to as "primary author" in Indico). This person will appear first in the authors list and be able to edit the contribution and submit the paper in Indico afterwards.
+
+*All other authors should be marked as* "**Co-author**" - they will appear in the authors list but won't get submission privilege in Indico.
+
+---
+
+* **Contribution Type**: choose among the types available here. This may vary from conference to conference, but for IPACs it's normal to only being able to select Poster Presentations. The Scientific Programme Committee will eventually select Contributed Oral presentations from the submitted Poster presentations.
+  ![](./img/PresentationType.png)
 
 * **Comments**: this space is for any notes to the Scientific Secretariat possibly needed for this contribution
 
