@@ -87,6 +87,8 @@ The scale of the rating questions (the minimum and maximum value) is the same fo
 
 ---
 
+Please be also sure to **set the** "**Keep papers hidden**" flag in the settings, as shown in the picture above. If not, all accepted papers will be downloadable by anybody from their contribution page. We don't want this to happen, since the papers must still go through the editing process and eventually be published in the final proceedings.
+
 ## Setting up paper judging
 
 The only setting available specifically for judges is the judging deadline, which works the same way as the reviewing deadlines explained previously.
