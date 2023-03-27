@@ -36,9 +36,6 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
   
     * also refrain from copying and pasting from word processors like Microsoft Word or LibreOffice. Special characters like non-standard ticks (``, ´´, etc.) or the *three-dots character* (...) could get bad results when creating the final abstracts booklet. Be sure that these kind of special characters are avoided
 
-* **Contribution Type**: be sure to select "Invited Oral Presentation"
-  ![](img/contribution_type.png)
-
 * **Authors**: enter the proposed speakers for this contribution by clicking on the **Search** button:
   
     * search for the person from the **JACoW Central Repository** by providing *Family name* and/or *Given (First) name* and/or *Email address* and/or *Affiliation*. Be sure that the "**Include users with no Indico account**" is selected![](img/author_search.png)
@@ -51,11 +48,14 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
     * now press the **Confirm** button. The user will be added to the list of authors: 
       ![](img/author_add_3.png)
   
-    * then make the author a speaker by **clicking on the "*Speaker*" button**: its colour will turn from grey to light blue  
+    * then make the author a speaker by **clicking on the "*Speaker*" button** (*the microphone icon*)
   
-    * *In case that it is not possible to find the wanted person by searching*, enter their details manually by way of the "**Enter manually**" button. This should **not** be used normally
+    * *In case that it is not possible to find the wanted person by searching*, [create a JACoW profile for this person first](../General/submission.md#creating-jacow-profiles-for-new-authors)
   
     * do **not** enter yourself in the list of authors
+
+* **Contribution Type**: be sure to select "Invited Oral Presentation"
+  ![](img/contribution_type.png)
 
 * **Comments**: this space is for any notes possibly needed for this contribution
 
