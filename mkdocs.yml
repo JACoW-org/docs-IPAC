@@ -74,6 +74,7 @@ nav:
       - Reviewing a paper: Paper/LPRreviewer.md
       - Judging a paper: Paper/LPRjudge.md
     - JACoW publication: 
+      - Paper editing workflow: Paper/intro.md
       - Submitting a paper: Paper/submit.md
       - Sending comments to editors: Paper/comment.md
       - Uploading new version: Paper/upload.md
