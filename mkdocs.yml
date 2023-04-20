@@ -79,5 +79,16 @@ nav:
       - Sending comments to editors: Paper/comment.md
       - Uploading new version: Paper/upload.md
       - Approving new version by editor: Paper/approve.md
+  - Paper editing:
+      - Introduction: Paper/intro.md
+      - Editor-in-chief:
+        - Setting up: PaperEditing/EIC/setup.md
+        - Configuring: PaperEditing/EIC/config.md
+        - Editing Team Setup: PaperEditing/EIC/team.md
+        - Start Editing: PaperEditing/EIC/open.md
+        - Publishing: PaperEditing/EIC/publish.md
+      - Editor: 
+        - Assigning an editable: PaperEditing/Editor/assign.md
+        - Editing an editable: PaperEditing/Editor/edit.md
   - FAQ: FAQ.md
 
