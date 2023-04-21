@@ -34,6 +34,8 @@ In particular:
 
 ![](img/contributionedit.png)
 
+Whenever you would need to add co-authors which do not have a JACoW profile, please follow the instructions about [how to create JACoW profiles for new authors](../submission/#creating-jacow-profiles-for-new-authors)
+
 It is also important to check who is the **speaker** (for orals) or presenter (for posters): this person needs to have the "**microphone button**" highlighted.
 
 Those authors that will also have the "**paper clip**" button highlighted will be considered **submitters**: they will be able to modify the contribution and upload files for presentation/proceedings.
