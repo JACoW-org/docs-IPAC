@@ -16,7 +16,7 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
 
 ![](../InvitedOrals/img/abstract_submission_form.png)
 
-* **Title**: enter the title of the abstract using initial capital letters ("Title Caps"). For example: `This is a Paper Title in Initial Capital Letters`.
+* **Title**: enter the title of the abstract using [Sentence case](https://writer.com/blog/sentence-case/). For example: `This is a paper title in SCL: sentence case letters`.
 
 * **Content**: the description, or abstract text, is needed here. Please describe what you intend to present at this conference. A couple of notes: 
   
