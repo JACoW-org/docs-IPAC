@@ -90,6 +90,7 @@ nav:
       - Editor: 
         - Assigning an editable: PaperEditing/Editor/assign.md
         - Editing an editable: PaperEditing/Editor/edit.md
+        - QA: PaperEditing/Editor/QA.md
       - Specific IPAC instructions:
         - IPAC'23: PaperEditing/IPACs/IPAC23.md 
   - FAQ: FAQ.md
