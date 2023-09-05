@@ -33,7 +33,7 @@ The process we will follow is:
 
 4. **All SPC members** are again given **Review** privilege to prioritize **proposals** for invited orals.
 
-5. During the SPC/2 meeting, and following discussion, **Conveners** are assigned **Judging permissions** to accept/reject proposals for invited orals, which then automatically become contributions which can be scheduled.
+5. During the SPC/2 meeting, and following discussion, **Conveners** are assigned **Judging permissions** to accept/reject proposals for invited orals which then automatically become contributions that can be scheduled.
 
 ## 1. Assign *Review* permission to the SPC
 
@@ -184,3 +184,37 @@ If sessions has already been created, it is possible to directly assign abstract
 You may NOT want to notify the submitter, so leave this option unchecked.
 
 By pressing "Judge" contributions will be created from the previously selected abstracts.
+
+---
+
+## Reviewing statistics
+
+During the period while the SPC is reviewing the proposals for invited oral presentations, the Scientific Secretariat and the MC Coordinators need to monitor the process and eventually send out further reminders or clarifications about some details. This relates both for the track change task and the actual abstract reviewing with the assignment of priorities.
+
+It is quite common, though, that the Scientific Secretariat asks the SPC to assign an exact number of priorities to any MC (e.g., *5 first priority and 5 second priority per MC*) but some SPC member doesn't respect this request by assigning fewer or more priorities. This could unbalance the whole review or, if most of the SPC assign fewer priorities than requested, could result in having too little reviews for a thorough discussion at SPC2.
+
+Indico has a tool to accomplish this task: the **Call for Abstracts statistics** module, reachable from the *Reports > CfA Statistics* section of the administration menu:
+
+![](img/cfa_stats_menu.png)
+
+This function first presents a table with the number of reviews by any reviewer for every track:
+
+![](img/cfa_stats_rpt.png)
+
+**Note**: every reviewer can keep track of their reviews under [SPC: give priority to proposals](../SPCprioritization#reviewer-statistics)
+
+Next are some tables reporting the number of priorities per track by every reviewer (one table per priority/custom review question):
+
+![](img/cfa_stats_priority.png)
+
+The last table reports the number of abstracts per track highlighting the:
+
+- *Originally submitted for*: the number of abstracts submitted for any given track
+
+- *Moved into*: how many abstracts were moved into any track from others
+
+- *Final proposals*: the total number of abstracts per track after track changes (*= Originally submitted for + Moved into - moved to other tracks*)
+  
+    - **Note**: no "moved to other tracks" is shown but can easily be calculated substracting the *Final proposals* and *Moved into* from the *Originally submitted for*
+
+![](img/cfa_stats_abstracts.png)

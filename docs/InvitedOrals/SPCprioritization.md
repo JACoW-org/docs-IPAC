@@ -21,8 +21,6 @@ For a normal IPAC it is possible to assign a *First Priority* (i.e., "I strongly
 
 The SPC Chair, however, may choose a different number of possible votes to be cast. The Scientific Secretary will confirm and give precise instructions on how many priorities an SPC member is allowed to assign for a specific IPAC.
 
-
-
 After scoring a First or Second Priority, an action must be selected from the pop-up menu:
 
 ![](img/action.png)
@@ -46,3 +44,17 @@ To complete this task please remember to click on the **Submit review** button.
 *SPC members should carefully read the reviewing instructions available after pressing the "Review" button before posting their review. Special requirements may be present for each specific IPAC.*
 
 ---
+
+## Reviewer statistics
+
+When a large number of proposals are to be reviewed it is quite easy to lose track about how many reviews have been made in every track and how many are still available.
+
+The "*My Statistics*" entry in the Call for Abstracts area of Indico can help.
+
+![](img/cfa_stats_spc_menu.png)
+
+For every track (group) SPC members will have evidence of the number of proposals they reviewed and how many are still available.
+
+The number of priorities given are also displayed:
+
+![](img/cfa_stats_spc.png)

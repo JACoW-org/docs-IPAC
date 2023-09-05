@@ -115,6 +115,10 @@ For the submission of proposals for invited orals, only **Track *Groups*** are n
 
 Note that when it will be time for general abstract submission it will be necessary to re-work the Track Groups/Tracks to propose a more refined grouping. The combination of Track Groups and Tracks (in SPMS Main and Sub-classifications) makes it far easier for submitters to decide the precise place their contribution should appear in the programme, and for the Event Administrator to schedule them.
 
+**Note**: while only the *Title* field is mandatory it is useful to put the short code of the track in the *Code* field to make reports and exports more easily readable
+
+![](img/programme_tracks_edit.png)
+
 ## Workflows / Call for Abstracts
 
 First of all this module needs to be enable by clicking the "**Enable module**" button.
