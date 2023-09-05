@@ -36,6 +36,8 @@ Whenever there is one or more questions of type "Rating" the export will contain
 
 ## 2. Statistics of abstracts in tracks/MCs
 
+**Note**: the stats described in this section can be easilly obtained from the module [CfA Statistics](../SSSPCsetup/#reviewing-statistics). This tip has been left here as an inspiration for any possible similar needs.
+
 ### Number of abstracts originally submitted for a track/MC
 
 1. From the *Workflows > Call for Abstracts > List of Abstracts: Manage*,  filter all the submitted abstracts selecting only one track/MC by way of the "*Submitted for tracks*" button/filter
@@ -56,6 +58,8 @@ Similarly to the previous exercise:
 
 ### Final number of proposals
 
+
+
 Similarly to the "Number of abstracts originally submitted for a track/MC" section, but considering only the "Reviewed for tracks" filter:
 
 1. From the *Workflows > Call for Abstracts > List of Abstracts: Manage*, filter all the submitted abstracts selecting only one track/MC by way of the "*Reviewed for tracks*" button/filter
@@ -65,6 +69,10 @@ Similarly to the "Number of abstracts originally submitted for a track/MC" secti
 3. repeat for all tracks/MCs.
 
 ## 3. Count of first/second priorities by SPC members
+
+**Note**: the stats described in this section can be easilly obtained from the module [CfA Statistics](../SSSPCsetup/#reviewing-statistics). This tip has been left here as an inspiration for any possible similar needs.
+
+---
 
 This exercise is a little bit trickier since the Extended Export is not sufficient. 
 To this purpose, we need to count all the "yes" to a question (e.g., *First priority*) a member of the SPC gave to the abstracts.
