@@ -8,7 +8,7 @@ It can be closed at any time by clicking the “close now” button.
 
 ![](../img/eicsubmissionopen.png)
 
-# Requesting the authors for a metadata check
+# Requesting the authors a metadata check
 
 It is important to understand that a contribution usually changes a lot from the time of abstract submission to when one of the authors actually submits the paper. For example, experiments may have evolved and changed during this period, so a contribuiton could even result in something completely different from the original idea. Which means that it could also pertain to a different classificatoin!
 
