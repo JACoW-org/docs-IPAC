@@ -62,6 +62,8 @@ A standard JACoW conference will usually implement the following File Types:
         - [x] Required
       
         - [x] Publishable
+          
+          **Important note**: for the purpose of creating the proceedings with [CAT](https://github.com/JACoW-org/CAT), the final file type to be published **must** be named `PDF`. Please do not change its name in these Indico settings.
   
     - Source Files
       
@@ -81,7 +83,7 @@ A standard JACoW conference will usually implement the following File Types:
 
 - For **Slides**:
   
-    - PDF
+    - **PDF**
       
         - Extensions: `pdf`
       
@@ -90,6 +92,158 @@ A standard JACoW conference will usually implement the following File Types:
         - [x] Required
       
         - [x] Publishable
+          
+          **Important note**: for the purpose of creating the proceedings with [CAT](https://github.com/JACoW-org/CAT), the final file type to be published **must** be named `PDF`. Please do not change its name in these Indico settings.
+  
+    - Source Files
+      
+        - Extensions: `ppt`, `pptx`, `tex`,`odp`, `keynote`
+      
+        - Filename template: `{code}_slides`
+      
+        - [x] Multiple
+
+- For **Posters**:
+  
+    - PDF
+      
+        - Extensions: `pdf`
+      
+        - Filename template: `{code}_poster`
+      
+        - [x] Required
+      
+        - [x] Publishable
+          
+          **Important note**: [CAT](https://github.com/JACoW-org/CAT), the tool to create the final proceedings, currently does not consider Posters for publication.
+  
+    - Source Files
+      
+        - Extensions: `ppt`, `pptx`, `ai`, `odp`, `tex`
+      
+        - Filename template: `{code}_poster`
+      
+        - [x] Multiple
+
+- For **Papers**:
+  
+    - PDF
+      
+        - Extensions: `pdf`
+      
+        - Filename template: `{code}`
+      
+        - [x] Required
+      
+        - [x] Publishable
+          
+          **Important note**: for the purpose of creating the proceedings with CAT, the final files to be published **must** be named `PDF`. Please do not change its name in these Indico settings.
+  
+    - Source Files
+      
+        - Extensions: `tex`, `doc`, `docx`, `odt`
+      
+        - Filename template: `{code}`
+      
+        - [x] Multiple
+  
+    - Supporting files
+      
+        - No extensions restriction
+      
+        - Filename template: `{code}_*`
+      
+        - [x] Multiple
+
+- For **Slides**:
+  
+    - **PDF**
+      
+        - Extensions: `pdf`
+      
+        - Filename template: `{code}_slides`
+      
+        - [x] Required
+      
+        - [x] Publishable
+          
+          **Important note**: for the purpose of creating the proceedings with CAT, the final file type to be published **must** be named `PDF`. Please do not change its name in these Indico settings.
+      
+        - [ ] 
+  
+    - Source Files
+      
+        - Extensions: `ppt`, `pptx`, `tex`,`odp`, `keynote`
+      
+        - Filename template: `{code}_slides`
+      
+        - [x] Multiple
+
+- For **Posters**:
+  
+    - PDF
+      
+        - Extensions: `pdf`
+      
+        - Filename template: `{code}_poster`
+      
+        - [x] Required
+      
+        - [x] Publishable
+  
+    - Source Files
+      
+        - Extensions: `ppt`, `pptx`, `ai`, `odp`, `tex`
+      
+        - Filename template: `{code}_poster`
+      
+        - [x] Multiple
+
+- For **Papers**:
+  
+    - PDF
+      
+        - Extensions: `pdf`
+      
+        - Filename template: `{code}`
+      
+        - [x] Required
+      
+        - [x] Publishable
+          
+          **Important note**: for the purpose of creating the proceedings with CAT, the final files to be published **must** be named `PDF`. Please do not change its name in these Indico settings.
+  
+    - Source Files
+      
+        - Extensions: `tex`, `doc`, `docx`, `odt`
+      
+        - Filename template: `{code}`
+      
+        - [x] Multiple
+  
+    - Supporting files
+      
+        - No extensions restriction
+      
+        - Filename template: `{code}_*`
+      
+        - [x] Multiple
+
+- For **Slides**:
+  
+    - **PDF**
+      
+        - Extensions: `pdf`
+      
+        - Filename template: `{code}_slides`
+      
+        - [x] Required
+      
+        - [x] Publishable
+          
+          **Important note**: for the purpose of creating the proceedings with CAT, the final file type to be published **must** be named `PDF`. Please do not change its name in these Indico settings.
+      
+        - [ ] 
   
     - Source Files
       
