@@ -4,28 +4,55 @@ During the SPC/2 meeting SPC members will have decided a synoptic table/overview
 
 ## What are programme codes
 
-Most JACoW conferences have protocols in place to identify contributions by a *programme code* formed of several elements. For IPAC it looks like this:
+Most JACoW conferences have protocols in place to identify contributions by a *programme code* formed of several elements. For IPAC it usually looks like this:
 
-- **Date of Presentation** (**MO**, **TU**, etc.)
+**`DD T L NNN`** where
 
-- **Type of Presentation** 
+- **`DD`: Day of Presentation** (**MO**, **TU**, etc.)
+
+- **`T`: Type of Presentation** 
   
-    - **X** for invited oral presentation sessions before morning coffee 
-    - **Y** for invited oral presentation sessions after morning coffee
-    - **Z** for invited oral presentation sessions in the afternoon
-      When there are several invited oral presentation sessions in different Track Groups/Main Classifications scheduled within a block (before or after coffee, in the afternoon), use **XA**, **XB** to distinguish. 
-    - **O** for contributed oral (which becomes **OA**, **OB**, **OC** if there are several contributed oral sessions during the day)
+    - **Invited** oral presentations
+      
+        - **X** first invited oral presentation  (usually before morning coffee)
+        - **Y** second invited oral presentation session of the day (usually after morning coffee)
+        - **Z** third invited oral presentation session of the day (usually in the afternoon)
+  
+    - **Contributed** oral presentations
+      
+        - **A** first contributed oral presentation (usually before morning coffee)
+      
+        - **B** second contributed oral presentation session of the day (usually after morning coffee)
+      
+        - **C** third contributed oral presentation session of the day (usually in the afternoon)
+  
     - **P** for poster
+  
+    - any other letter if needed for special sessions (e.g.: **U**/**V** for industry session, **E** for Entertainment session, **W** for the "Welcoming"" Opening session, **F** for the "Farewell" Closing session, etc.)
 
-- **A code** indicating **where** the session will take place, **A** for Auditorium A, **B** for Auditorium B, etc., or an indication of a poster session room or area
+- **`L`: a code** indicating **where** the session will take place, **A** for Auditorium A, **B** for Auditorium B, etc., or an indication of a poster session room or area
 
-- **A digit** indicating the place within the session (001, 002, 003, etc.)
+- **`NNN`: a  one-to-three digits** indicating the place within the session (001, 2, 03, etc.)
+
+---
+
+**Examples**:
+
+- **MOYA2**: Second Monday invited oral presentation, after morning coffee, in Auditorium "A"
+
+- **TUPM123**: Poster number 123 presented on Tuesday in room "M"
+
+- **WECA03**: Third Contributed Oral contribution of the afternoon Wednesday session
+
+---
 
 Programme codes are used as a unique identifier for a contribution scheduled in the scientific programme. The programme code has until now been used to:
 
 - to provide when/what/where information
 - to name the files uploaded for contributions to the proceedings
 - for assigning DOIs
+
+The first three letters of a (contribution) programme code identify the session and can be used as session programme codes.
 
 ## Creating Sessions
 
@@ -98,9 +125,21 @@ As seen above, a session in Indico lacks any information about "when" it will ha
 
 A *Session Block* is (one part of) a session with a date, a starting time and a duration, plus optional Conveners (chairpersons), a (possibly different) location and programme code.
 
-Indico then permits to split one session into multiple blocks: the result is that it is possible to have different times and/or locations for a session. Normally this is *never the case for JACoW conferences*, hence **we here assume a relationship 1 to 1 between sessions and blocks**.
+Indico then permits to split one session into multiple blocks: the result is that it is possible to have different times and/or locations for a session. Normally this is *rarely the case for JACoW conferences*, hence **we here assume a relationship 1 to 1 between sessions and blocks**.
 
-***For this reason one Session Block's Programme Code will be identical to its Session Code.*** 
+***For this reason one Session Block's Programme Code will usually be identical to its Session Code.*** 
+
+There may be exceptions, however, often related to **poster sessions**. Since it is usual for IPACs to have around 500 posters per day presented at the same time, it may be necessary to split these posters in *multiple rooms or areas*. In that case, for the purpose of a better reading of the Indico timetable, **it is convenient to use one session per day having multiple session blocks**. Here is an example from IPAC'23:
+
+![](img/OneSessionThreeBlocks.png)
+
+In this example we can see:
+
+- **One session** called "*Monday Poster Session*" with programme code **MOP**
+
+- Three **Session Blocks called** "**MOPM**", "**MOPL**" and "**MOPA**" for different rooms (**M**osaici 2, **L**aguna, **A**driatico), having the programme code identical to their name. Example:
+
+![](img/MOPM.png)
 
 ---
 

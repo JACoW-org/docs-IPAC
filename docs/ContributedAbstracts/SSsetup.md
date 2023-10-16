@@ -96,4 +96,24 @@ To let people to access the Indico event, go to *Protection* and change the *Pro
 
 ## 7. Opening abstract submission
 
-When you're ready to open abstract submission, go back to [Submission / Settings](#submission-settings) and either schedule it or open it explicitely.
+When you're ready to open abstract submission, go back to [Submission / Settings](#submission-settings) and either schedule it or open it explicitly.
+
+## 8. Send announcement to the IPAC community
+
+JACoW allows only **one** general announcement to the IPAC mailing list\* (and up to two to the Industry one).
+
+In the past these announcements were sent directly by the Scientific Secretariat via the conference SPMS instance. Nowadays only the JACoW Board of Directors can send these announcements. It is necessary to request this action via email to the [JACoW Coordinator (with the Chair in copy)](https://www.jacow.org/Main/Contacts).
+
+Please be sure to take your time and agree in advance with the JACoW coordinator on these points:
+
+- Exact time of delivery
+
+- Text for the email Subject
+
+- Text for the email body
+
+Please be aware that text only emails ([ASCII](https://en.wikipedia.org/wiki/ASCII)) can be sent: no HTML, no "hidden" links, no attachments.
+
+---
+
+\* the IPAC mailing list is the list of JACoW accounts in the Central Repository that have explicitly requested news on the IPAC conference series. Although every person is responsible for their account update, the JACoW Coordinator can manage these lists as well.
