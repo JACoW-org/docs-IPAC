@@ -28,7 +28,7 @@ Now, edit all contribution types **ensuring that all except *Contributed Oral Pr
 
 The system is already setup with all the Main Classifications (MC) as tracks:
 
-![](img/tracks.png)
+![](/General/img/tracks.png)
 
 For the contributed abstracts submission it is necessary to further define all tracks by introducing Sub-Classifications (MC). This will be done by **reworking the existing tracks as track groups**, then introducing the new (detailed) **sub-classifications as tracks**. The combination of Track Groups and Tracks (Main and Sub-classifications) makes it far easier for submitters to decide the precise place their contribution should appear in the programme, and for the Event Administrator to schedule them.
 
