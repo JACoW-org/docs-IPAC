@@ -93,5 +93,15 @@ nav:
         - QA: PaperEditing/Editor/QA.md
       - Specific IPAC instructions:
         - IPAC'23: PaperEditing/IPACs/IPAC23.md 
+  - Proceedings:
+    - Introduction: Proceedings/intro.md
+    - Paper checks: Proceedings/paperchecks.md
+    - Poster checks: Proceedings/posterchecks.md
+    - Slides checks: Proceedings/slideschecks.md
+    - Authors' list: Proceedings/authorslist.md
+    - Final Proceedings: Proceedings/proceedings.md
+    - Digital Object Identifiers: Proceedings/doi.md
+    - Cleanup: Proceedings/cleanup.md
+  - Credits: credits.md
   - FAQ: FAQ.md
 
