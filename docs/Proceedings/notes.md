@@ -34,6 +34,8 @@ The Proceedings Package includes multiple resources:
 
 ## Additional data
 
+### INSPIRE
+
 CAT creates an export of paper's metadata to be used with [INSPIRE](https://inspirehep.net/)'s scholarly information in high energy physics database. This export is created in JSON format and can be directly imported into INSPIRE.
 
 The JSON file is not linked from the proceedings' home page. It is named after the conference short name as `inspire-[EVENT].jsonl` and stored under the `json` directory. When the proceedings are published, it can be easily retrieved at this URL: 
@@ -41,5 +43,9 @@ The JSON file is not linked from the proceedings' home page. It is named after t
 `https://JACoW.org/[EVENT]/json/inspire-[EVENT].jsonl`
 
 where `[EVENT]` is, for example, `IPAC2024`.
+
+### Other Metadata
+
+The `proceedings` file in the root of the package reports the content creator and the date of package assembly.
 
 
