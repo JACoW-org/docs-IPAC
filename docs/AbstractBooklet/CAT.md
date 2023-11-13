@@ -65,3 +65,41 @@ The above styles are all of type paragraph. So far CAT defines only one style of
 For big conferences like IPAC having all the default information in the Abstracts Booklet can result in a huge document (~700 pages for IPAC'23). You may want to reduce the amount of information, for example NOT publishing the content of the abstract itself. This will result in having only programme codes, title and authors list per default.
 
 This result can be easily achieved since the ODT styles can be "hidden". In LibreOffice it is sufficient to edit the style, select the "Font Effects" tab mark the "Hidden" checkbox and confirm the window.
+
+### How to reduce size of tables in headings
+
+If the table syntax is used for some headings (e.g., `| {code} | / | {start} |` for Contribution Header) the resulting table will span the entire page width:
+
+![](img/ABtablefull.png)
+
+To get a better result, with the table width set to the minimum necessary space, it is necessary to use a LibreOffice macro.
+
+For this task, import and run the [`abstract_booklet_macro.bas`](../resources/abstract_booklet_macro.bas) file into your LibreOffice environment.
+
+For example, it is possible to do so only in the created document with these steps:
+
+1. save the [`abstract_booklet_macro.bas`](../resources/abstract_booklet_macro.bas) macro on your client computer
+
+2. in LibreOffice, open the Macro editor with **Tools > Macros > Edit Macros...**
+
+3. menu **Tools > Select Macros...**
+
+4. select the current document, then open the **Standard** libr****ary and click on "New..."
+
+5. create a new module named, for example, "**CAT**"
+
+6. select the CAT module and import the macro above by way of the menu **File > Import BASIC > Open**
+
+7. run the imported macro
+
+The result is a compact table in the headings:
+
+![](img/ABtablesmall.png)
+
+
+
+
+
+
+
+
