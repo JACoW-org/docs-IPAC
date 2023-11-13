@@ -12,7 +12,7 @@ Papers that don't satisfy these three requirements cannot be published in the pr
 
 The organisers can decide to perform this kind of checks as they prefer. Indico has no functionality to support these checks. An external tool, connected to Indico, can however be used. 
 
-The [Conference Website Scripts for Indico (CWSi)](https://github.com/JACoW-org/CWSi) tool contains a web application that can be used on small screens like smartphones or tablets and collect the status of the Poster Quality Assurance Team during the poster sessions:
+The [JACoW-Indico Conference Tools  (JICT)](https://github.com/JACoW-org/JICT) tool contains a web application that can be used on small screens like smartphones or tablets and collect the status of the Poster Quality Assurance Team during the poster sessions:
 
 ![](img/CWSppdetails.png)
 
@@ -20,7 +20,7 @@ The same tool contain a report that allows to easily spot posters that did not p
 
 ![](img/CWSpaperstatus.png)
 
-Please refer to the CWSi documentation for more details on these and other features.
+Please refer to the JICT documentation for more details on these and other features.
 
 ## What if a poster does not pass these checks?
 
@@ -43,5 +43,3 @@ Then, this field must be declared in [PURR's settings](https://purr-docs.jacow.o
 ![](img/CAT_publish.png)
 
 At this point it is possible to edit the contribution's details and set this custom field to "No".
-
-
