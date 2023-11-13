@@ -63,6 +63,7 @@ nav:
       - "SPC MC Coordinators: finalise classifications": ContributedAbstracts/MCCtrackreview-s.md
       - "SPC MC Coordinators: accept proposals": ContributedAbstracts/MCCaccept-s.md
   - Abstract Booklet:
+    - Abstracts booklet with CAT: AbstractBooklet/CAT.md
     - Mail Merge to RTF: AbstractBooklet/MailMerge.md
   - Paper submission:
     - Light Peer Review:
