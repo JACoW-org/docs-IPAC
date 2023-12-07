@@ -2,9 +2,9 @@
 
 ## Getting to the Indico event
 
-The address of the IPAC event you want to access is surely published on the website of the conference (usually, <https://ipacXX.org> - e.g., <https://ipac23.org>, <https://ipac24.org> etc.
+The address of the IPAC event you want to access is surely published on the website of the conference (usually, <https://ipacXX.org> - e.g., <https://ipac23.org>, <https://ipac24.org> etc.)
 
-The usual URL for IPAC Inidico events is <https://indico.jacow.org/e/IPACXX> (e.g., [IPAC'23](https://indico.jacow.org/e/IPAC23), [IPAC'24](https://indico.jacow.org/e/IPAC24) etc.)
+The usual URL for IPAC Indico events is <https://indico.jacow.org/e/IPACXX> (e.g., [IPAC'23](https://indico.jacow.org/e/IPAC23), [IPAC'24](https://indico.jacow.org/e/IPAC24) etc.)
 
 ## Your JACoW account
 
@@ -13,10 +13,6 @@ All JACoW conference are organised around the [JACoW Central Repository](https:/
 ## Login
 
 **To login to this special JACoW Indico installation, please be sure to use your JACoW account from the [JACoW Central Repository](https://oraweb.cern.ch/pls/jacow/profile.html), which usually is _not_ your email address.**
-
-The address of the IPAC event you want to access is surely published on the website of the conference (usually, <https://ipacXX.org> - e.g., <https://ipac23.org>, <https://ipac24.org> etc.
-
-The usual URL for IPAC Inidico events is <https://indico.jacow.org/e/IPACXX> (e.g., [IPAC'23](https://indico.jacow.org/e/IPAC23), [IPAC'24](https://indico.jacow.org/e/IPAC24) etc.)
 
 In case you lost your username, please read the next section.
 

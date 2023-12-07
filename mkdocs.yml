@@ -62,6 +62,7 @@ nav:
       - "SPC: review abstracts": ContributedAbstracts/SPCreview-s.md
       - "SPC MC Coordinators: finalise classifications": ContributedAbstracts/MCCtrackreview-s.md
       - "SPC MC Coordinators: accept proposals": ContributedAbstracts/MCCaccept-s.md
+    - "Contributions in multiple sessions": ContributedAbstracts/multiplesessions.md
   - Abstract Booklet:
     - Abstracts booklet with CAT: AbstractBooklet/CAT.md
     - Mail Merge to RTF: AbstractBooklet/MailMerge.md

@@ -6,7 +6,7 @@
 
 ---
 
-Before the SPC/3 meeting the MC Coordinators will work on the abstracts reviewed by the SPC, usually starting from an [export prepared by the Scientific Secretariat](SStipsandtricks.md#1-get-a-spreadsheet-summary-of-reviews). Every coordinator will propose a set of abstracts, together with a number of backups, to the SPC/3 for final discussion and approval. 
+Before the SPC/3 meeting the MC Coordinators will work on the abstracts reviewed by the SPC, usually starting from an [export prepared by the Scientific Secretariat](../../InvitedOrals/SStipsandtricks/#1-get-a-spreadsheet-summary-of-reviews). Every coordinator will propose a set of abstracts, together with a number of backups, to the SPC/3 for final discussion and approval. 
 
 During SPC/3 the SPC will discuss all the proposals and eventually accept those that will actually be invited to submit a contributed oral.
 
