@@ -6,15 +6,15 @@ Assigning programme codes to Contributed abstracts is an heavier task than the p
 
 ---
 
-**Note**: these instructions can be applied to the Programme Codes assignment for Invited Oral Presentations as well.
+**Note**: these instructions can be applied to the Programme Codes assignment for Invited Oral Presentations as well. However, due to their lower number it may be easier to do it manually as already described.
 
 ---
 
-Indico has [a system to assign programme codes from a template](../InvitedOrals/SSpcodes.md#programme-code-templates) which is not sufficient for JACoW purposes. As describe before, the JACoW programme codes identify the date, the time in the day, the room and the sequential order in that session. To add to this, JACoW adopts the so called "Village System". 
+Indico has [a system to assign programme codes from a template](../InvitedOrals/SSpcodes.md#programme-code-templates) which is not adapt to JACoW purposes. As describe before, the JACoW programme codes identify the date, the time in the day, the room and the sequential order in that session. To add to this, JACoW adopts the so called "Village System". 
 
 ## The Village System
 
-In a JACoW conference one person can present  several posters, possibly in different classifications and, then, in different sessions. Since posters must be presented by an author, all posters in a session by the same author must be close each other, otherwise it will be impossible for the presenter to stay in front of all of them. Not only, a poster could be "covered" by a co-author, luckily from the same institute, or by a colleague that presents the poster in place of the presenter who, for various reasons, could have failed to do it themselves. This is why JACoW adopts the so called "Village System":  all posters in a session are grouped by "villages" of people, in particular the order is made grouping on the following items:
+In a JACoW conference one person can present  several posters, possibly in different classifications and, then, in different sessions. Since posters must be presented by an author, all posters in a session by the same author must be placed close to each other, otherwise it will be impossible for the presenter to stay in front of all of them. Not only, a poster could be "covered" by a co-author, luckily from the same institute, or by a colleague that presents the poster in place of the presenter who, for various reasons, could have failed to do it themselves. This is why JACoW adopts the so called "Village System":  all posters in a session are grouped by "villages" of people. In detail, the order is made grouping contributions on the following items:
 
 1. Main Classification
 
@@ -81,5 +81,3 @@ If the proposed codes are OK for you, scroll down the page and press the "**Upda
 The system automatically selects the number of digits to use according to the number of contributions in the given Session (Block). In other words, if in session **TUOCA** there were 9 contributions, one digit will be used (*TUOCA1...TUOCA9*), if there were, e.g., 78 two digits will be needed (*TUOCA01...TUOCA78*) etc. (three digits with, say, 126 contributions: *TUOCA001...TUOCA126*, and so on).
 
 If you want to have the same number of digits for all sessions (like, have three digits even for a session that only has 9 contributions), it is possible to "force" the system by adding a `?digits=N` parameter in the URL. For our previous example (three digits) the URL will read as [https://www.jacow.org/Indico/ProgramCode?digits=3](https://www.jacow.org/Indico/ProgramCode?digits=3)
-
-
