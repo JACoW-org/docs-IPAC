@@ -91,7 +91,7 @@ The Scientific Secretariat will go to the *Roles Setup* or *Participant Roles* s
 
 ## 2. MC Coordinators review Track changes proposals
 
-First action to do after the deadline for submission of proposals for invited oral presentations is to remove *Review* permissions to the SPC. This way the MC conveners will be able to work through the next phase without fear of having new reviews coming in. To do so, refer to the [instructions above](#1-assign-review-permission-to-the-spc) and click on the "**X**" sign in the *Review orange button* for the Scientific Programme Committee member. After this action the MC Coordinators will still have Convener permissions on their assigned MC/Track - it may be wise to also give them *Review permissions on all tracks* so that they can access all abstracts.
+First action to do after the SPC reviewed the abstracts is to remove *Review* permissions to the SPC. This way the MC conveners will be able to work through the next phase without fear of having new reviews coming in. To do so, refer to the [instructions above](#1-assign-review-permission-to-the-spc) and click on the "**X**" sign in the *Review orange button* for the Scientific Programme Committee member. After this action the MC Coordinators will still have Convener permissions on their assigned MC/Track.
 
 ![](img/convener_permissions.png)
 
