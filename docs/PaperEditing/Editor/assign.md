@@ -1,5 +1,9 @@
 # Editor: self-assignment of editables
 
+<video style="width:576" muted="" controls="" alt="type:video">
+   <source src="../Videos/001-Welcome_to_editing_module.m4v" type="video/mp4">
+</video>
+
 An editor will access the dedicated editing area by clicking one of the options (Papers, Slides or Posters) in the “Editing” section of the left-hand side menu of the Indico page.
 
 ![](../img/editormenu.png)
