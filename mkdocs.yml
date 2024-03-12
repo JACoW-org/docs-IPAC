@@ -91,7 +91,7 @@ nav:
         - Start Editing: PaperEditing/EIC/open.md
         - Publishing: PaperEditing/EIC/publish.md
       - Editor: 
-        - Assigning an editable: PaperEditing/Editor/assign.md
+        - Editables list and assignment: PaperEditing/Editor/assign.md
         - Editing an editable: PaperEditing/Editor/edit.md
         - QA: PaperEditing/Editor/QA.md
       - Specific IPAC instructions:
