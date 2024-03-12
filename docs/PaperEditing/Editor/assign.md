@@ -25,6 +25,11 @@ By clicking on the editable title you can access its editing timeline and actual
 
 ## Getting a paper
 
+<video style="width:576" controls="" alt="type:video">
+   <source src="../Videos/002-Editing_timeline.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 If the administrator has activated the self-assignment option, then a “Get next paper” button appears on the editing page. Click on it to assign a new editable to yourself (otherwise, the administrator/editor-in-chief will assign one or more papers to you).
 
 ![](../img/editorassign.png)
