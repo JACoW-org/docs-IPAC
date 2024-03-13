@@ -13,6 +13,11 @@ Then the boxes underneath show **all the actions and comments** made during the 
 
 ## Commenting
 
+<video style="width:576" controls="" alt="type:video">
+   <source src="../Videos/003-Comments.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 Comments can be added by **any of the editors** set for the given editable type.
 
 ![](../img/editorcomment.png)
@@ -21,7 +26,7 @@ The visibility of a comment can be restricted to **other editors only**. In this
 
 ## Judging
 
-Judging is the way an editor assesses an editable according to the [Editing States](/Paper/intro/#EditingStates), in paricular **Accept** (it's OK, <code style="color: green">green dot</code>), **Make changes** (the editor made changes which need acceptance, <code style="color: gold">yellow dot</code>)  or **Request changes** (to the author, <code style="color: red">red dot</code>). 
+Judging is the way an editor assesses an editable according to the [Editing States](/Paper/intro/#EditingStates), in paricular **Accept** (it's OK, <code style="color: green">green dot</code>), **Request approval** (the editor made changes which need acceptance, <code style="color: gold">yellow dot</code>)  or **Request changes** (to the author, <code style="color: red">red dot</code>). 
 
 Only  the editor assigned to the editable can assign a judgment. It is accessible at the bottom of the timeline, through the Judge button, which gives access to 4 options:
 
@@ -30,6 +35,11 @@ Only  the editor assigned to the editable can assign a judgment. It is accessibl
 (*Reject* is normally NOT used in JACoW conferences)
 
 ### Accept (<code style="color: green">GREEN</code>)
+
+<video style="width:576" controls="" alt="type:video">
+   <source src="../Videos/004-GreenDot.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 Choose  this option when the editable is ready for publishing. This will move 
 the editable to the "Accepted" status, and notify the author by email. 
@@ -47,7 +57,12 @@ The Editor in Chief, however, could use this special state for specific reasons.
 
 ![](../img/editorreject.png)
 
-### Make Changes (<code style="color: gold">YELLOW</code>)
+### Request Approval (<code style="color: gold">YELLOW</code>)
+
+<video style="width:576" controls="" alt="type:video">
+   <source src="../Videos/005-YellowDot.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 Choose this option when you have made some changes to the editable files yourself. You can upload the new files in the dialog which opens up. The  new revision will then be notified to the author by email for validation. Beware you must also submit a comment and, eventually, some tags (error codes,) or the "Confirm" button will not be activated.
 
@@ -59,6 +74,13 @@ If the author **accepts** your changes, then the editable status moves to "Accep
 
 In both cases, you are **warned by email**. 
 
+#### Confirm and approve
+
+<video style="width:576" controls="" alt="type:video">
+   <source src="../Videos/006-YellowGreenDot.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
 You  also have the possibility to bypass the author’s affiliation when uploading a new version of the file. For that purpose, use the "Confirm & Approve" button.
 
 ![](../img/editorconfirmandapprove.png)
@@ -66,6 +88,11 @@ You  also have the possibility to bypass the author’s affiliation when uploadi
 The new revision will then be accepted straight away.
 
 ### Request changes (<code style="color: red">RED</code>)
+
+<video style="width:576" controls="" alt="type:video">
+   <source src="../Videos/007-RedDot.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 Choose this option when you want the authors to make some changes themselves. 
 You can then explicit your request using the Comments field and the error tags list. The status of the editable then changes to "Needs changes", and an email is sent to the author.
