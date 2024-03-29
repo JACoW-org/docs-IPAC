@@ -94,8 +94,13 @@ nav:
         - Editables list and assignment: PaperEditing/Editor/assign.md
         - Editing an editable: PaperEditing/Editor/edit.md
         - QA: PaperEditing/Editor/QA.md
-      - Specific IPAC instructions:
+      - IPAC manuals:
         - IPAC'23: PaperEditing/IPACs/IPAC23.md 
+        - IPAC'24: PaperEditing/IPACs/IPAC24.md 
+      - Editing: 
+        - Margins and objects: PaperEditing/Editing/Crop+Move+Stretch.md
+        - Text editing and fonts: PaperEditing/Editing/TextEditing+FontEmbedding.md
+        - Removing hyperlinks: PaperEditing/Editing/Hyperlinks.md
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md
