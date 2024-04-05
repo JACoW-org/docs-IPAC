@@ -101,6 +101,7 @@ nav:
         - Margins and objects: PaperEditing/Editing/Crop+Move+Stretch.md
         - Text editing and fonts: PaperEditing/Editing/TextEditing+FontEmbedding.md
         - Removing hyperlinks: PaperEditing/Editing/Hyperlinks.md
+        - Quick check for references+: PaperEditing/Editing/AdvancedSearch.md
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md
