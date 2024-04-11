@@ -102,6 +102,7 @@ nav:
         - Text editing and fonts: PaperEditing/Editing/TextEditing+FontEmbedding.md
         - Removing hyperlinks: PaperEditing/Editing/Hyperlinks.md
         - Quick check for references+: PaperEditing/Editing/AdvancedSearch.md
+        - JACoW Template: PaperEditing/Editing/TemplateReview.md
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md

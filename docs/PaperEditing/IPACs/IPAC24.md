@@ -96,8 +96,6 @@ Please consider using a checklist to be sure you go through all the checks for e
 
 ![](img/PaperEditingChecklist.png)
 
-
-
 ---
 
 ## Useful material and links
@@ -105,7 +103,7 @@ Please consider using a checklist to be sure you go through all the checks for e
 ### Handouts
 
 - [Editor Quick Start Guide.pdf](material/Editor_Quick_Start_Guide.pdf) ![](/img/attachment.png) ([Word version](material/Editor_Quick_Start_Guide.docx) ![](/img/attachment.png))
-- [Editor Quality Matrix.pdf](material/Editor_Quality_Matrix.pdf) ![](/img/attachment.png)
+- [Editor Quality Matrix.pdf](../Editing/material/Editor_Quality_Matrix.pdf) ![](/img/attachment.png)
 - [Useful Short Cut Keys](../Editor/shortcuts.md)
 
 ### LaTeX tutorials (jacow.org)
