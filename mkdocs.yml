@@ -104,6 +104,7 @@ nav:
         - Quick check for references+: PaperEditing/Editing/AdvancedSearch.md
         - JACoW Template: PaperEditing/Editing/TemplateReview.md
         - Reference Search Tool: PaperEditing/Editing/ReferenceSearchTool.md
+        - Cat Scan Editor: PaperEditing/Editing/CatScan.md
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md
