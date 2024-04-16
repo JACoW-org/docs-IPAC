@@ -105,6 +105,13 @@ nav:
         - JACoW Template: PaperEditing/Editing/TemplateReview.md
         - Reference Search Tool: PaperEditing/Editing/ReferenceSearchTool.md
         - Cat Scan Editor: PaperEditing/Editing/CatScan.md
+      - Slides Processing: 
+        - Introduction: PaperEditing/Slides/1_Intro.md
+        - Prerequisites: PaperEditing/Slides/2_Prerequisites.md
+        - PDF slides: PaperEditing/Slides/3_PDF_slides.md
+        - PPT slides: PaperEditing/Slides/4_PPT_slides.md
+        - Videos and Animations: PaperEditing/Slides/5_Videos_and_Animations.md
+        - Tips and Tricks: PaperEditing/Slides/6_Tips_and_Tricks.md
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md

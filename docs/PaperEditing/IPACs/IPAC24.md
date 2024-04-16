@@ -90,11 +90,9 @@ MOPC999 = MO P C 999
 
 ---
 
-## Paper check list
+## Paper editing check list
 
-Please consider using a checklist to be sure you go through all the checks for every paper. You can print the following image or use online checklists like [https://listo.to](https://listo.to). Ask the Editor-in-Chief for an online checklist already made for IPAC'24. 
-
-![](img/PaperEditingChecklist.png)
+Please see the [JACoW Template review page](../../Editing/TemplateReview/#resources-cited-in-the-video).
 
 ---
 
@@ -125,30 +123,6 @@ Of course **in the paper titles must be in FULL UPPERCASE**.
 ### Editing tips & tricks (JACoW.org)
 
 - [Common Author Oversights](https://www.jacow.org/Editors/CommonAuthorOversights)
-
-### [CatScan Editor for Authors & Editors](https://scan.jacow.org)
-
-The CatScan editor at [https://scan.jacow.org](http://scan.jacow.org) can be used by both authors and editors to check a DOCX or LaTeX document.
-
-This tool in particular for Word has a rich suite of tests that it applies to the scanned document to give you guidance for corrections. To use select either the Word of LaTeX screen, select the file, followed by selecting the conference and then click scan.
-
-The advantage of this tool is that it can be used by both the author and the editor to do initial checking of documents. 
-Being web based it can be used at anytime, and by any number of people.
-
-NOTE:
-
-1. This does not remove the need for editors to check documents, this must still be done as it is a “best effort” editor which can only identify to the ability of the algorithms.
-2. Old Word DOC files will not scan, Word documents must be DOCX.
-
-[CatScan Editor User Guide](https://www.jacow.org/Authors/CSEHelp) (JACoW.org)
-
-[![](../../img/catscan.png)](https://scan.jacow.org)
-
-### JACoW Reference Search & Generation Tool
-
-This tool (available at [https://refs.jacow.org](https://refs.jacow.org)) contains a complete database of all JACoW papers which have been published on JACoW.org, and additional can included papers which have been scheduled in an upcoming conference. With this tool you can quickly search and generate Word, LaTeX, and BibTeX references which can be copy and pasted into a source document. A full user guide can be found here: [Reference Search and Generation User Guide](https://www.jacow.org/Authors/RefSearchToolHelp) (JACoW.org)
-
-![](../../img/referencesearch.png)
 
 ---
 
