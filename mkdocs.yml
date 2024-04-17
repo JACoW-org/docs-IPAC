@@ -101,6 +101,8 @@ nav:
         - Text editing and fonts: PaperEditing/Editing/TextEditing+FontEmbedding.md
         - Removing hyperlinks: PaperEditing/Editing/Hyperlinks.md
         - Quick check for references+: PaperEditing/Editing/AdvancedSearch.md
+        - Reference Search Tool: PaperEditing/Editing/ReferenceSearchTool.md
+        - Cat Scan Editor: PaperEditing/Editing/CatScan.md
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md
