@@ -40,7 +40,7 @@ An [animated GIF](https://en.wikipedia.org/wiki/GIF#Animated_GIF) is a type of G
 
 Convertio converts animated GIFs (and other file formats) directly to mp4 online and for free through the web browser.
 
-Link: https://convertio.co/gif-mp4/
+Link: [https://convertio.co/gif-mp4/](https://convertio.co/gif-mp4/)
 
 ![](img/SP_VidAnims_IMG_3.png)
 

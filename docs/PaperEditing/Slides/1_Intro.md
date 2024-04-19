@@ -14,7 +14,11 @@ You do not have to edit the typesetting or layout, but you still have to make su
 
 - backup slides (named extra slides or additional slides) should be removed
 
-**Please note:** slides should only be processed after the talk has been given to make sure that it is the final version without last minute changes.
+---
+
+**Please note:** slides should only be *processed after the talk has been given* to make sure that it is the final version without last minute changes. 
+
+---
 
 Editors and presentation managers need slides processing privileges to see the link for editing slides in the Indico module as shown in the given screenshot below:
 

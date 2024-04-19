@@ -112,6 +112,7 @@ nav:
         - PPT slides: PaperEditing/Slides/4_PPT_slides.md
         - Videos and Animations: PaperEditing/Slides/5_Videos_and_Animations.md
         - Tips and Tricks: PaperEditing/Slides/6_Tips_and_Tricks.md
+        - Managing the Speaker Ready Room: PaperEditing/Slides/7_SpeakerReadyRoom.md
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md
