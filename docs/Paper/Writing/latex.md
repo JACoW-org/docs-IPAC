@@ -31,7 +31,7 @@ Numbers and units are typeset with the **thin space** between them, this should 
 
 **The numerical value always precedes the unit**, and a space is always used to separate the unit from the number, e. g. `10.2 m` (not `10.2m`).
 
-Same [*should*](https://en.wikipedia.org/wiki/Degree_symbol#Typography) be done with temperature degrees: `30.2 °C` (not `30.2°C` or `30.2° C`).
+The same [*should*](https://en.wikipedia.org/wiki/Degree_symbol#Typography) be done with temperature degrees: `30.2 °C` (not `30.2°C` or `30.2° C`).
 
 The only **exceptions** to this rule are for the unit symbols for [**degree, minute, and second for plane angle**](https://en.wikipedia.org/wiki/Degree_symbol#Typography) (`°`, `'`, and `"`, respectively), for which no space is left between the numerical value and the unit symbol.
 
@@ -48,8 +48,6 @@ The only **exceptions** to this rule are for the unit symbols for [**degree, min
     - `\usepackage{gensymb}` &rarr; `\degree`
   
     - `\usepackage{textcomp}` &rarr; `\textdegree`
-
-
 
 ## References
 
@@ -71,6 +69,8 @@ Renders:
 
 [1] A.N. Author *et al.*, \`\`Title of the paper’’, in *Proc. IJC’99*, Nowhere, XY, May 2099, pp. 199--201.
 `doi:10.18429/JACoW-IJC2099-MONA2`
+
+**Note:** referenced titles should be in **Sentence case, not Title Case**.
 
 ## BibLaTeX
 
@@ -133,8 +133,6 @@ would render:
         in *Proc. IPAC’22*, Bangkok, Thailand, <mark>2022, paper THPOPT022</mark>, pp. 2617–2619.
         `doi:10.18429/JACoW-IPAC2022-THPOPT022`
 
-
-
 By fine-tuning our `.bib` file:
 
 ```latex
@@ -155,7 +153,7 @@ The following Bib-entries should be used for BibLaTeX to correctly reference pap
 
 ```latex
 @article{bib-key,
-  title = "{Title of the Paper Presented at...}",
+  title = "{Title of the paper presented at...}",
   author = {Author, A. N. and Somebody, E.L.S.E.},
   journal = {\normalfont{presented at the 99th International JACoW
 Conference (IJC'99), Nowhere, XY}},
@@ -167,7 +165,7 @@ In abbreviated form:
 
 ```latex
 @article{bib-key,
-  title = "{Title of the Paper Presented at...}",
+  title = "{Title of the paper presented at...}",
   author = {Author, A. N. and Somebody, E.L.S.E.},
   journal = {\normalfont{presented at IJC'99, Nowhere, XY}},
   year = {May 2099, paper MONA2, this conference},

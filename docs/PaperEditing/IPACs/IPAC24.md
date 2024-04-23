@@ -22,6 +22,8 @@
   
     - Speaker preparation guidelines: [https://ipac24.org/speaker-preparation-guidelines](https://ipac24.org/speaker-preparation-guidelines)
 
+- [Paper editing checklist](../../Editing/TemplateReview/#resources-cited-in-the-video)
+
 ---
 
 ## Editor Computers
@@ -90,12 +92,6 @@ MOPC999 = MO P C 999
 
 ---
 
-## Paper editing check list
-
-Please see the [JACoW Template review page](../../Editing/TemplateReview/#resources-cited-in-the-video).
-
----
-
 ## Useful material and links
 
 ### Handouts
@@ -103,11 +99,6 @@ Please see the [JACoW Template review page](../../Editing/TemplateReview/#resour
 - [Editor Quick Start Guide.pdf](material/Editor_Quick_Start_Guide.pdf) ![](/img/attachment.png) ([Word version](material/Editor_Quick_Start_Guide.docx) ![](/img/attachment.png))
 - [Editor Quality Matrix.pdf](../Editing/material/Editor_Quality_Matrix.pdf) ![](/img/attachment.png)
 - [Useful Short Cut Keys](../Editor/shortcuts.md)
-
-### LaTeX tutorials (jacow.org)
-
-- [LaTeX Editing, Basic](https://www.jacow.org/Editors/BasicLaTeX)
-- [LaTeX Editing, Advanced](https://www.jacow.org/Editors/AdvancedLaTeX)
 
 ### Sentence case for titles: How-To
 
@@ -119,10 +110,6 @@ Remember that acronyms and specifically-written names of machines/institutes mus
 To quickly change a wrongly formatted title you can use [https://titlecaseconverter.com/](https://titlecaseconverter.com/) with the **Sentence case Style**.
 
 Of course **in the paper titles must be in FULL UPPERCASE**.
-
-### Editing tips & tricks (JACoW.org)
-
-- [Common Author Oversights](https://www.jacow.org/Editors/CommonAuthorOversights)
 
 ---
 

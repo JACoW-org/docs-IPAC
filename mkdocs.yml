@@ -83,7 +83,9 @@ nav:
       - Uploading new version: Paper/upload.md
       - Approving new version by editor: Paper/approve.md
     - Writing a paper:
+      - General hints: Paper/Writing/general.md
       - LaTeX: Paper/Writing/latex.md
+      - MS Word: Paper/Writing/word.md
   - Paper editing:
       - Introduction: Paper/intro.md
       - Editor-in-chief:
