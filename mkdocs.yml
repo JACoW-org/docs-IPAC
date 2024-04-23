@@ -82,6 +82,8 @@ nav:
       - Sending comments to editors: Paper/comment.md
       - Uploading new version: Paper/upload.md
       - Approving new version by editor: Paper/approve.md
+    - Writing a paper:
+      - LaTeX: Paper/Writing/latex.md
   - Paper editing:
       - Introduction: Paper/intro.md
       - Editor-in-chief:
