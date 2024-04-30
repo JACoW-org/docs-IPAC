@@ -125,154 +125,6 @@ A standard JACoW conference will usually implement the following File Types:
       
         - [x] Multiple
 
-- For **Papers**:
-  
-    - PDF
-      
-        - Extensions: `pdf`
-      
-        - Filename template: `{code}`
-      
-        - [x] Required
-      
-        - [x] Publishable
-          
-          **Important note**: for the purpose of creating the proceedings with CAT, the final files to be published **must** be named `PDF`. Please do not change its name in these Indico settings.
-  
-    - Source Files
-      
-        - Extensions: `tex`, `doc`, `docx`, `odt`
-      
-        - Filename template: `{code}`
-      
-        - [x] Multiple
-  
-    - Supporting files
-      
-        - No extensions restriction
-      
-        - Filename template: `{code}_*`
-      
-        - [x] Multiple
-
-- For **Slides**:
-  
-    - **PDF**
-      
-        - Extensions: `pdf`
-      
-        - Filename template: `{code}_slides`
-      
-        - [x] Required
-      
-        - [x] Publishable
-          
-          **Important note**: for the purpose of creating the proceedings with CAT, the final file type to be published **must** be named `PDF`. Please do not change its name in these Indico settings.
-      
-        - [ ] 
-  
-    - Source Files
-      
-        - Extensions: `ppt`, `pptx`, `tex`,`odp`, `keynote`
-      
-        - Filename template: `{code}_slides`
-      
-        - [x] Multiple
-
-- For **Posters**:
-  
-    - PDF
-      
-        - Extensions: `pdf`
-      
-        - Filename template: `{code}_poster`
-      
-        - [x] Required
-      
-        - [x] Publishable
-  
-    - Source Files
-      
-        - Extensions: `ppt`, `pptx`, `ai`, `odp`, `tex`
-      
-        - Filename template: `{code}_poster`
-      
-        - [x] Multiple
-
-- For **Papers**:
-  
-    - PDF
-      
-        - Extensions: `pdf`
-      
-        - Filename template: `{code}`
-      
-        - [x] Required
-      
-        - [x] Publishable
-          
-          **Important note**: for the purpose of creating the proceedings with CAT, the final files to be published **must** be named `PDF`. Please do not change its name in these Indico settings.
-  
-    - Source Files
-      
-        - Extensions: `tex`, `doc`, `docx`, `odt`
-      
-        - Filename template: `{code}`
-      
-        - [x] Multiple
-  
-    - Supporting files
-      
-        - No extensions restriction
-      
-        - Filename template: `{code}_*`
-      
-        - [x] Multiple
-
-- For **Slides**:
-  
-    - **PDF**
-      
-        - Extensions: `pdf`
-      
-        - Filename template: `{code}_slides`
-      
-        - [x] Required
-      
-        - [x] Publishable
-          
-          **Important note**: for the purpose of creating the proceedings with CAT, the final file type to be published **must** be named `PDF`. Please do not change its name in these Indico settings.
-      
-        - [ ] 
-  
-    - Source Files
-      
-        - Extensions: `ppt`, `pptx`, `tex`,`odp`, `keynote`
-      
-        - Filename template: `{code}_slides`
-      
-        - [x] Multiple
-
-- For **Posters**:
-  
-    - PDF
-      
-        - Extensions: `pdf`
-      
-        - Filename template: `{code}_poster`
-      
-        - [x] Required
-      
-        - [x] Publishable
-  
-    - Source Files
-      
-        - Extensions: `ppt`, `pptx`, `ai`, `odp`, `tex`
-      
-        - Filename template: `{code}_poster`
-      
-        - [x] Multiple
-
 ---
 
 **Beware:** If you use `{code}` in your file name template, make sure programme codes are assigned to all contributions before you open up the files submission.
@@ -292,3 +144,13 @@ In  order to configure your Ready for review conditions for a given editing  pro
 Then add the appropriate File Type conditions.
 
 ![](../img/eicfiletypecondition.png)
+
+## Configuring the automatic CatScan analysis of Word source files
+
+[CatScan](/PaperEditing/Editing/CatScan) is an external JACoW tool that can analyse the Word source files and spot inconsistencies with the JACoW template.
+
+It is possible to enable the automatic analyses of Word source files uploaded by authors: it is sufficient to give **Editing manager permissions** to the special Indico "***CatScan JACoW***" user (in the *Protection* admin panel):
+
+![](../img/catscan_user.png)
+
+![](../img/catscan_editing_manager.png)

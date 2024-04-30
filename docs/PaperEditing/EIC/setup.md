@@ -50,12 +50,3 @@ The TC tags are tags representing error codes. They can be assigned to a paper b
 This is a specificity of the JACoW editing workflow: Once accepted by 
 the editor, the papers must go through a final QA process described in 
 the [Publishing section](publish.md).
-
-### Automatic distilling of submitted PDF files
-
-This is another specificity of the JACoW workflow: Each time a PDF is 
-uploaded by the author or the editor, Indico will automatically distill 
-it, replacing the original file. The original file is still visible in 
-the history of revisions.
-
-
