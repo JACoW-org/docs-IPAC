@@ -16,3 +16,13 @@ Other authors:
     - *the [documentation on running an IPAC with the SPMS](https://www.jacow.org/uploads/Editors/OrganizingIPACs_ver15_2019.pdf)*
   
     - *the initial Indico tests and the first documentation on the scientific programme management with Indico* 
+
+- David Button - CatScan tutorial
+
+- Josh Peters - Reference Search Tool tutorial
+
+- Michaela Marx - Processing slides instruction and tutorial
+
+- Volker RW Schaa - LaTeX and editing recommendations
+
+- Jan Chrin - LaTeX

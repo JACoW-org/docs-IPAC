@@ -80,8 +80,8 @@ We do not expect papers for these.
 ### Handouts
 
 - [Editor Quick Start Guide.pdf](material/Editor_Quick_Start_Guide.pdf) ![](/img/attachment.png) ([Word version](material/Editor_Quick_Start_Guide.docx) ![](/img/attachment.png))
-- [Editor Quality Matrix.pdf](material/Editor_Quality_Matrix.pdf) ![](/img/attachment.png)
-- [Useful Short Cut Keys](../Editor/shortcuts.md)
+- [Editor Quality Matrix.pdf](../Editing/material/Editor_Quality_Matrix.pdf) ![](/img/attachment.png)
+- [Useful Short Cut Keys](../Editing/shortcuts.md)
 
 ### LaTeX tutorials (jacow.org)
 
@@ -118,15 +118,15 @@ Of course **in the paper titles must be in FULL UPPERCASE**.
 
 #### Distilled Page Sizes
 
-- [A4 on A4](material/a4ona4.pdf) ![](/img/attachment.png) 
+- [A4 on A4](../Editing/material/a4ona4.pdf) ![](/img/attachment.png) 
 
-- [A4 on US letter](material/a4onus.pdf) ![](/img/attachment.png) 
+- [A4 on US letter](../Editing/material/a4onus.pdf) ![](/img/attachment.png) 
 
-- [US letter on US letter](material/usonus.pdf) ![](/img/attachment.png) 
+- [US letter on US letter](../Editing/material/usonus.pdf) ![](/img/attachment.png) 
 
-- [US letter on A4](material/usona4.pdf) ![](/img/attachment.png)
+- [US letter on A4](../Editing/material/usona4.pdf) ![](/img/attachment.png)
 
-- **[Paper Measurements Cheat-Sheet](material/cheat-sheet.pdf) ![](/img/attachment.png)** 
+- **[Paper Measurements Cheat-Sheet](../Editing/material/cheat-sheet.pdf) ![](/img/attachment.png)** 
 
 The purpose of this cheat-sheet is to help editors finding the correct positions for alignment of text and picture blocks in JACoW papers. The first page show all the measurements; the second page provides a short documentation on usage.
 
@@ -184,7 +184,7 @@ subsequent problems that cannot be resolved, a Red dot should be assigned.
 
 ### Processing/Verifying the PDF File
 
-**See editing criteria** in [Quality Assurance Overview](material/QualityAssuranceOverview2021.pdf) ![](/img/attachment.png) 
+**See editing criteria** in [Editor Quality Assurance Overview.pdf](../Editing/material/Editor_Quality_Matrix.pdf)![](/img/attachment.png) 
 **Check hints for editing** in [Editing Recommendations](material/editing-recommendations.pdf) ![](/img/attachment.png) 
 
 1. Check fonts
@@ -266,11 +266,7 @@ If the PDF is not printable, proceed with the electronic steps only and then ass
     - Major screw-up, template not used
     - **Only for education in the editorial office**
 
-
-
 #### Upload
-
-
 
 Click here to get [the precise steps to follow in Indico](../../Editor/edit/#judging) to *judge* (upload files and assign a dot). Then
 
@@ -279,8 +275,6 @@ Click here to get [the precise steps to follow in Indico](../../Editor/edit/#jud
 - Click "Get Next Paper" to be assigned your next paper for processing.
 
 ---
-
-
 
 ## QA - Quality Assurance procedure
 
@@ -333,8 +327,6 @@ Then perform the following checks:
 
 ---
 
-
-
 ---
 
 ## Suggestions to Indico, to IPAC'23+ organisers etc.
@@ -349,5 +341,3 @@ Here you can create a rich text page (text, images, etc.) editable only from you
 At the end of your editing be sure to **Publish it** (use the top-right *Publish* button), copy this page's URL and send it to the Editor-in-chief.
 
 We recommend to create one page only per person, but feel free to edit more than one to separate contexts (e.g., Indico, general organisation, Acrobat editing, LaTeX...). In this case you'll get one URL per page. Be sure to save them all!
-
-
