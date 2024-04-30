@@ -68,6 +68,10 @@ nav:
     - Abstracts booklet with CAT: AbstractBooklet/CAT.md
     - Mail Merge to RTF: AbstractBooklet/MailMerge.md
   - Paper submission:
+    - Writing a paper:
+      - General hints: Paper/Writing/general.md
+      - LaTeX: Paper/Writing/latex.md
+      - MS Word: Paper/Writing/word.md
     - Light Peer Review:
       - Introduction: Paper/LPRintro.md
       - LPR module setup: Paper/LPRsetup.md
@@ -82,25 +86,18 @@ nav:
       - Sending comments to editors: Paper/comment.md
       - Uploading new version: Paper/upload.md
       - Approving new version by editor: Paper/approve.md
-    - Writing a paper:
-      - General hints: Paper/Writing/general.md
-      - LaTeX: Paper/Writing/latex.md
-      - MS Word: Paper/Writing/word.md
   - Paper editing:
       - Introduction: Paper/intro.md
       - Editor-in-chief:
         - Setting up: PaperEditing/EIC/setup.md
         - Configuring: PaperEditing/EIC/config.md
         - Editing Team Setup: PaperEditing/EIC/team.md
-        - Start Editing: PaperEditing/EIC/open.md
+        - "Open & Start Editing": PaperEditing/EIC/open.md
         - Publishing: PaperEditing/EIC/publish.md
       - Editor: 
         - Editables list and assignment: PaperEditing/Editor/assign.md
         - Editing an editable: PaperEditing/Editor/edit.md
         - QA: PaperEditing/Editor/QA.md
-      - IPAC manuals:
-        - IPAC'23: PaperEditing/IPACs/IPAC23.md 
-        - IPAC'24: PaperEditing/IPACs/IPAC24.md 
       - Editing: 
         - Margins and objects: PaperEditing/Editing/Crop+Move+Stretch.md
         - Text editing and fonts: PaperEditing/Editing/TextEditing+FontEmbedding.md
@@ -118,6 +115,9 @@ nav:
         - Videos and Animations: PaperEditing/Slides/5_Videos_and_Animations.md
         - Tips and Tricks: PaperEditing/Slides/6_Tips_and_Tricks.md
         - Managing the Speaker Ready Room: PaperEditing/Slides/7_SpeakerReadyRoom.md
+      - IPAC manuals:
+        - IPAC'23: PaperEditing/IPACs/IPAC23.md 
+        - IPAC'24: PaperEditing/IPACs/IPAC24.md 
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md
