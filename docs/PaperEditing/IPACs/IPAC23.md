@@ -81,7 +81,7 @@ We do not expect papers for these.
 
 - [Editor Quick Start Guide.pdf](material/Editor_Quick_Start_Guide.pdf) ![](/img/attachment.png) ([Word version](material/Editor_Quick_Start_Guide.docx) ![](/img/attachment.png))
 - [Editor Quality Matrix.pdf](../Editing/material/Editor_Quality_Matrix.pdf) ![](/img/attachment.png)
-- [Useful Short Cut Keys](../Editor/shortcuts.md)
+- [Useful Short Cut Keys](../Editing/shortcuts.md)
 
 ### LaTeX tutorials (jacow.org)
 
@@ -184,7 +184,7 @@ subsequent problems that cannot be resolved, a Red dot should be assigned.
 
 ### Processing/Verifying the PDF File
 
-**See editing criteria** in [Quality Assurance Overview](material/QualityAssuranceOverview2021.pdf) ![](/img/attachment.png) 
+**See editing criteria** in [Editor Quality Assurance Overview.pdf](../Editing/material/Editor_Quality_Matrix.pdf)![](/img/attachment.png) 
 **Check hints for editing** in [Editing Recommendations](material/editing-recommendations.pdf) ![](/img/attachment.png) 
 
 1. Check fonts

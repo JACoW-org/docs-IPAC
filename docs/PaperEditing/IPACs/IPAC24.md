@@ -21,8 +21,18 @@
     - Poster guidelines: [https://ipac24.org/poster-guidelines](https://ipac24.org/poster-guidelines)
   
     - Speaker preparation guidelines: [https://ipac24.org/speaker-preparation-guidelines](https://ipac24.org/speaker-preparation-guidelines)
+  
+    - [Writing a JACoW paper](../../../Paper/Writing/general/)
+  
+    - [LaTeX resources](../../../Paper/Writing/latex/)
+  
+    - [Word resources](../../../Paper/Writing/word/)
 
 - [Paper editing checklist](../../Editing/TemplateReview/#resources-cited-in-the-video)
+
+- [Editor Quick Start Guide.pdf](material/Editor_Quick_Start_Guide.pdf) ![](/img/attachment.png) ([Word version](material/Editor_Quick_Start_Guide.docx) ![](/img/attachment.png))
+
+- [Editor Quality Assurance Overview.pdf](../Editing/material/Editor_Quality_Matrix.pdf) ![](/img/attachment.png)
 
 ---
 
@@ -92,15 +102,75 @@ MOPC999 = MO P C 999
 
 ---
 
-## Useful material and links
+## Editing a paper
 
-### Handouts
+### Visual workflow
 
-- [Editor Quick Start Guide.pdf](material/Editor_Quick_Start_Guide.pdf) ![](/img/attachment.png) ([Word version](material/Editor_Quick_Start_Guide.docx) ![](/img/attachment.png))
-- [Editor Quality Matrix.pdf](../Editing/material/Editor_Quality_Matrix.pdf) ![](/img/attachment.png)
-- [Useful Short Cut Keys](../Editor/shortcuts.md)
+![](./img/pickflow.svg)
 
-### Sentence case for titles: How-To
+### Paper statuses recap
+
+- <code style="color: green">Green dot</code>
+  
+    - Perfect paper, also in JACoW size
+    - Paper can go to QA
+
+- <code style="color: gold">Yellow dot</code>
+  
+    - Source file changed to fix problems
+    - Author will proofread and approve or reject
+
+- <code style="color: red">Red dot</code>
+  
+    - Extensive work necessary, author should fix and resubmit
+
+### Editing workflow, step-by-step
+
+1. [Assign yourself a paper](../Editor/assign.md)
+
+2. **[Word source files only]** check the CatScan results in the comments. They will help you spot any problems in the PDF.
+   ![](img/catscan_comment.png)
+
+3. Try and **edit the latest PDF file first**. Follow the [Paper Editing Checklist](../../Editing/TemplateReview/).
+
+4. If the result is compliant with JACoW quality (both on screen and on [print](#how-to-print-a-paper)) you can upload to Indico and [stick a **<code style="color: green">GREEN</code>** dot ("Accept")](../../Editor/edit/#accept-green).
+   
+     - If you needed to do small fixes in the PDF, remember to upload it as well. Select Request approval (<code style="color: gold">YELLOW</code>) and then [Confirm and approve it](../../Editor/edit/#confirm-and-approve) to have it green directly
+       
+       Go to step 6.
+
+5. Otherwise, **working on the source files is needed**. Choose one of the following options
+   
+     1. **Lots of fixes are needed**, this will take some time. Or, few fixes are needed but you will spend too much time (>10'). Or, you may be not able to fix it due to lack of information (missing figure, missing reference, etc.).
+        **Stick a <code style="color: red">RED</code> dot and [ask the author to resubmit a better version](Editor/edit/#request-changes-red)**.
+   
+     2. **You can fix it quickly in the source file**. 
+        Re-create the PDF and do all the checks again. Upload all the files (PDF+source) and [Request approval (<code style="color: gold">YELLOW</code>)](../../Editor/edit/#request-approval-yellow).
+        
+        **NOTE**: For Word files on Windows , use the **Adobe PDF Printer** with JACoW's settings - **DO NOT USE** *»PDFMaker«* nor *»Save As PDF«* in Word nor any *»Generic PostScript Printer«*.
+        
+        Move on to another paper, back to step 1.
+
+6. Whenever the paper is accepted (<code style="color: green">GREEN</code>) **bring the paper copy to a QA editor** for its last check.
+
+### How to print a paper
+
+Print the dotted paper with the JACoW stamping tool in Acrobat:
+
+1. Classic Acrobat interface: menu `File` → `GREEN dot`
+   ![](../img/JACoW-utils.jpg)
+
+2. New Acrobat interface: `Menu` → `Plugins` → `For files` → `GREEN dot`
+   ![](../img/JACoW-utils-new.png)
+
+**Note**: No need to print Yellow and Red papers anymore.
+
+Sometimes papers look good on screen and awful in print. Both media should be OK.
+If the PDF is not printable, proceed with the electronic steps only and then assign a red dot.
+
+---
+
+## Sentence case for titles: How-To
 
 Please note that in Indico now on titles should be written in [Sentence case](https://writer.com/blog/sentence-case/) (no more in Title Case). Example: `This is a paper title in SCL: sentence case letters`.
 
@@ -113,175 +183,9 @@ Of course **in the paper titles must be in FULL UPPERCASE**.
 
 ---
 
-## Editing a paper
-
-First of all you need to assign yourself a paper. Follow [these instructions](../Editor/assign.md) to do so in Indico. Remember to select the kind of paper you want to process according to your skills (Word, LaTeX, LibreOffice...) 
-
-Download the files from Indico. Start with the latest version of the PDF and do all the checks and fixes needed (explained in more detail [here below](#processingverifying-the-pdf-file)). 
-
-If the result is compliant with JACoW quality you can upload to Indico and stick a **GREEN** dot. 
-
-Otherwise, you need to work on the source files. In this case download all the files (by the useful ZIP) and work on them. 
-
-Re-create the PDF and do all the checks again. Here is a visual representation of the editing workflow:
-
-![](../../img/process_flowchart-indico.png)
-
-**NOTE**: For Word files on Windows , use the **Adobe PDF Printer** - **DO NOT USE** *»PDFMaker«* nor *»Save As PDF«* in Word nor *»Generic PostScript Printer«*.
-
-**NOTE**: If you have to  open the source file to create the PDF, the paper must be assigned a yellow dot, even if no changes were made to the source. If there are 
-subsequent problems that cannot be resolved, a Red dot should be assigned.
-
-### Processing/Verifying the PDF File
-
-**See editing criteria** in [Quality Assurance Overview](material/QualityAssuranceOverview2021.pdf) ![](/img/attachment.png) 
-**Check hints for editing** in [Editing Recommendations](material/editing-recommendations.pdf) ![](/img/attachment.png) 
-
-1. Check fonts
-2. Check number of pages
-3. Check readability and display time
-4. Apply the JACoW Media Box (Crop)
-5. Check margins
-6. Check page size
-7. Check formatting and [Common Author Oversights](https://www.jacow.org/Editors/CommonAuthorOversights)
-8. Fix the problems (if you estimate that it takes you more than one hour, send it back to the author → RED dot)
-
----
-
-1. Check the **fonts** by opening »File → Document Info → Fonts« (shortcut `»Ctrl + D + Fonts«`).  
-   All fonts should be embedded (listed as "`Embedded`" or "`Embedded Subset`").  
-   Font types can be "`Type 1`", "`TrueType`", or "`OpenType`" with any kind of encoding.  
-   If the fonts have not been embedded, use Acrobat Preflight under »Tools → 
-   Print Production → Preflight → PDF fixups → Embed fonts« (shortcut `»Ctrl + Shift + X + ...«`).  
-   If there is a problem, go back to the document and try to change the fonts or, if it is a LaTeX paper and you are not a LaTeX expert, pass the paper to an expert to fix the font problem. When a WORD document has been repaired, make a new PDF file.
-
-2. Check the **number of pages**: there are usually limits on the number of pages which vary according tothe presentation type (more for oral presentations than for posters).
-
-3. Check that **all pages are readable** and are displayed in a reasonable time (every page should display in less than about 5/N seconds, where N is the speed of the editor's computer in GHz).
-
-4. **Resize the document** by using  
-   
-     1. »Crop and Save« from the JACoW utils by opening »File → Crop and Save« or  
-   
-     2. use the PitStop Action List called **JACoW Media Box**. Open the Action List Control Panel ![](../img/Action_List_Icon.png), locate the "JACoW Media Box" in the Local List and Run it.
-
-5. Change to full page view and enable the grid (View → Show Form Grid or shortcut `»Ctrl-U«`), if not already on and check that **all text and images are inside the margins**.  
-   The  text should now be inside the margins on all pages (~±1 mm). If part of the text or graphics is outside the box, the offending objects may be moved using the "Select Object" tool in the PitStop toolbar ![](../img/Select_Tool_icon.gif) and then either hold down the CTRL key or click on the move tool ![](../img/Move_Tool_icon.gif), and then use the keyboard arrows to nudge objects into position.
-
-6. Check the **page size** at the bottom of the window: it should be **595 x 792 pt**. Move the mouse pointer to the lower left corner of the screen to make the page size appear.
-
-7. If the formatting is wrong, download the source file, edit the document, make a new PDF file and start over.
-   
-     - Save the .PDF file using the Save As... command (`»Ctrl-Shift-S«`).
-       Check that the name of this final PDF is the <paper_id>.PDF.
-   
-     - If the PDF file has to be made or remade, even if the problem is trivial (e.g., wrong paper size) assign a YELLOW dot, upload the modified files, record your actions through the processing interface, add the tags that describe the problem best, and forward the paperwork for filing.  
-       Always be clear in your comments about processing so that others can understand what the problems are. 
-       The author will be invited to download the .PDF, check it, and set the 
-       paper to green if they approve the editor's version or come to the 
-       proceedings office to proofread the paper and let the staff know whether
-        or not the paper is acceptable.
-
-8. If the problem is very complicated and you cannot fix it yourself, check to see whether another editor can fix it. If this is the case, ask the alternative editor to reassign the paper to himself.
-   If it is estimated that a paper will take more than an hour to fix, assign a red dot, clearly explain the problem through the processing interface, and ask the author to fix at his earliest convenience (RED dot).
-
----
-
-### Print the paper & upload
-
-Print the dotted paper with the stamping tool in Acrobat (menu File → GREEN/YELLOW/RED dot ) & check visually  
-
-![](../img/JACoW-utils.jpg)
-
-Sometimes papers look good on screen and awful in print. Both media should be OK.
-If the PDF is not printable, proceed with the electronic steps only and then assign a red dot.
-
-- <code style="color: green">Green dot</code>
-  
-    - Nothing is wrong
-    - No further action required
-
-- <code style="color: gold">Yellow dot</code>
-  
-    - Source file changed to fix problems
-    - Author should proofread
-
-- <code style="color: red">Red dot</code>
-  
-    - Extensive work necessary, author should fix and resubmit
-    - Author should come to the proceedings office
-
-- <code style="color: brown">Brown dot</code>
-  
-    - Major screw-up, template not used
-    - **Only for education in the editorial office**
-
-#### Upload
-
-Click here to get [the precise steps to follow in Indico](../../Editor/edit/#judging) to *judge* (upload files and assign a dot). Then
-
-- Place the paperwork in the appropriate place for filing.
-
-- Click "Get Next Paper" to be assigned your next paper for processing.
-
----
-
-## QA - Quality Assurance procedure
-
-Click here to get [precise instructions on how to perform this with Indico](../../Editor/QA/).
-
-### Process:
-
-1. Take a printed paper that **you did not process** initially from the QA folder/bin
-
-2. Download the PDF file from the server
-
-**There are two minimum requirements for a paper to be accepted for publication on JACoW:**
-
-- It meets the technical requirements (fonts, page size, performance, etc.).
-
-- Its general appearance is close to the template (i.e., the content fits within the margins and the title is in uppercase letters; Fig./Figure, missing punctuation, typos, and other minor errors do not matter at this point).
-
-Then perform the following checks:
-
-1. The **title** on the paper is the same as in the database (if not, ask the Author reception to *correct* it in Indico).
-
-2. The **number of pages** is in the allowed range for that presentation type.
-
-3. All pages of the document display without error.
-
-4. All pages of the document display in <5 seconds.
-
-5. Check the **margins** once more.
-
-6. If you notice any changes in the **author list**, *highlight* them on the paper (as an indication for the people making the later checks). Alternatively, fixes to author list can be done at this stage.
-
-7. Look carefully at the text and check equations and figures for strange or bad fonts.
-
-#### If everything is OK
-
-- Choose **Approve QA** and submit.
-- Mark or write "**QA OK**", sign the paper, and then return all paperwork to the QA'd folder with the page with the dot on top.
-
-#### If anything is NOT OK
-
-- If the paper can be fixed in the PDF, assign it to you, fix the problem and make a comment in the database, upload the new PDF. Proceed with Approve QA as above.
-
-- If you need to go back to the source, select **Fail QA** by sending the paper back to the *original editor* or *reassigning it paper to yourself*.  
-  Then fix it, note what you did in the database (as usual), and upload the 
-  new PDF file. This *should* result in a YELLOW dot again.
-
-- If it is not fixable by you nor by the editor, select **Fail QA** then pass the paperwork to the editor themselves.  
-  The original editor, then, has to assign a **red dot** explaining all the problems in the usual way. The author will be notified by email as usual, so the all process can start again.  
-  Put the paper in the **QA Failed** bin.
-
----
-
 ## Suggestions to Indico, to IPAC'24+ organisers etc.
 
 Please share your idea, comments, suggestions for a better organisation of such events, in particular about the use of Indico.
-
-### How-to:
 
 Open your browser to the [Telegra.ph free online service](https://telegra.ph/): [https://telegra.ph/](https://telegra.ph/)
 
