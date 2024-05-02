@@ -65,6 +65,4 @@ Deselect the option `Format` → `Paragraph` → `Snap to grid`.
 ### References
 
 - [~~Windows Secrets Forum: Line spacing problem~~](https://windowssecrets.com/forums/showthread.php/129287-Line-spacing-problem) *(website non responsive at the time of writing)*
-- https://www.edanz.com/resources/word-processing-tips-and-tricks-manuscript-appearance-snap-grid
-
-
+- [https://www.edanz.com/resources/word-processing-tips-and-tricks-manuscript-appearance-snap-grid](https://www.edanz.com/resources/word-processing-tips-and-tricks-manuscript-appearance-snap-grid)
