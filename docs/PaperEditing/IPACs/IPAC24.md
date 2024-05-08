@@ -34,6 +34,8 @@
 
 - [Editor Quality Assurance Overview.pdf](../Editing/material/Editor_Quality_Matrix.pdf) ![](/img/attachment.png)
 
+- [JACoW-Indico Conference Tools](https://www.jacow.org/jict_ipac24/)
+
 ---
 
 ## Editor Computers

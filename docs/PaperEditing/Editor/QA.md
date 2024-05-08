@@ -1,5 +1,3 @@
-*(QA = Quality Assurance)*
-
 JACoW conferences strive for quality proceedings. However, it may happen that - in particular after full days of editing lots of papers - some small issues still pass unnoticed by the editor.
 
 For this reason a second pass of checking and, eventually, editing is foreseen: we call it QA.

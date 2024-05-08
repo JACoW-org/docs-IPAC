@@ -97,7 +97,8 @@ nav:
       - Editor: 
         - Editables list and assignment: PaperEditing/Editor/assign.md
         - Editing an editable: PaperEditing/Editor/edit.md
-        - QA: PaperEditing/Editor/QA.md
+        - Quality Assurance (QA): PaperEditing/Editor/QA.md
+        - Author Reception Desk: PaperEditing/Editor/ard.md
       - Editing: 
         - Margins and objects: PaperEditing/Editing/Crop+Move+Stretch.md
         - Text editing and fonts: PaperEditing/Editing/TextEditing+FontEmbedding.md
