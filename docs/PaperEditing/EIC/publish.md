@@ -14,7 +14,7 @@ If the Scientific Secretary chooses “Fail QA” then the editable is moved bac
 
 If the Scientific Secretary chooses “Approve QA” then the editable is moved to the final “QA01: QA Approved” tag.
 
-
+See also the [detailed instructions for the QA Editor](../../Editor/QA/). It also explains the various statuses (i.e., *to be QA'd*, *QA OK*, *QA failed*)
 
 ---
 

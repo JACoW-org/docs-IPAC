@@ -97,7 +97,8 @@ nav:
       - Editor: 
         - Editables list and assignment: PaperEditing/Editor/assign.md
         - Editing an editable: PaperEditing/Editor/edit.md
-        - QA: PaperEditing/Editor/QA.md
+        - Quality Assurance (QA): PaperEditing/Editor/QA.md
+        - Author Reception Desk: PaperEditing/Editor/ard.md
       - Editing: 
         - Margins and objects: PaperEditing/Editing/Crop+Move+Stretch.md
         - Text editing and fonts: PaperEditing/Editing/TextEditing+FontEmbedding.md
@@ -117,6 +118,7 @@ nav:
         - Managing the Speaker Ready Room: PaperEditing/Slides/7_SpeakerReadyRoom.md
       - IPAC manuals:
         - IPAC'23: PaperEditing/IPACs/IPAC23.md 
+        - IPAC'24: PaperEditing/IPACs/IPAC24.md 
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md
