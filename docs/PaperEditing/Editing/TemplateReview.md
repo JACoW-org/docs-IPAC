@@ -52,6 +52,10 @@ Referenced in text (sequential)..
 # Equations
 Inside margins
 Unique + sequential numbering (optional)
+# Units
+Value and units on the same line
+Units not in italics/math mode
+Units/Math expressions in bold in table titles
 # References
 Unique + sequential numbering...
 Well aligned ([9] vs [99])

@@ -108,7 +108,7 @@ Please note the peculiar use of `venue` and `year` for a correct rendering:
   series = {International Particle Accelerator Conference},
   number = {13},
   publisher = {JACoW Publishing, Geneva, Switzerland},
-  month = {07},
+  month = {05},
   %year = {2022},
   issn = {2673-5490},
   isbn = {978-3-95450-227-1},
@@ -123,7 +123,7 @@ In fact, the "standard way" with:
 ```latex
 venue = {Bangkok, Thailand},
 year = {2022}
-month={07}
+month={05}
 eid ={THPOPT022}
 ```
 
@@ -177,7 +177,7 @@ In abbreviated form:
   This can be suppressed using `\setlength{\affilsep}{0pt}`
   If there is a `, and` before the last author’s name, this can be suppressed using `\renewcommand\Authsep{, }`
 
-- Equation formatting: the JACoW template requires the equation numbers to be put in brackets. This can easily achieved using `\eqref{label} instead of (\ref{label})`
+- Equation formatting: the JACoW template requires the equation numbers to be put inside parenthesis. This can easily achieved using `\eqref{label} instead of (\ref{label})`
 
 ## Resources
 
