@@ -1,5 +1,18 @@
 # IPAC'24 Editing reference manual
 
+## Editors at Dawn (by Maurizio Montis, songwriter)
+
+This page performs better with this song playing in the background.
+
+<audio controls>
+   <source src="../material/Editors_at_Dawn.mp3" type="audio/mpeg">
+Your browser does not support the audio tag.
+</audio>
+
+*(content generated using Udio)*
+
+
+
 ## Web References
 
 - IPAC'24 website: [https://ipac24.org](https://ipac24.org)
@@ -169,6 +182,50 @@ Print the dotted paper with the JACoW stamping tool in Acrobat:
 
 Sometimes papers look good on screen and awful in print. Both media should be OK.
 If the PDF is not printable, proceed with the electronic steps only and then assign a red dot.
+
+---
+
+## QA - Quality Assurance procedure
+
+Click here to get [precise instructions on how to perform this with Indico](../../Editor/QA/).
+
+1. Take a printed paper that **you did not process** initially from the QA folder/bin.
+
+2. Download the PDF file from the server.
+
+**There are two minimum requirements for a paper to be accepted for publication on JACoW:**
+
+- It meets the technical requirements (fonts, page size, performance, etc.).
+
+- Its general appearance is close to the template (i.e., the content fits within the margins and the title is in uppercase letters; Fig./Figure, missing punctuation, typos, and other minor errors do not matter at this point).
+
+Then perform the following checks:
+
+1. The **number of pages** is in the allowed range for that presentation type.
+
+2. All pages of the document display without error.
+
+3. All pages of the document display in <5 seconds.
+
+4. Check the **margins** once more.
+
+5. Look carefully at the text and check equations and figures for strange or bad fonts.
+
+6. At this stage we can accept minor problems, however. If in doubt, consult with the Editor-in-Chief.
+
+#### If everything is OK
+
+- Choose **Approve QA** and submit.
+- Mark or write "**QA OK**", sign the paper, and then return all paperwork to the QA'd folder on the Authors' reception desk
+
+#### If anything is NOT OK
+
+- Add a comment in the Indico timeline describing the issues you spotted. This will help the editor fix them or get them back to the author.
+
+- Then, select **Fail QA** in Indico.
+
+- Mark the printed paper as FAILED and return it to the editor. 
+  The editing process will then restart.
 
 ---
 
