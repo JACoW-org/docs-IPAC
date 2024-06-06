@@ -20,6 +20,25 @@ When the final proceedings package has been created and sent to the JACoW EMEA R
 
 ![](img/doi-window.png)
 
+Upon opening this window CAT queries Datacite.org and lists the papers status.
+
+The left column lists the DOI codes created by CAT for all publishable papers. The syntax follows the parameters in the PURR settings.
+
+The right column shows each DOI status on DOI.org via Datacite.org. In the screenshot above all DOIs are **published and searchable** on DOI.org.
+
+---
+
+**Note**: in case the final proceedings haven't been created yet or before registering the DOIs (with the **Create** action here below) the status shown is:
+
+```
+Not Found - The resource is not found. 
+Check that final proceedings have been generated correctly.
+```
+
+---
+
+
+
 The buttons at the bottom of this window trigger some actions:
 
 - **Refresh**: forces a refresh of the list above by querying Datacite.org.
@@ -31,3 +50,5 @@ The buttons at the bottom of this window trigger some actions:
 - **Publish**: Makes the DOIs visible and searchable on doi.org.
 
 - **Hide**: Makes published DOIs invisible and not searchable.
+
+Note: 
