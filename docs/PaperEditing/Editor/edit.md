@@ -43,9 +43,14 @@ Your browser does not support the video tag.
 
 Choose  this option when the editable is ready for publishing. This will move 
 the editable to the "Accepted" status, and notify the author by email. 
-This is nearly the end of the editing process (the editable needs to pass a final QA process before being fully publishable)
 
 ![](../img/editoraccept.png)
+
+If you need to **upload a slightly revised version of the file** (e.g., you just *cropped* it to the JACoW papers size) **toggle the "Upload files" control**, load the new file(s) and then click on the "Judge" button.
+
+![](../img/editoraccept+files.png)
+
+This is nearly the end of the editing process (the editable needs to pass a final QA process before being fully publishable)
 
 ### Reject (<code style="color: black">BLACK</code>)
 
@@ -73,19 +78,6 @@ If the author **rejects** your changes, they will be invited to upload a new ver
 If the author **accepts** your changes, then the editable status moves to "Accepted" and this is nearly the end of the editing process (the editable needs to pass a final QA process before being fully publishable).
 
 In both cases, you are **warned by email**. 
-
-#### Confirm and approve
-
-<video style="width:576" controls="" alt="type:video">
-   <source src="../Videos/006-YellowGreenDot.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
-You  also have the possibility to bypass the author’s affiliation when uploading a new version of the file. For that purpose, use the "Confirm & Approve" button.
-
-![](../img/editorconfirmandapprove.png)
-
-The new revision will then be accepted straight away.
 
 ### Request changes (<code style="color: red">RED</code>)
 
