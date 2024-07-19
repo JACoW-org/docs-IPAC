@@ -16,3 +16,17 @@ The following pages describe the general IPAC workflow for LPR. Please refer to 
 The submission of LPR papers usually happen **before** the [general submission of papers](submit.md). An author of a LPR paper will need to pass through the light review steps described here. Whenever the paper will be accepted for the LPR publication, the author will need to submit the paper again twice: first for the general publication in [JACoW.org](https://jacow.org) and then, with a revised version, directly to the refereed journal. The former is described in the [paper submission section of this manual](submit.md) while the latter is normally described on any specific IPAC website.
 
 The Indico developers provide documentation on its [Paper Peer Reviewing module](https://learn.getindico.io/conferences/papers/peer_reviewing/#peer-reviewing-as-a-paper-author). Feel free to refer to those instructions as a compendium with those here published, which are specific to the IPAC LPR workflow.
+
+## Material from IPAC'23 LPR manager Nicolas Delerue
+
+- [LPR at IPAC'23 - planning at SPC1 November 2021](../material/202111_Delerue_LPR_IPAC23_SPC1.pdf)
+
+- [LPR at IPAC'23 - update at SPC2 - June 2022](material/202206_Delerue_LPR_IPAC23_SPC2.pdf)
+
+- [LPR at IPAC'23 - update at SPC3 - January 2023](material/202301_Delerue_LPR_IPAC23_SPC3.pdf)
+
+- [LPR at IPAC'23 - report at EPS-AG meeting - November 2023](material/202311_Delerue_LPR_IPAC23_EPS-AG_v2.pdf)
+
+- [LPR at IPAC'23 - report update - January 2024](material/202401_Delerue_LPR_IPAC23_update.pdf)
+
+- [IPAC'23 LPR advance management code by Nicolas on Github](https://github.com/JACoW-org/IPAC-LPR)
