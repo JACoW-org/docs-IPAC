@@ -18,13 +18,11 @@ In case fonts are not embedded use the shortcut-keys **SHFT+CTRL+X** to open the
 
 ![](img/SP_PDF_IMG_2.png)
 
-For uploading the modified PDF version select **Request approval** from the Judge menu, click on the plus sign to upload the file and leave a comment for the author. Finally, select **Confirm & Approve** for submission as shown in the image below - the slides status will turn to green.
+## Uploading the new file in Indico
 
-![](img/SP_PDF_IMG_3.png)
+To upload the modified PDF version in Indico's slides timeline, follow the same [instructions about paper editing](../../Editor/edit/#accept-green) (select **Accept** from the Judge menu and then toggle the "Upload files" control, click on the plus sign to upload the file and leave a comment for the author. Finally, select **Judge** for submission.)
 
-In case the inspected PDF file is perfect, leave a comment and click on Judge and Accept - this turns the processing status to GREEN immediately. 
-
-![](img/SP_PDF_IMG_4.png)
+In case the inspected PDF file is perfect, click on Judge and then Accept, leave a comment and confirm - this turns the processing status to GREEN immediately.
 
 ## What's next?
 
