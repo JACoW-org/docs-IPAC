@@ -30,7 +30,7 @@ In particular:
 
 - **Description**: this is the abstract for the contribution. Please use text-only material (i.e., no MarkDown, no HTML, no LaTeX, ...) and avoid copying and pasting from word processors which could introduce badly printing symbols;
 
-- **List of authors/speakers** (People): we recommend to use the "Author" type for the corresponding/first author and  "Co-author" for all the others. The order is important ans should [reflect the list of authors in the paper (alphabetical order grouped by affiliation)](https://www.jacow.org/Editors/CommonAuthorOversights).
+- **List of authors/speakers** (People): we recommend to use the "Author" type for the corresponding/first author and  "Co-author" for all the others. The order is not important ans since it will be adjusted automatically when creating the proceedings.
 
 ![](img/contributionedit.png)
 

@@ -16,8 +16,6 @@ To inhibit the upload of general material per contribution, access the "**Upload
 
 then, be sure that the "**Managers only**" flag is set for your event.
 
-
-
 ![](img/upload_permissions.png)
 
 ### Contributions
@@ -64,6 +62,8 @@ Indico, by default, allows use and creation of local-only accounts (i.e., not li
 at this stage, be sure that the "**Disallow manually entering persons**" and "**Include users with no Indico account by default**" toggles are **selected**.
 
 ![](img/disable_manual_person_entry.png)
+
+It is also very important that the "**Multiple affiliations**" toggle is set as well. If not, only a single, primary and non-changeable, affiliation will be usable in the event.
 
 ### Programme
 
