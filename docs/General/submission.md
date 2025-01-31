@@ -40,10 +40,13 @@ All fields marked with a **red star** are mandatory. Below the image all needed 
   
     * you can change the default affiliation by clicking on the "Multiple Affiliations" icon:
       ![](img/author_edit_affiliations.png)
+      
       which opens a new window where you can search for the affiliation you want:
       ![](img/affiliation_search.png)
+      
       You can repeat the search and select as many affiliations you need for this author:
       ![](img/affiliation_search_result.png)
+      
       After saving the multiple affiliations will be displayed for this author:![](img/author_multiple_affiliations.png)
   
     * if you cannot find the right person in the Central Repository, please follow the directions in the [Creating JACoW profiles for new authors](#creating-jacow-profiles-for-new-authors) section below, then do the search again and select the newly created profile
