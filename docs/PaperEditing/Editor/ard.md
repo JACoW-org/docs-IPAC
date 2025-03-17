@@ -6,7 +6,7 @@ In addition to this fundamental role, the Author Reception Desk usually perform 
 
 In fact, the proceedings will be created with the edited and QA'd paper PDFs, plus the information stored in Indico. All the indexes of the proceedings web pages and PDF metadata will be sourced from Indico. For this reason, it is of utter importance that titles and authors list in Indico correspond to those on the paper PDF.
 
-Comparing information stored in Indico with what is present in a paper PDF is not easy nor straightforward. The [JACoW-Indico Conference Toolbox](https://github.com/JACoW-org/JICT) however includes an **Authors Check Utility** that presents the the data in Indico on top of the data written in the PDF. JICT can also try and highlight differences in titles.
+Comparing information stored in Indico with what is present in a paper PDF is not easy nor straightforward. The [JACoW Indico Conference Toolbox](https://github.com/JACoW-org/JICT) however includes an **Authors Check Utility** that presents the the data in Indico on top of the data written in the PDF. JICT can also try and highlight differences in titles.
 
 ![](../img/JICT-AC.png)
 

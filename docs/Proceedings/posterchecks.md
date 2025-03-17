@@ -12,7 +12,7 @@ Papers that don't satisfy these three requirements cannot be published in the pr
 
 The organisers can decide to perform this kind of checks as they prefer. Indico has no functionality to support these checks. An external tool, connected to Indico, can however be used. 
 
-The [JACoW-Indico Conference Tools  (JICT)](https://github.com/JACoW-org/JICT) tool contains a web application that can be used on small screens like smartphones or tablets and collect the status of the Poster Quality Assurance Team during the poster sessions:
+The [JACoW Indico Conference Tools  (JICT)](https://github.com/JACoW-org/JICT) tool contains a web application that can be used on small screens like smartphones or tablets and collect the status of the Poster Quality Assurance Team during the poster sessions:
 
 ![](img/CWSppdetails.png)
 

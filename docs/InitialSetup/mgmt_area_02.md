@@ -84,7 +84,7 @@ Circular Colliders, novel concepts in Light Sources.
 The SPMS functionality allowed for the submitting author
 to first select a Main Classification, which opened up a
 sub-list of Sub-classifications.
-In JACoW-Indico the Programme screen is used to enter
+In JACoW Indico the Programme screen is used to enter
 Track Groups with the associated Tracks, but upon
 abstract submission it is not possible to separate the Track
 Groups, all Track Groups and all Tracks are therefore

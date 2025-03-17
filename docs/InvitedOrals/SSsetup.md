@@ -7,7 +7,7 @@
 ---
 
 Since Indico does not allow for several abstract submission exercises, the submission of proposals for invited oral presentations is managed outside of the general abstract submission setup.
-Prior to opening for the submission of proposals for invited oral presentations it is necessary to populate several of the screens in the JACoW-Indico Event:
+Prior to opening for the submission of proposals for invited oral presentations it is necessary to populate several of the screens in the JACoW Indico Event:
 
 - Organization / Roles Setup
 - Organization / Contributions / Settings

@@ -1,8 +1,8 @@
-# Delivery of a JACoW-Indico Event
+# Delivery of a JACoW Indico Event
 
 ## Introduction
 
-This document provides an overview of a JACoW-Indico Event upon delivery to the Event Manager. It describes the entry of general information and
+This document provides an overview of a JACoW Indico Event upon delivery to the Event Manager. It describes the entry of general information and
 preparations for developing the scientific programme. A
 further document describes how to run the activities
 relating to scientific programme management through the
@@ -12,15 +12,15 @@ Official Indico documentation is available at:
 
 Note: This Indico documentation corresponds to
 "normal" Indico and it does not always include the more
-JACoW-specific functionality described in JACoW-Indico documentation.
+JACoW-specific functionality described in JACoW Indico documentation.
 
 The JACoW Events Manager, or a JACoW Officer
-with Admin privileges on the JACoW-Indico site creates
-JACoW-Indico instances (events) upon receipt of a
+with Admin privileges on the JACoW Indico site creates
+JACoW Indico instances (events) upon receipt of a
 formal request to the JACoW Chair or Coordinator. The
-JACoW-Indico event is delivered with the **Admin**
+JACoW Indico event is delivered with the **Admin**
 permissions assigned to the **Event Administrator**, who is
-the person designated to run the JACoW-Indico event
+the person designated to run the JACoW Indico event
 within the conference organization.
 
 The Event Administrator is normally either the
@@ -33,7 +33,6 @@ jacow.org, for example concerning the conference, its
 venue and dates, the names of OC/SPC/LOC Chairs,
 Stakeholders, etc.
 
-
 The **Admin** privileges upon delivery of the JACoW-
 Indico event will also be assigned to several JACoW
 Experts, usually the JACoW Events Manager, the JACoW
@@ -45,12 +44,8 @@ Indico, and no longer to the JACoW paper servers at PSI
 and JLab.
 
 
-JACoW-Indico events are linked to the JACoW SPMS
-Central Repository of Profiles and Affiliations.
 
-
-
-## Delivery of a JACoW-Indico Event
+## Delivery of a JACoW Indico Event
 
 The Event Administrator receives a link to their
 event:
@@ -81,5 +76,3 @@ links.
 This document explains the activities behind the links
 in the Management Area. It is divided into Sections as
 listed in the left pane of Indico.
-
-

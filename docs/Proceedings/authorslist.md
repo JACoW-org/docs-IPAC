@@ -6,4 +6,4 @@ It is responsibility of the submitting authors to ensure the correctness of thes
 
 The Authors Reception Desk at the conference usually also crosschecks the papers with Indico. 
 
-The [JACoW-Indico Conference Tools (JICT)](https://github.com/JACoW-org/JICT) also include a tool to visualise the metadata of the contribution in Indico close to the upper part of the paper's first page. This way it is easier to spot issues with the information in Indico, which should be corrected either by the submitting author or by the Author Receptionists.
+The [JACoW Indico Conference Tools (JICT)](https://github.com/JACoW-org/JICT) also include a tool to visualise the metadata of the contribution in Indico close to the upper part of the paper's first page. This way it is easier to spot issues with the information in Indico, which should be corrected either by the submitting author or by the Author Receptionists.

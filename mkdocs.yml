@@ -1,8 +1,16 @@
 site_name: JACoW - Running an IPAC
 #site_url: https://docs-IPAC.JACoW.org
-theme: material
+theme: 
+  name: material
+  palette:
+    primary: indigo
 repo_name: 'jacow-org/docs-IPAC'
 repo_url: 'https://github.com/jacow-org/docs-IPAC'
+markdown_extensions:                                                                                                                                 
+  - admonition 
+plugins:
+  - open-in-new-tab:
+      add_icon: true
 nav:
   - Introduction: index.md
   - Glossary: glossary.md 
