@@ -44,6 +44,18 @@ As an example, if we expect a contribution to have a Programme Code **TUOCA01**,
 
 ### How-to
 
+If you haven't done this already, first schedule all your contributions to one or more session blocks in the timetable.
+
+To do this open the block details and click on "Go to session block timetable".
+
+![](img/SSmpa03.png)
+
+Then you click on the "Add poster" button, select the contributions you want to schedule (use the "All" link to add them all) and click "Add selected":
+
+![](img/SSmpa04.png)
+
+Now we are ready to automatically assign programme codes respecting the village system.
+
 The JACoW website offers some utilities for Indico conferences, usually provided at the address [https://www.jacow.org/Indico/Utilities](https://www.jacow.org/Indico/Utilities).
 
 **To use them it is necessary to have Event Admin permissions on the Indico event.**
