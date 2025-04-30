@@ -51,4 +51,3 @@ The buttons at the bottom of this window trigger some actions:
 
 - **Hide**: Makes published DOIs invisible and not searchable.
 
-Note: 
