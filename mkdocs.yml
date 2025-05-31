@@ -128,6 +128,7 @@ nav:
       - IPAC manuals:
         - IPAC'23: PaperEditing/IPACs/IPAC23.md 
         - IPAC'24: PaperEditing/IPACs/IPAC24.md 
+        - IPAC'25: PaperEditing/IPACs/IPAC25.md 
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md
