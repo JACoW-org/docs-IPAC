@@ -39,6 +39,68 @@
 - [JACoW Indico Conference Tools](https://www.jacow.org/jict_ipac25/)
 
 ---
+## Paper QA - Give it a go IPAC'25 QA Work Flow
+
+The dependency of printed papers to facilitate workflows in SPMS and Indico for QA has often resulted in confusion and corruption due to, duplicate papers, and unprinted papers.
+Thus below is the proposed workflow we will try for IPAC'25.
+### Paper Editors
+All paper editors will stop printing any of their completed <code style="color: green">Green</code> papers, this will become the responsibility of the QA Editor.
+### Title Author Check
+The Title Author Check will be conducted in parallel, best effort will be made to place <code style="color: green">QA Pass</code> papers in QA Pass pile next to Title Author Check.
+#### Stream 1
+Title Author Check can take for this pile to review the Title Authors. 
+If problems are found which require the fix of the paper the <code style="color: green">QA Pass</code> will have to be rolled back and paper status set to the appropriate state for editing by the Author or the Editor.
+ #### Stream 2
+If there are no papers in the QA complete the Title Author Checker will select ready to check papers from the interface and conduct the review.
+If problems are found which require modifying the paper they will approach the Editor for the paper and inform them. The Editor will rollback and make correction, or Judge Red so the Author can fix and upload again. 
+Corrections at the pre-QA stage will prevent further roll backs or <code style="color: red">QA Fail</code> if discovered after <code style="color: green">QA Pass</code>.   
+### QA Editor
+#### QA Editor Role Allocation 
+QA Editors is a **Role**, and before you can undertake QA Editing an admin needs to add your name to the Role **JACoW - QA** in the Indico Rolls Setup page.
+![](img/QARoleSelect.png)
+ 
+#### Setting up you Filters
+Viewing only the papers which are ready for QA can de achieved by using the Filter in the Editing > List of Papers Page. You will click on the Filter, Select Tags > <code style="color: yellow">QA02</code>. You should then see paper which have either <code style="color: green">Accepted by Submitter</code> or <code style="color: green">Accepted</code>. 
+![](img/QASetFilter.png)
+
+ 
+Sort the List by program **Code** which will display the list sorted by Program Code which is typically by day.
+#### Viewing the Papers you will QA
+You will be advised the Day or Day and Session which you will be allocated to QA which is unique to yourself so other editors don’t start working on papers you are working on.
+For example “MOPB”, but typing this into the Text Box next to the Filter button, any other contributions will be greyed out leaving only the papers you will QA.
+![](img/QAMySelection.png)
+
+  
+
+#### Printing Papers
+In your aAcrobat setting, goto *Edit>Preferences>Identity* and change the name to **QA Print**.
+
+Once you are working on your group of papers, after clicking into a paper to QA you can download the last PDF and print with <code style="color: green">Green Dot</code>. 
+Write the name of the editor who edited the paper on the top of the paper. If you are the Editor of the paper hand over the printed paper to another QA Editor.
+#### QA - Quality Assurance procedure
+Click here to get [precise instructions on how to perform this with Indico](../../Editor/QA/).
+1. Take the paper that you printed, and **you did not process** initially.
+2. Open the PDF you printed.
+**There are two minimum requirements for a paper to be accepted for publication on JACoW:**
+- It meets the technical requirements (fonts, page size, performance, etc.).
+- Its general appearance is close to the template (i.e., the content fits within the margins and the title is in uppercase letters; Fig./Figure, missing punctuation, typos, and other minor errors do not matter at this point).
+Then perform the following checks:
+1. The **number of pages** is in the allowed range for that presentation type.
+2. All pages of the document display without error.
+3. All pages of the document display in <5 seconds.
+4. Check the **margins** once more.
+5. Look carefully at the text and check equations and figures for strange or bad fonts.
+6. At this stage we can accept minor problems, however. If in doubt, consult with the Editor-in-Chief.
+##### If everything is OK
+- Writer your name in the comment box, **Your Name, QA OK**, set the comment not visible to Author Flag.
+- Choose **Approve QA** and submit.
+- Mark or write "**QA OK**", sign the paper, and then return all paperwork to the QA'd Passed folder on the Authors' reception desk
+##### If anything is NOT OK
+- Add a comment in the Indico timeline describing the issues you spotted. This will help the editor fix them or get them back to the author. Make sure to include your name as the QA Editor.
+- Then, select **Fail QA** in Indico.
+- Mark the printed paper as FAILED and return it to the editor. 
+  The editing process will then restart.
+
 
 ## Editor Computers
 
@@ -174,62 +236,6 @@ If the PDF is not printable, proceed with the electronic steps only and then ass
 
 ---
 
-## QA - Quality Assurance procedure
-
-Click here to get [precise instructions on how to perform this with Indico](../../Editor/QA/).
-
-1. Take a printed paper that **you did not process** initially from the QA folder/bin.
-
-2. Download the PDF file from the server.
-
-**There are two minimum requirements for a paper to be accepted for publication on JACoW:**
-
-- It meets the technical requirements (fonts, page size, performance, etc.).
-
-- Its general appearance is close to the template (i.e., the content fits within the margins and the title is in uppercase letters; Fig./Figure, missing punctuation, typos, and other minor errors do not matter at this point).
-
-Then perform the following checks:
-
-1. The **number of pages** is in the allowed range for that presentation type.
-
-2. All pages of the document display without error.
-
-3. All pages of the document display in <5 seconds.
-
-4. Check the **margins** once more.
-
-5. Look carefully at the text and check equations and figures for strange or bad fonts.
-
-6. At this stage we can accept minor problems, however. If in doubt, consult with the Editor-in-Chief.
-
-#### If everything is OK
-
-- Choose **Approve QA** and submit.
-- Mark or write "**QA OK**", sign the paper, and then return all paperwork to the QA'd folder on the Authors' reception desk
-
-#### If anything is NOT OK
-
-- Add a comment in the Indico timeline describing the issues you spotted. This will help the editor fix them or get them back to the author.
-
-- Then, select **Fail QA** in Indico.
-
-- Mark the printed paper as FAILED and return it to the editor. 
-  The editing process will then restart.
-
----
-
-## Sentence case for titles: How-To
-
-Please note that in Indico now on titles should be written in [Sentence case](https://writer.com/blog/sentence-case/) (no more in Title Case). Example: `This is a paper title in SCL: sentence case letters`.
-
-Remember that acronyms and specifically-written names of machines/institutes must
- not be changed from their format.
-
-To quickly change a wrongly formatted title you can use [https://titlecaseconverter.com/](https://titlecaseconverter.com/) with the **Sentence case Style**.
-
-Of course **in the paper titles must be in FULL UPPERCASE**.
-
----
 
 ## Suggestions to Indico, to IPAC'25+ organisers etc.
 
