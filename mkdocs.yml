@@ -3,12 +3,26 @@ site_name: JACoW - Running an IPAC
 theme: 
   name: material
   palette:
-    primary: indigo
+    # Palette toggle for light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: indigo
+      toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: indigo
+      toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
 repo_name: 'jacow-org/docs-IPAC'
 repo_url: 'https://github.com/jacow-org/docs-IPAC'
 markdown_extensions:                                                                                                                                 
   - admonition 
 plugins:
+  - privacy
   - search
   - open-in-new-tab:
       add_icon: true
