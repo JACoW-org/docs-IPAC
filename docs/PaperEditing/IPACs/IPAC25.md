@@ -40,30 +40,30 @@
 ---
 ## Paper QA - Give it a go IPAC'25 QA Work Flow
 
-The dependency of printed papers to facilitate workflows in SMPS, and Indico for QA have often resulted in confusion and corruption due to duplicate papers and unprinted papers.
-Thos below is the proposed workflow we will try for IPAC'25.
+The dependency of printed papers to facilitate workflows in SMPS and Indico for QA has often resulted in confusion and corruption due to, duplicate papers, and unprinted papers.
+Thus below is the proposed workflow we will try for IPAC'25.
 ### Paper Editors
-All paper editors will stop printing any of their completed Green papers, this will become the responsibility of the QA Editor.
+All paper editors will stop printing any of their completed <code style="color: green">Green</code> papers, this will become the responsibility of the QA Editor.
 ### Title Author Check
-The Title Author Check will be conducted in parallel, best effort will be made to place QA Pass papers in QA Pass pile next to Title Author Check.
+The Title Author Check will be conducted in parallel, best effort will be made to place <code style="color: green">QA Pass</code> papers in QA Pass pile next to Title Author Check.
 #### Stream 1
 Title Author Check can take for this pile to review the Title Authors. 
-If problems are found which require the fix of the paper the QA Pass will have to be rolled back and paper status set to the appropriate state for editing by the Author or the Editor.
+If problems are found which require the fix of the paper the <code style="color: green">QA Pass</code> will have to be rolled back and paper status set to the appropriate state for editing by the Author or the Editor.
  #### Stream 2
 If there are no papers in the QA complete the Title Author Checker will select ready to check papers from the interface and conduct the review.
 If problems are found which require modifying the paper they will approach the Editor for the paper and inform them. The Editor will rollback and make correction, or Judge Red so the Author can fix and upload again. 
-Corrections at the pre-QA stage will prevent further roll backs or QA fail if discovered after QA Pass.   
+Corrections at the pre-QA stage will prevent further roll backs or <code style="color: red">QA Fail</code> if discovered after <code style="color: green">QA Pass</code>.   
 ### QA Editor
 #### QA Editor Role Allocation 
-QA Editors is a role and before you can undertake QA Editing an admin needs to add your name to the Role in the Indico Rolls Setup page.
+QA Editors is a **Role**, and before you can undertake QA Editing an admin needs to add your name to the Role **JACoW - QA** in the Indico Rolls Setup page.
 ![](img/QARoleSelect.png)
  
 #### Setting up you Filters
-Viewing only the papers which are read for QA can de achieved by using the Filter in the Editing > List of Papers Page. You will click on the Filter, Select Tags > QA02. You should then see paper which have either “Accepted by Submitter” or “Accepted”. 
+Viewing only the papers which are ready for QA can de achieved by using the Filter in the Editing > List of Papers Page. You will click on the Filter, Select Tags > <code style="color: yellow">QA02</code>. You should then see paper which have either <code style="color: green">Accepted by Submitter</code> or <code style="color: green">Accepted</code>. 
 ![](img/QASetFilter.png)
 
  
-Sort the List by program Code which will display the list sorted by Program Code which is typically day.
+Sort the List by program **Code** which will display the list sorted by Program Code which is typically by day.
 #### Viewing the Papers you will QA
 You will be advised the Day or Day and Session which you will be allocated to QA which is unique to yourself so other editors don’t start working on papers you are working on.
 For example “MOPB”, but typing this into the Text Box next to the Filter button, any other contributions will be greyed out leaving only the papers you will QA.
@@ -72,11 +72,13 @@ For example “MOPB”, but typing this into the Text Box next to the Filter but
   
 
 #### Printing Papers
-Once you are working on your group of papers, after clicking into a paper to QA you can download the last PDF and print. 
-Note the name of the editor who edited the paper on the top of the paper. If you are the Editor of the paper hand over the printed paper to another QA Editor.
+In your aAcrobat setting, goto *Edit>Preferences>Identity* and change the name to **QA Print**.
+
+Once you are working on your group of papers, after clicking into a paper to QA you can download the last PDF and print with <code style="color: green">Green Dot</code>. 
+Write the name of the editor who edited the paper on the top of the paper. If you are the Editor of the paper hand over the printed paper to another QA Editor.
 #### QA - Quality Assurance procedure
 Click here to get [precise instructions on how to perform this with Indico](../../Editor/QA/).
-1. Take the paper that you printer, and that **you did not process** initially.
+1. Take the paper that you printed, and **you did not process** initially.
 2. Open the PDF you printed.
 **There are two minimum requirements for a paper to be accepted for publication on JACoW:**
 - It meets the technical requirements (fonts, page size, performance, etc.).
