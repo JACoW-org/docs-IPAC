@@ -41,7 +41,7 @@
 ---
 ## Paper QA - Give it a go IPAC'25 QA Work Flow
 
-The dependency of printed papers to facilitate workflows in SMPS and Indico for QA has often resulted in confusion and corruption due to, duplicate papers, and unprinted papers.
+The dependency of printed papers to facilitate workflows in SPMS and Indico for QA has often resulted in confusion and corruption due to, duplicate papers, and unprinted papers.
 Thus below is the proposed workflow we will try for IPAC'25.
 ### Paper Editors
 All paper editors will stop printing any of their completed <code style="color: green">Green</code> papers, this will become the responsibility of the QA Editor.
