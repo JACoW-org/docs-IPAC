@@ -9,6 +9,7 @@
 - JACoW templates: [https://www.jacow.org/Authors](https://www.jacow.org/Authors)
   
     - [Current JACoW Template (Word)](https://github.com/JACoW-org/JACoW_Templates/raw/master/MSWord/JACoW_MSWord.pdf)
+  
     - [Current JACoW Template (Word JACoW Paper Size)](https://github.com/JACoW-org/JACoW_Templates/raw/master/MSWord/JACoW_MSWord.dotx)
   
     - [ZIP file with all files](https://github.com/JACoW-org/JACoW_Templates/archive/refs/heads/master.zip)
@@ -21,7 +22,7 @@
   
     - Poster guidelines: [https://ipac25.org/authorGuidelines.asp](https://ipac25.org/authorGuidelines.asp)
   
-    - Speaker preparation guidelines: [https://ipac24.org/speaker-preparation-guidelines](https://ipac24.org/speaker-preparation-guidelines)
+    - Speaker preparation guidelines: [https://ipac25.org//authorGuidelines.asp](https://ipac25.org//authorGuidelines.asp)
   
     - [Writing a JACoW paper](../../../Paper/Writing/general/)
   
@@ -141,20 +142,20 @@ MOPC999 = MO P C 999
 <number>            ::= <digit> |  <digit>  <digit>  |  <digit>  <digit>  <digit> 
 ```
 
-| Day                | Presentation Type                      | Location                                        |
-| ------------------ | -------------------------------------- | ----------------------------------------------- |
-| **SU** - Sunday    | **X** – Invited #1                     | **P** - Plenary Hall, TICC                      |
-| **MO** - Monday    | **Y** – Invited #2                     | **D** - Hall 101 (Ground Floor), TICC           |
-| **TU** - Tuesday   | **Z** – Invited #3                     | **N** - HAll 201, TICC                          |
-| **WE** - Wednesday | **A** – Contributed #1                 | **M** – Exhibit Hall A Magpie, TWTC             |
-| **TH** - Thursday  | **B** – Contributed #2                 | **S** – Exhibit Hall A Salmon, TWTC             |
-| **FR** - Friday    | **C** – Contributed #3                 | **B** – Exhibit Hall A Bear, TWTC               |
-|                    | **P** – Poster                         |                                                 |
-|                    | **U** – Industry #1                    |                                                 |
-|                    | **V** – Industry #2                    |                                                 |
-|                    | **E** – Entertainment                  | TICC - Taipei International Convention Center   |
-|                    |                                        | TWTC - Taipei World Trade Center                |
-|                    |                                        |                                                 |
+| Day                | Presentation Type      | Location                                      |
+| ------------------ | ---------------------- | --------------------------------------------- |
+| **SU** - Sunday    | **X** – Invited #1     | **P** - Plenary Hall, TICC                    |
+| **MO** - Monday    | **Y** – Invited #2     | **D** - Hall 101 (Ground Floor), TICC         |
+| **TU** - Tuesday   | **Z** – Invited #3     | **N** - HAll 201, TICC                        |
+| **WE** - Wednesday | **A** – Contributed #1 | **M** – Exhibit Hall A Magpie, TWTC           |
+| **TH** - Thursday  | **B** – Contributed #2 | **S** – Exhibit Hall A Salmon, TWTC           |
+| **FR** - Friday    | **C** – Contributed #3 | **B** – Exhibit Hall A Bear, TWTC             |
+|                    | **P** – Poster         |                                               |
+|                    | **U** – Industry #1    |                                               |
+|                    | **V** – Industry #2    |                                               |
+|                    | **E** – Entertainment  | TICC - Taipei International Convention Center |
+|                    |                        | TWTC - Taipei World Trade Center              |
+|                    |                        |                                               |
 
 ### Presentation type codes and paper length
 
