@@ -11,6 +11,60 @@ This page performs better with this song playing in the background.
 Your browser does not support the audio tag.
 </audio>
 
+??? Abstract "Lyrics"
+    ***[Intro]***  
+    Under the lights of the 101 tower  
+    We're running the night, paper by hour  
+    Young pangolins in the digital shade  
+    Making this conference the best ever made  
+      
+      
+    ***[Verse 1]***  
+    我們藏在繁華的背後 (Behind the glam, we hide in code)  
+    每天盯著稿件、審查流程走  
+    Re-check that DOI, fix the name again  
+    Still no upload? Come on, my friend!  
+      
+    ***[Pre-Chorus]***  
+    Every comma, every line  
+    Making sure it all aligns  
+    Some are late, some are wrong  
+    But we keep moving on  
+      
+    ***[Chorus]***  
+    我們是影子穿山甲 (We are the shadow pangolins)  
+    在黑夜裡努力閃耀啊 (Working hard while stars begin)  
+    From Taipei to the global stage  
+    Editors dancing page by page  
+      
+    Paper mountain, no retreat  
+    Bit by bit we face the heat  
+    等到最後的那一刻 (Till the final check is done)  
+    我們一起慶祝這一段 (We will rise up with the sun)  
+      
+    ***[Verse 2]***  
+    Trackers crash, deadline near  
+    喝了第三杯咖啡也不會怕 (No fear with a triple shot of black)  
+    Reference wrong? Fix it fast  
+    這裡的節奏沒人能超越 (This rhythm – unmatched, unstoppable)  
+      
+    ***[Bridge]***  
+    一字一句地重來  
+    我們的努力沒白費  
+    All these nights and all these days  
+    Will become a shining blaze  
+      
+    ***[Final Chorus]***  
+    我們是影子穿山甲 (Shadow pangolins on the run)  
+    默默改變世界的想法 (Silently shaping brilliant minds)  
+    IPAC25 我們來了！(IPAC25, here we come!)  
+    Now it’s time to have some fun  
+      
+    Dance it off, we’ve made it through  
+    Papers clean and passion true  
+    未來就在我們腳下 (The future’s under our paws)  
+    一起跳舞吧！(Let’s celebrate it all!)  
+
 *Content created with [Suno](https://suno.com/home)*.
 
 ## Web References
