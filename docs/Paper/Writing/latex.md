@@ -171,6 +171,79 @@ In abbreviated form:
   year = {May 2099, paper MONA2, this conference},
 ```
 
+### BibLaTeX in current JACoW class
+
+The current BibLaTeX style has implemented the usage of `eventdate` field where `eventyear` has a higher priority than `year` (publication date). The above reference can be written as
+
+```bib
+@inproceedings{xiang:ipac2022-thpopt022,
+  author = {R. Xiang and A. Arnold and S. Ma and P. Michel and P. Murcek and A.A. Ryzhov and J. Schaber and J. Teichert and P.Z. Zwartek},
+  title = {{Study on QE evolution of Cs₂Te photocathodes in ELBE SRF Gun-II}},
+  booktitle = {Proc. IPAC'22},
+  %booktitle = {Proc. 13th International Particle Accelerator Conference (IPAC'22)},
+  pages = {2617--2619},
+  eid = {THPOPT022},
+  language = {english},
+  keywords = {cathode, gun, SRF, operation, vacuum},
+  venue = {Bangkok, Thailand},
+  eventdate = {2022-06-12/2022-06-17},
+  series = {International Particle Accelerator Conference},
+  number = {13},
+  publisher = {JACoW Publishing, Geneva, Switzerland},
+  month = {05},
+  year = {2022},
+  issn = {2673-5490},
+  isbn = {978-3-95450-227-1},
+  doi = {10.18429/JACoW-IPAC2022-THPOPT022},
+  url = {https://jacow.org/ipac2022/papers/thpopt022.pdf},
+  abstract = {{...}},
+}
+```
+where the `eventdate` can be as minimal as `2022-06` to have the same effect in JACoW style.
+
+The unpublished contribution should use the `eventtitle` field:
+
+```bib
+@unpublished{lin:ipac2022-moiygd2,
+  author       = {C. Lin},
+  title        = {{Recent Progress of Compact LAser Plasma Accelerator at Peking University}},
+  eventtitle   = {IPAC'22},
+  venue        = {Bangkok, Thailand},
+  eventdate    = {2022-06-12/2022-06-17},
+  abstract     = {{...}},
+}
+```
+The ones presented at the current event need the `type` field:
+```bib
+@unpublished{...,
+  ... ,
+  type = {this conference},
+}
+```
+
+JACoW also prefers the usage of ISO-4 form for Journals. A standard way is to put the abbreviated journal titles into the `shortjournal` field so that it can be compatible with other publishers. The ISO-4 abbreviations can be obtained at [https://marcinwrochna.github.io/abbrevIso/](https://marcinwrochna.github.io/abbrevIso/). There's also an official TeXstudio macro that can do it automatically.
+
+## TeXstudio tricks
+
+TeXstudio is a cross-platform open-source TeX Editor. It has a built-in macro system that uses the `QuickJS` language. There're some interesting macros in the [official repository](https://github.com/texstudio-org/texstudio-macro) that can be installed by opening the Menu `Macros` ⇒ `Edit Macros...` ⇒ `Browse`. The scripts under `jacow` folder are specifically created for our events. Pull them and assign a shortcut to it.
+
+### Format `thebibliography`
+
+This script automatically sorts `thebibliography` environment with regard to the citation order. A dummy entry will be created when a cited label does not exist in the environment. Those not cited in text will be ignored. The original environment will be put at the end of the document (after `\end{document}`) for comparison.
+
+### To SI
+
+This script separates the number part and converts the selected text to a unit block. For example
+
+- `$2\times10^{2}\mu\mathrm{m}$` ⇒ `\SI{2e2}{μm}`
+- `$^{\circ}C$` ⇒ `\si{°C}`
+
+Enable regular expression in `Search` and look for numbers with `-?±?\d+\.?[\^\d]*` and all potential units will be highlighted. Then select the quantity with unit and run the macro to reduce the tedious input.
+
+### ISO-4
+
+This script converts the selected text to its ISO-4 abbreviation form. `cURL` needs to be installed can be callable in order to make an HTTP GET request. If you’re working with `.bib` database, I recommand to duplicate the `journal`/`journaltitle` line, run the macro on one of the Journal titles and change the field to `shortjournal`.
+
 ## Other tricks
 
 - When using `\usepackage{authblk}` you probably see a spacing between author and affiliation block.
