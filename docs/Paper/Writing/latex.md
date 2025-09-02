@@ -199,6 +199,7 @@ The current BibLaTeX style has implemented the usage of `eventdate` field where 
   abstract = {{...}},
 }
 ```
+
 where the `eventdate` can be as minimal as `2022-06` to have the same effect in JACoW style.
 
 The unpublished contribution should use the `eventtitle` field:
@@ -213,7 +214,9 @@ The unpublished contribution should use the `eventtitle` field:
   abstract     = {{...}},
 }
 ```
+
 The ones presented at the current event need the `type` field:
+
 ```bib
 @unpublished{...,
   ... ,
@@ -227,11 +230,13 @@ JACoW also prefers the usage of ISO-4 form for Journals. A standard way is to pu
 
 TeXstudio is a cross-platform open-source TeX Editor. It has a built-in macro system that uses the `QuickJS` language. There're some interesting macros in the [official repository](https://github.com/texstudio-org/texstudio-macro) that can be installed by opening the Menu `Macros` ⇒ `Edit Macros...` ⇒ `Browse`. The scripts under `jacow` folder are specifically created for our events. Pull them and assign a shortcut to it.
 
-### Format `thebibliography`
+### Format `thebibliography` ([`Format thebibliography.txsMacro`](https://github.com/texstudio-org/texstudio-macro/blob/1a60f12c47547b4d5fa4dbec66cb929759343785/jacow/Format%20thebibliography.txsMacro))
 
 This script automatically sorts `thebibliography` environment with regard to the citation order. A dummy entry will be created when a cited label does not exist in the environment. Those not cited in text will be ignored. The original environment will be put at the end of the document (after `\end{document}`) for comparison.
 
-### To SI
+
+
+### To SI ([`SI formatter.txsMacro`](https://github.com/texstudio-org/texstudio-macro/blob/1a60f12c47547b4d5fa4dbec66cb929759343785/jacow/SI%20formatter.txsMacro))
 
 This script separates the number part and converts the selected text to a unit block. For example
 
@@ -240,7 +245,7 @@ This script separates the number part and converts the selected text to a unit b
 
 Enable regular expression in `Search` and look for numbers with `-?±?\d+\.?[\^\d]*` and all potential units will be highlighted. Then select the quantity with unit and run the macro to reduce the tedious input.
 
-### ISO-4
+### ISO-4 ([`ISO-4 formatter.txsMacro`](https://github.com/texstudio-org/texstudio-macro/blob/1a60f12c47547b4d5fa4dbec66cb929759343785/jacow/ISO-4%20formatter.txsMacro))
 
 This script converts the selected text to its ISO-4 abbreviation form. `cURL` needs to be installed can be callable in order to make an HTTP GET request. If you’re working with `.bib` database, I recommand to duplicate the `journal`/`journaltitle` line, run the macro on one of the Journal titles and change the field to `shortjournal`.
 
