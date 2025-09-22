@@ -228,13 +228,11 @@ JACoW also prefers the usage of ISO-4 form for Journals. A standard way is to pu
 
 ## TeXstudio tricks
 
-TeXstudio is a cross-platform open-source TeX Editor. It has a built-in macro system that uses the `QuickJS` language. There're some interesting macros in the [official repository](https://github.com/texstudio-org/texstudio-macro) that can be installed by opening the Menu `Macros` ⇒ `Edit Macros...` ⇒ `Browse`. The scripts under `jacow` folder are specifically created for our events. Pull them and assign a shortcut to it.
+TeXstudio is a cross-platform open-source TeX Editor. It has a built-in macro system that uses the `QuickJS` language. There are some interesting macros in the [official repository](https://github.com/texstudio-org/texstudio-macro) that can be installed by opening the Menu `Macros` ⇒ `Edit Macros...` ⇒ `Browse`. The scripts under `jacow` folder are specifically created for our events. Pull them and assign a shortcut to it.
 
 ### Format `thebibliography` ([`Format thebibliography.txsMacro`](https://github.com/texstudio-org/texstudio-macro/blob/1a60f12c47547b4d5fa4dbec66cb929759343785/jacow/Format%20thebibliography.txsMacro))
 
 This script automatically sorts `thebibliography` environment with regard to the citation order. A dummy entry will be created when a cited label does not exist in the environment. Those not cited in text will be ignored. The original environment will be put at the end of the document (after `\end{document}`) for comparison.
-
-
 
 ### To SI ([`SI formatter.txsMacro`](https://github.com/texstudio-org/texstudio-macro/blob/1a60f12c47547b4d5fa4dbec66cb929759343785/jacow/SI%20formatter.txsMacro))
 

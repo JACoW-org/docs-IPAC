@@ -26,6 +26,9 @@ The main characteristics of the pre-press proceedings are:
 
 It is recommended to generate the pre-press package, to compress it and to downloaded on a client computer that will eventually move the proceedings onto the conference website.
 
+!!! warning "Do not publish the meow server URL"
+    CAT creates the pre-press and the final proceedings on the meow server. Please be aware that **this is a working area** which could break or disappear at any time. For this reason, **it is forbidden to publish the pre-print URL of the meow server** on any public website (like the official conference website). This URL will not work after the final proceedings are published, resulting in broken links and bad search engines indexing (like Google). Instead, **download the zip file from Indico and upload it onto your conference website**.
+
 ## Final proceedings
 
 This feature is intended for the creation of the final proceedings to be published on JACoW.org. It will include only papers and slides that have been QA'd.
