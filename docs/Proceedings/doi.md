@@ -14,7 +14,7 @@ DOIs are registered by CAT via [Datacite](https://datacite.org/) by way of the D
 
 Datacite credentials are needed to actually register the DOIs. Contact the [JACoW Board of Directors](https://www.jacow.org/Main/Contacts) to get directions about these settings.
 
-## Registering DOIs
+## Registering DOIs with CAT
 
 When the final proceedings package has been created and sent to the JACoW EMEA Regional Support Centre Manager for publication, it's time to register the DOIs on doi.org.
 
@@ -37,8 +37,6 @@ Check that final proceedings have been generated correctly.
 
 ---
 
-
-
 The buttons at the bottom of this window trigger some actions:
 
 - **Refresh**: forces a refresh of the list above by querying Datacite.org.
@@ -51,3 +49,26 @@ The buttons at the bottom of this window trigger some actions:
 
 - **Hide**: Makes published DOIs invisible and not searchable.
 
+### Creating DOIs
+
+The first action to perform before sending the final proceedings for publication is creating the DOIs on doi.org. When the Editor-in-Chief is happy with the final proceedings, they can open the DOI panel in CAT and **Create** them by way of the button named accordingly. The following video shows this operation, starting from the situation where no DOIs where registered to the registered status.
+
+<video style="width:576" controls="" alt="type:video">
+   <source src="../Videos/DOI-create.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+After the DOIs are created they exist in DOI.org but they are not visible nor searchable by the end users. 
+
+### Publishing DOIs
+
+After the DOIs are registered with no problems, they can be published. Again, to easily perform this action the Editor-in-Chief can use the "**Publish**" button in CAT, as the following video shows.
+
+<video style="width:576" controls="" alt="type:video">
+   <source src="../Videos/DOI-publish.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+Please remember that **this action is final**: after a DOI is published *it cannot be deleted anymore*. What is possible to do is to hide it, if needed, which can also be performed through CAT.
+
+To *modify* the data associated with a DOI it is necessary to use the DataCite Fabrica backend, which is *only available to the JACoW BoD*.
