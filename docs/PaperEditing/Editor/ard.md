@@ -40,7 +40,7 @@ The title of the paper must:
 
 - be all UPPERCASE in the paper (apart from acronyms or units) - if in doubt, ask the Editor-in-Chief
 
-- be [Sentence case](https://writer.com/blog/sentence-case/) in Indico
+- be [Sentence case](https://www.scribbr.com/academic-writing/sentence-case/) in Indico
 
 If any of these conditions are not respected, go and modify the title in Indico. What's in the paper rules.
 

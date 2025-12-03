@@ -231,7 +231,7 @@ Then perform the following checks:
 
 ## Sentence case for titles: How-To
 
-Please note that in Indico now on titles should be written in [Sentence case](https://writer.com/blog/sentence-case/) (no more in Title Case). Example: `This is a paper title in SCL: sentence case letters`.
+Please note that in Indico now on titles should be written in [Sentence case](https://www.scribbr.com/academic-writing/sentence-case/) (no more in Title Case). Example: `This is a paper title in SCL: sentence case letters`.
 
 Remember that acronyms and specifically-written names of machines/institutes must
  not be changed from their format.

@@ -26,7 +26,7 @@ The Scientific Secretariat (or the Editor-in-Chief) will use the contribution mo
 
 - edit every contribution they are submitters of
 
-- **check the contribution title** and, if different from the one in the paper, correct it in Indico. The title also needs to be written in [Sentence case](https://writer.com/blog/sentence-case/) (no Title Case, no ALL UPPERCASE...)
+- **check the contribution title** and, if different from the one in the paper, correct it in Indico. The title also needs to be written in [Sentence case](https://www.scribbr.com/academic-writing/sentence-case/) (no Title Case, no ALL UPPERCASE...)
 
 - **check the list of authors** and, if different from the one in the paper, correct it in Indico
   
