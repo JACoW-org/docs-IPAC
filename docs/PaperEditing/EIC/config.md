@@ -6,7 +6,7 @@ An editing workflow can be applied to three different types of documents in Indi
 - Slides
 - Poster
 
-JACoW conferences with the aim to publish proceedings will normally always use  the Paper editing workflow. Depending on your conference you may also want to activate one or several of the others. The alternative for collecting other files without passing them through a review process, is  to use the standard Indico `Material Submission` process.
+JACoW conferences with the aim to publish proceedings will normally always use  the Paper editing workflow. Depending on your conference you may also want to activate Slides and/or Poster types. Using the standard Indico `Material Submission` process is another option for collecting other files without passing them through a review process. However, this possibility is discouraged since any uploaded material will be available to every user logged in Indico.
 
 In order to activate one or several editing workflows, go to the `Editing` module, then activate the toggle right of the `List of editable types`.
 

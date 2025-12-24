@@ -22,7 +22,9 @@ The main characteristics of the pre-press proceedings are:
 
 - contributions that have been accepted (green state) are included, regardless of their QA status
 
-- no slides are published.
+- no slides are published
+
+- no posters are published.
 
 It is recommended to generate the pre-press package, to compress it and to downloaded on a client computer that will eventually move the proceedings onto the conference website.
 
@@ -31,7 +33,7 @@ It is recommended to generate the pre-press package, to compress it and to downl
 
 ## Final proceedings
 
-This feature is intended for the creation of the final proceedings to be published on JACoW.org. It will include only papers and slides that have been QA'd.
+This feature is intended for the creation of the final proceedings to be published on JACoW.org. It will include only papers, slides and posters that have been QA'd.
 
 Please refer to the [dedicated CAT/PURR documentation](https://purr-docs.jacow.org/Functionalities/finalProceedings/#pre-press-and-final-proceedings) for more information.
 

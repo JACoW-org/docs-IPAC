@@ -6,6 +6,6 @@ The tool that actually creates the proceedings is called [CAT - Conference Assem
 
 ![](img/settings-incomplete.png)
 
-CAT is not part of Indico. In fact, it is an external web application ([MEOW](https://meow-docs.jacow.org/)) driven by a JACoW Indico plugin ([PURR](https://purr-docs.jacow.org/)). PURR needs to be configured first. [Please refer to its documentation](https://purr-docs.jacow.org/Functionalities/statusAndSettings/) for the details of all its settings.
+CAT is not part of Indico. In fact, it is an external web application ([MEOW](https://meow-docs.jacow.org/)) driven by a JACoW Indico plugin ([PURR](https://purr-docs.jacow.org/)). CAT needs to be configured first. [Please refer to its documentation](https://purr-docs.jacow.org/Functionalities/statusAndSettings/) for the details of all its settings.
 
 Before creating the proceedings, it is necessary to perform a number of checks on the paper PDFs, on Poster presentations, on the slides of the oral presentations and on the contribution's metadata. These steps are described here as well.

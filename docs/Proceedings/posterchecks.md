@@ -1,6 +1,6 @@
-# Poster checks
+# Presentation checks
 
-IPAC has a strict policy on publishing papers of poster contributions. Their posters must be:
+IPAC has a strict policy on publishing papers of contributions of type poster. Their posters must be:
 
 - **Posted**: a poster must be present on the poster board in the assigned poster session
 
@@ -22,7 +22,7 @@ The same tool contain a report that allows to easily spot posters that did not p
 
 Please refer to the JICT documentation for more details on these and other features.
 
-## What if a poster does not pass these checks?
+## What if a poster paper does not pass these checks?
 
 As stated above, the related paper must not be admitted into the proceedings. 
 
@@ -34,7 +34,7 @@ The easiest way to do this could be to mark the paper as "rejected" ([black stat
 
 However, this will result in the abstract be included in the proceedings, without the paper. In cases like this we actually want to completely exclude a contribution from the proceedings, i.e. not even the title, authors list and abstract must be present.
 
-To accomplish this goal it is possible to use a special custom field in contributions, normally called `CAT_publish`. This must be a [contributions custom field](/InitialSetup/mgmt_area_03/#abstract-fields) of type boolean (only the negative value is actually used):
+To accomplish this goal it is possible to use a special custom field in contributions, normally called `CAT_publish`. This must be a [contributions custom field](/InitialSetup/mgmt_area_03/#abstract-fields) of type Boolean (only the negative value is actually used):
 
 ![](img/CAT_publish_field.png)
 

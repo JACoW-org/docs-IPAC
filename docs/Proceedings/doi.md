@@ -1,5 +1,8 @@
 # Digital Object Identifiers (DOI)
 
+!!! warning "DOIs are managed by the JACoW Proceedings Webmaster"
+    Only the [JACoW Proceedings Manager](https://www.jacow.org/Main/Contacts) can register and publish DOIs on DOI.org. The Editor-in-Chief is responsible for correctly creating the final proceedings package to be hand-over to the [JACoW Proceedings Webmaster](https://www.jacow.org/Main/Contacts). They will then check the package, publish the proceedings and register the DOIs on behalf of the Editor-in-Chief. Hence, you can normally skip this documentation page.
+
 Papers in the IPAC proceedings are given a unique [DOI](https://doi.org) built from the PURR settings and the paper's programme code:
 
 ![](img/doi-url-example.png)
@@ -16,15 +19,15 @@ Datacite credentials are needed to actually register the DOIs. Contact the [JACo
 
 ## Registering DOIs with CAT
 
-When the final proceedings package has been created and sent to the JACoW EMEA Regional Support Centre Manager for publication, it's time to register the DOIs on doi.org.
+When the final proceedings package has been created and sent to the JACoW Proceedings Webmaster for publication, it's time to register the DOIs on doi.org.
 
 ![](img/doi-window.png)
 
-Upon opening this window CAT queries Datacite.org and lists the papers status.
+Upon opening this window CAT allows to operate on Datacite.org.
 
 The left column lists the DOI codes created by CAT for all publishable papers. The syntax follows the parameters in the PURR settings.
 
-The right column shows each DOI status on DOI.org via Datacite.org. In the screenshot above all DOIs are **published and searchable** on DOI.org.
+The right column shows each DOI status on DOI.org via Datacite.org.
 
 ---
 
@@ -38,6 +41,8 @@ Check that final proceedings have been generated correctly.
 ---
 
 The buttons at the bottom of this window trigger some actions:
+
+- **Login**: checks that CAT can correctly login (and, hence, operate) on Datacite.org
 
 - **Refresh**: forces a refresh of the list above by querying Datacite.org.
 

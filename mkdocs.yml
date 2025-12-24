@@ -147,8 +147,8 @@ nav:
   - Proceedings:
     - Introduction: Proceedings/intro.md
     - Paper checks: Proceedings/paperchecks.md
-    - Poster checks: Proceedings/posterchecks.md
-    - Slides checks: Proceedings/slideschecks.md
+    - Presentation checks: Proceedings/posterchecks.md
+    - Slide/poster checks: Proceedings/slideschecks.md
     - Authors' list: Proceedings/authorslist.md
     - Final Proceedings: Proceedings/proceedings.md
     - Digital Object Identifiers: Proceedings/doi.md
