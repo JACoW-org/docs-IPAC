@@ -29,8 +29,11 @@ plugins:
       add_icon: true
 nav:
   - Introduction: index.md
-  - Glossary: glossary.md 
-  - Organising Committees: committees.md
+  - Overview:
+    - Glossary: Overview/glossary.md 
+    - Organising Committees: Overview/committees.md
+    - Roles and responsibilities: Overview/roles.md
+    - General Timelines: Overview/timelines.md
   - General instructions:
     - How to login to the Indico event: General/JACoWlogin.md
     - How to submit an abstract: General/submission.md

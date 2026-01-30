@@ -13,7 +13,7 @@ Other authors:
 
 - Christine Petit-Jean Genaz ([CERN](https://www.cern.ch)) who contributed with:
   
-    - *the [documentation on running an IPAC with the SPMS](https://www.jacow.org/uploads/Editors/OrganizingIPACs_ver15_2019.pdf)*
+    - *the original documentation on running an IPAC with the SPMS*
   
     - *the initial Indico tests and the first documentation on the scientific programme management with Indico* 
 

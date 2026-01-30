@@ -1,0 +1,81 @@
+# Roles and responsibilities
+
+This is a list of roles and associated responsibilities for a large conference during the conference week. This list is written for a large conference (e.g. IPAC); smaller conferences may not need all these roles, and/or one person may be able to serve in many roles.
+
+- **Editor-in-Chief** (LOC, also member of the JACoW Team)
+    - Is responsible for the production of the Conference Proceedings
+    - Organises the Proceedings Office Team (people, room, logistics)
+    - Defines the editing baseline and decides on borderline cases
+    - Completes the editing after the conference, creates the proceedings and delivers them to the JACoW Proceedings Webmaster
+- **Paper Editors** (JACoW and some LOC members)
+    - Process papers, including checking references
+    - Resolve paper format/template issues with authors
+    - Work with Editor-in-Chief to ensure consistency for proceedings
+- **Presentations Manager** (and team; usually JACoW)
+    - Organises and runs speaker ready room
+    - Ensures presentations run smoothly
+    - Coordinate chairs and student secretaries in oral sessions
+    - Process transparencies to PDFs for proceedings
+    - Embed videos into PDF when necessary
+    - Resolve transparency/talk issues for publication with authors
+- **IT Manager** (and team; LOC, JACoW can help with IT experts)
+    - Ensures IT setup for conference, including Proceedings Office, registration, wireless setup for delegates, and Internet cafe
+    - Monitors network traffic
+    - Addresses/coordinates any required IT response
+- **Author Reception and Title/Authors Check** (JACoW and possibly LOC member)
+    - Provide "first line of defence" between authors and editors
+    - Answer questions from authors regarding paper processing
+    - Check Titles and Author lists on papers vs Indico for proceedings
+    - Serve as Paper Editors when available
+- **Presentation A/V Manager** (LOC and subcontractor)
+    - Ensures A/V equipment running smoothly in presentation rooms
+    - Ensures speaker introductions delivered to session chairs from Scientific Secretariat
+    - Manage A/V company representatives if A/V company subcontracted
+    - Often a role of, e.g., one of the LOC Chairs
+- **Poster Police** (LOC members and/or student grant recipients)
+    - Check author presence and poster quality at poster sessions
+    - Enter poster police data into mobile app
+    - Take photos of non compliant boards for records
+    - JACoW can provide training but usually students or LOC members
+- **Oral Session Assistants** (student grant recipients)
+    - Provide assistance with speaker microphone placement on stage
+    - Run microphones during questions
+    - Change between individual talks during scientific sessions
+    - Other activities as requested by A/V manager and session chair
+    - Usually serving in this role is a base requirement for all student grant recipients
+- **Student Session Manager** (LOC member)
+    - Ensure coordination of student poster session information with students
+    - Deliver student grants
+    - Organise student assignments during week
+    - Communicate clear schedules and expectations to students
+    - Organise student poster judging session and volunteers
+    - Organise email to student poster winners, plaques or certificates
+- **Poster Session Manager** (and team; LOC members
+    - Ensure proper setup of poster area (boards, board layouts, prominent board numbering)
+    - Ensures prominent signage to direct authors and delegates to individual poster board areas
+    - Directs poster authors to correct poster areas (particularly student posters on Sunday)
+    - Ensures poster posting materials are available before every poster session
+    - Coordinates disposal of abandoned posters, poster area cleanup
+- **Industrial Exhibition Manager** (LOC member)
+    - Ensure proper setup of industrial exhibition area (booths, power, drapery, carpeting, etc)
+    - Interact with exhibitors and address their needs
+    - Ensure proper setup of additional exhibitor areas (e.g. professional societies, journal tables, etc)
+- **Registration** (LOC members or subcontractor/venue staff)
+    - Greet and register delegates
+    - Collect registration fees, where appropriate
+    - Disburse registration materials, e.g. bags
+- **Treasurer** (LOC member)
+    - Manages conference expenditures and incomes
+    - Make decisions regarding funding adjustments (e.g. food services)
+- **Food Services Coordinator** (LOC, subcontractor or venue staff)
+    - Coordinate food service for editorial team
+    - Coordinate food service for satellite meetings
+    - Coordinate lunchtime food service
+    - Coordinate food service for special events
+- **Social Program Manager** (LOC and/or subcontractor)
+    - Coordinate social programmes for delegates and guests
+    - May also be a social media coordinator
+- **Conference Photographer** (subcontractor or LOC)
+    - Photographs conference events
+    - Photographs conference speakers
+    - Delivers relevant photographs to social media coordinator for use in real-time postings
