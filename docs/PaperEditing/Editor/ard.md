@@ -64,7 +64,7 @@ The authors list of a paper, according to the JACoW standards, is made of:
 
 - all other authors are considered co-authors
 
-- the order on the paper should be [grouped by affiliation and then alphabetically](https://www.jacow.org/Editors/CommonAuthorOversights), with [some exceptions](../../../Paper/Writing/general/ ).
+- the order on the paper should be grouped by affiliation and then alphabetically, with [some exceptions](../../../Paper/Writing/general/ ).
 
 We don't care about any order in the Indico metadata, because the [Conference Assembly Tool](../../../Proceedings/intro/) will take care of this. However, it's important to correctly identify the primary author vs co-authors. 
 
