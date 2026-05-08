@@ -44,8 +44,18 @@ The JSON file is not linked from the proceedings' home page. It is named after t
 
 where `[EVENT]` is, for example, `IPAC2024`.
 
+### References
+
+The file `json/references-<conferencename>.jsonl` in the root of the package contains all this conference's papers references. This file is available to be consumed by JACoW's [References Search tool](https://refs.jacow.org/). 
+
+Technical details in [GitHub's issue #16](https://github.com/JACoW-org/CAT/issues/16).
+
 ### Other Metadata
 
-The `proceedings` file in the root of the package reports the content creator and the date of package assembly.
+The `proceedings` file in the root of the package reports the content creator and the date of package assembly. E.g.:
 
+```
+final proceedings created by CAT <https://github.com/JACoW-org/CAT> on <2026-05-05T14:36:39Z>
+```
 
+In case of pre-press, the `prepress` file does the same.
