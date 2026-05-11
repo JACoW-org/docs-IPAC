@@ -12,9 +12,9 @@
 
 - Like at IPAC'23, there is a call for peer-reviewed papers (Light Peer Review - LPR) to which 235 papers have been submitted. These papers will be published in a journal (for this IPAC it is the European Physics Journal who submitted the most competitive offer and has been chosen). In agreement with the LPR coordinator, we will edit the LPR papers before the second round of reviews and cross-check them once they are in their final version. The aim is to have the same papers published in the journal version and the JACoW proceedings, benefiting from both the reviewers' comments and the editors work (this is described further below).
 
-- JACoW has introduced new templates for this years' conference season. More details on the changes to theses templates can be found at XXX
+- JACoW has introduced new templates for this years' conference season. More details on the changes to theses templates can be found at [here: https://github.com/JACoW-org/JACoW_Templates/blob/master/Changelog.pdf](https://github.com/JACoW-org/JACoW_Templates/blob/master/Changelog.pdf). 
 
-- JACoW has introduced a new policy requiring all authors affiliation to follow the Research Organization Registry (https://ror.org/) nomenclature (with some exceptions). To help authors use the right format authors have been provided with the possibility to download a custom template pre-filled with the authors lists and affiliations and the title and abstract of their papers.
+- JACoW has introduced a new policy requiring all authors affiliation to follow the [Research Organization Registry](https://ror.org/) nomenclature (with some exceptions). To help authors use the right format authors have been provided with the possibility to download a custom template pre-filled with the authors lists and affiliations and the title and abstract of their papers.
 
 - By lack of sufficient ressources and due to a late notification, we have not been able to update CatScan for this conference.
 
@@ -24,7 +24,7 @@ The proceedings record what has been presented at the conference and give a snap
 
 However, at the same time, there is a pressure to ensure that the editorial team delivers good value for money. We should aim at delivering paper that are free of major typographical problems but should not loose too much time in minor details that do not affect the readability of the paper for accelerator scientists. We do not aim at delivering an artistic masterpiece of well polished papers. Looking at the Light Peer Reviewed papers from IPAC'23, which have been index by major publication databases, minor typographical issues were accepted by the journal and did not affect the papers referencing.
 
-References are especially important as they contribute to the reader's underatanding of a paper. Papers that do not give DOOI for recent journal publications should be red-dot and returned to their authors.
+References are especially important as they contribute to the reader's underatanding of a paper. Papers that do not give DOI for recent journal publications should be red-dot and returned to their authors.
 
 My personnal opinion is that we should educate the authors: when there are too many errors in a paper, we should return it to the author rather than loosing time fixing the errors.
 
@@ -166,7 +166,7 @@ When you're done, all the processed files of that paper should be moved to
 
 - <code style="color: black">Black dot</code>
   
-    - Paper rejected 
+    - Paper rejected (for example paper from the student session)
 
 ### Editing workflow, step-by-step
 
