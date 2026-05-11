@@ -8,7 +8,7 @@
 
 - The SPC has decided to highlight some posters called "Invited Posters (V)". This is an opportunity to highlight more interesting contributions without increasing the number of oral contributions. These invited posters are allowed to submit 5 pages of proceedings like oral contributions.
 
-- To make access to the author's work faster, all papers are vailable on the contribution page once submitted and they will be updated once the paper has passed QA.
+- To make access to the author's work faster, all papers will be made available on the contribution page once submitted and they will be updated once the paper has passed QA.
 
 - Like at IPAC'23, there is a call for peer-reviewed papers (Light Peer Review - LPR) to which 235 papers have been submitted. These papers will be published in a journal (for this IPAC it is the European Physics Journal who submitted the most competitive offer and has been chosen). In agreement with the LPR coordinator, we will edit the LPR papers before the second round of reviews and cross-check them once they are in their final version. The aim is to have the same papers published in the journal version and the JACoW proceedings, benefiting from both the reviewers' comments and the editors work (this is described further below).
 
@@ -200,7 +200,7 @@ When you're done, all the processed files of that paper should be moved to
 7. Whenever the paper is accepted (<code style="color: green">GREEN</code>) **bring the paper copy to a QA editor** for its last check.
 
 ## Title Author Check
-The Title Author Check will be conducted in parallel, aas early as possible after a paper is submitted and before QA assement.
+The Title Author Check will be conducted in parallel, as early as possible after a paper is submitted and before QA assement.
 
 ## QA - Quality Assurance procedure
 
@@ -291,5 +291,5 @@ We recommend to create one page only per person, but feel free to edit more than
 
 - IPAC'26 website: [https://ipac26.org](https://ipac26.org)
 
-- IPAC'26 Indico event: [https://indico.jacow.org/e/IPAC26)](https://indico.jacow.org/e/IPAC26)
+- IPAC'26 Indico event: [https://indico.jacow.org/e/IPAC26](https://indico.jacow.org/e/IPAC26)
 
