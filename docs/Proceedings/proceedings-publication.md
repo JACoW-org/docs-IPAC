@@ -20,4 +20,8 @@ Basically the procedure is as follow:
    
      3. notify the Editor-in-Chief about the success of the operation
 
+5. After this stage, no more changes of the now published proceedings can be done
+
+JACoW does not accept amendments on papers or metadata (like, a different authors list) nor publishes errata corrige.
+
 
