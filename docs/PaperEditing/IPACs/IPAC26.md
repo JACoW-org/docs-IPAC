@@ -2,7 +2,7 @@
 
 ## Main changes with respect to previous IPACs
 
-- Some Scientific Program Committee (SPC) members expressed concern with the high rate (about 30%) of posters that were not converted in proceedings papers at previous IPACs. One concern expressed by some authors to SPC members was that publishing in the IPAC proceedings may prevent a journal publication later. To address this issue, in agreement with the JACoW board of directors, authors have been given the option to ask for their paper to have a preprint wa`termark (as was alredy done for papers accepted by the Light Peer Review volume).
+- Some Scientific Program Committee (SPC) members expressed concern with the high rate (about 30%) of posters that were not converted in proceedings papers at previous IPACs. One concern expressed by some authors to SPC members was that publishing in the IPAC proceedings may prevent a journal publication later. To address this issue, in agreement with the JACoW board of directors, authors have been given the option to ask for their paper to have a preprint watermark (as was alredy done for papers accepted by the Light Peer Review volume).
 
 - The SPC chair asked to remove the limit forbidding references to go on a 5th page of a paper. After checking with the JACoW board of directors and the IPAC CC, the origin of that rule could not be found and it has been removed. Papers are limited to 3 or 5 pages depending on their type but references can go on extra pages without limit. 
 
@@ -20,7 +20,7 @@
 
 ## Editing motivation and philosophy
 
-The proceedings record what has been presented at the conference and give a snapshot of the state of the art for particle accelerators at the time of the conference. Each paper is a contribution to this snapshot. The editor's work is too ensure that this snapshot is not blurred by technical issues.
+The proceedings record what has been presented at the conference and give a snapshot of the state of the art for particle accelerators at the time of the conference. Each paper is a contribution to this snapshot. The editor's work is to ensure that this snapshot is not blurred by technical issues.
 
 However, at the same time, there is a pressure to ensure that the editorial team delivers good value for money. We should aim at delivering paper that are free of major typographical problems but should not loose too much time in minor details that do not affect the readability of the paper for accelerator scientists. We do not aim at delivering an artistic masterpiece of well polished papers. Looking at the Light Peer Reviewed papers from IPAC'23, which have been index by major publication databases, minor typographical issues were accepted by the journal and did not affect the papers referencing.
 
