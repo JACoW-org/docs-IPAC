@@ -7,6 +7,81 @@
 - 2026-05-17T10:30 *Ivan Andrian*: 
   [TAC-e01: Authors appear in the indico contribution but not on the paper, or vice-versa](#tac-e01-authors-appear-in-the-indico-contribution-but-not-on-the-paper-or-vice-versa)
 
+## Passe-le au Vert (by Maurizio Montis, songwriter)
+
+This page performs better with this song playing in the background.
+
+<audio controls>
+   <source src="../material/Passe-le_au_Vert.mp3" type="audio/mpeg">
+Your browser does not support the audio tag.
+</audio>
+
+??? Abstract "Lyrics"
+    ***[verse 1]***
+    Where Pacino once walked these halls
+    Deauville, May — the PO comes to life
+    From CERN, from KEK, from every lab
+    We chase that elusive green
+
+    ***[pre-chorus]***
+    Some of them come back yellow
+    Some come back red
+    Some of them go straight to green
+    Some need to be re-read
+    
+    ***[chorus]***
+    Turn it green — passe-le au vert
+    We're gonna turn it green
+    
+    Turn it green — passe-le au vert
+    We're gonna turn it green
+    
+    ***[verse 2]***
+    Fonts embedded, page size right
+    Margins trimmed to JACoW's rule
+    Click "Get Next Paper", back again
+    We've got you, we'll come through
+    
+    ***[pre-chorus]***
+    Some of them come back yellow
+    Some come back red
+    Some of them go straight to green
+    Some need to be re-read
+    
+    ***[chorus]***
+    Turn it green — passe-le au vert
+    We're gonna turn it green
+    
+    Turn it green — passe-le au vert
+    We're gonna turn it green
+    
+    ***[verse 3]***
+    De Niro walked these halls before
+    We read between the lines
+    Eastwood would have loved our job:
+    "Go ahead — make my case"
+    
+    ***[bridge]***
+    Dis-moi pourquoi tu fais ça
+    Sur les planches de Deauville?
+    Because the record must survive
+    Because the science has to stay
+    
+    ***[chorus]***
+    Turn it green — passe-le au vert
+    We're gonna turn it green
+    
+    Turn it green — passe-le au vert
+    We're gonna turn it green
+    
+    Passe-le au vert, on va
+    Le passer au vert
+    
+    ***[outro]***
+    Turn it green... passe-le au vert...
+
+*Content created with [Suno](https://suno.com/home)*.
+
 ## Main changes with respect to previous IPACs
 
 - Some Scientific Program Committee (SPC) members expressed concern with the high rate (about 30%) of posters that were not converted in proceedings papers at previous IPACs. One concern expressed by some authors to SPC members was that publishing in the IPAC proceedings may prevent a journal publication later. To address this issue, in agreement with the JACoW board of directors, authors have been given the option to ask for their paper to have a preprint watermark (as was alredy done for papers accepted by the Light Peer Review volume).
@@ -234,8 +309,6 @@ the paper, or viceversa, we operate like this:
 
 Standard comment by TAC to the author:
 
-
-
 ```
 Dear Author, please be informed that the paper author and co-authors list
 is not coherent with the Indico list. 
@@ -248,11 +321,7 @@ the paper to yellow waiting for your actions:
   the corrected version based on the latest updated paper from Indico.
 ```
 
-
-
 ----
-
-
 
 ## QA - Quality Assurance procedure
 
