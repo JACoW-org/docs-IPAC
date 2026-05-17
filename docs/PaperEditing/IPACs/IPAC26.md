@@ -1,6 +1,6 @@
 # IPAC'26 Editing reference manual
 
-## History updates
+## History of updates
 
 - 2026-05-12T01:16 *Nicolas Delerue*: first version
 
@@ -245,7 +245,7 @@ the paper to yellow waiting for your actions:
 
 - after only modifying Indico, accept the editing
 - if you want to modify the paper, reject the editing and resubmit 
-  the correct version of the latest updated paper.
+  the corrected version based on the latest updated paper from Indico.
 ```
 
 
