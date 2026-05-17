@@ -243,7 +243,7 @@ Please make sure to modify the wrong one either in Indico or in the paper,
 so that they will be then identical. The editor will move the status of 
 the paper to yellow waiting for your actions:
 
-- after only modifying Indico, accept the editing
+- accept the editing after modifying Indico
 - if you want to modify the paper, reject the editing and resubmit 
   the corrected version based on the latest updated paper from Indico.
 ```
