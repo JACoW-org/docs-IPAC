@@ -17,68 +17,68 @@ Your browser does not support the audio tag.
 </audio>
 
 ??? Abstract "Lyrics"
-    ***[verse 1]***
-    Where Pacino once walked these halls
-    Deauville, May — the PO comes to life
-    From CERN, from KEK, from every lab
-    We chase that elusive green
-
-    ***[pre-chorus]***
-    Some of them come back yellow
-    Some come back red
-    Some of them go straight to green
-    Some need to be re-read
-    
-    ***[chorus]***
-    Turn it green — passe-le au vert
-    We're gonna turn it green
-    
-    Turn it green — passe-le au vert
-    We're gonna turn it green
-    
-    ***[verse 2]***
-    Fonts embedded, page size right
-    Margins trimmed to JACoW's rule
-    Click "Get Next Paper", back again
-    We've got you, we'll come through
-    
-    ***[pre-chorus]***
-    Some of them come back yellow
-    Some come back red
-    Some of them go straight to green
-    Some need to be re-read
-    
-    ***[chorus]***
-    Turn it green — passe-le au vert
-    We're gonna turn it green
-    
-    Turn it green — passe-le au vert
-    We're gonna turn it green
-    
-    ***[verse 3]***
-    De Niro walked these halls before
-    We read between the lines
-    Eastwood would have loved our job:
-    "Go ahead — make my case"
-    
-    ***[bridge]***
-    Dis-moi pourquoi tu fais ça
-    Sur les planches de Deauville?
-    Because the record must survive
-    Because the science has to stay
-    
-    ***[chorus]***
-    Turn it green — passe-le au vert
-    We're gonna turn it green
-    
-    Turn it green — passe-le au vert
-    We're gonna turn it green
-    
-    Passe-le au vert, on va
-    Le passer au vert
-    
-    ***[outro]***
-    Turn it green... passe-le au vert...
+    ***[verse 1]***  
+    Where Pacino once walked these halls  
+    Deauville, May — the PO comes to life  
+    From CERN, from KEK, from every lab  
+    We chase that elusive green  
+      
+    ***[pre-chorus]***  
+    Some of them come back yellow  
+    Some come back red  
+    Some of them go straight to green  
+    Some need to be re-read  
+       
+    ***[chorus]***  
+    Turn it green — passe-le au vert  
+    We're gonna turn it green  
+       
+    Turn it green — passe-le au vert  
+    We're gonna turn it green  
+       
+    ***[verse 2]***  
+    Fonts embedded, page size right  
+    Margins trimmed to JACoW's rule  
+    Click "Get Next Paper", back again  
+    We've got you, we'll come through  
+       
+    ***[pre-chorus]***  
+    Some of them come back yellow  
+    Some come back red  
+    Some of them go straight to green  
+    Some need to be re-read  
+       
+    ***[chorus]***  
+    Turn it green — passe-le au vert  
+    We're gonna turn it green  
+       
+    Turn it green — passe-le au vert  
+    We're gonna turn it green  
+       
+    ***[verse 3]***  
+    De Niro walked these halls before  
+    We read between the lines  
+    Eastwood would have loved our job:  
+    "Go ahead — make my case"  
+       
+    ***[bridge]***  
+    Dis-moi pourquoi tu fais ça  
+    Sur les planches de Deauville?  
+    Because the record must survive  
+    Because the science has to stay  
+       
+    ***[chorus]***  
+    Turn it green — passe-le au vert  
+    We're gonna turn it green  
+       
+    Turn it green — passe-le au vert  
+    We're gonna turn it green  
+       
+    Passe-le au vert, on va  
+    Le passer au vert  
+       
+    ***[outro]***  
+    Turn it green... passe-le au vert...  
 
 *Content created with [Suno](https://suno.com/home)*.
 
