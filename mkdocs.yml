@@ -22,6 +22,8 @@ repo_url: 'https://github.com/jacow-org/docs-IPAC'
 markdown_extensions:                                                                                                                                 
   - admonition 
   - pymdownx.details
+  - pymdownx.tasklist:
+      clickable_checkbox: true
 plugins:
   - privacy
   - search

@@ -1,5 +1,8 @@
 # IPAC'25 Editing reference manual
 
+!!! warning "This documentation is deprecated"
+    Every IPAC improves from the experience of the previous ones. Workflows, tools, even editing guidelines and rules vary. This page is kept here fore reference purposes only - many links can no longer work, for example. Please be aware of this and don't rely your actual work on this. Refer instead to this year's IPAC (or the latest available).
+
 ## Shadow Pangolis (by Maurizio Montis, songwriter)
 
 ![](img/Shadow_Pangolins.jpeg)
@@ -309,7 +312,7 @@ MOPC999 = MO P C 999
         Re-create the PDF and do all the checks again. Upload all the files (PDF+source) and [Request approval (<code style="color: gold">YELLOW</code>)](../../Editor/edit/#request-approval-yellow).
         
         **NOTE**: For Word files on Windows, **USE** *»PDFMaker«* from the Acrobat menu in Word. **DO NOT USE** *»Adobe PDF Printer«* nor *»Save As PDF«* in Word nor any *»Generic PostScript Printer«*.
-
+        
         Move on to another paper, back to step 1.
 
 6. Whenever the paper is accepted (<code style="color: green">GREEN</code>) **bring the paper copy to a QA editor** for its last check.

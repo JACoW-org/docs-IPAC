@@ -1,5 +1,8 @@
 # IPAC'24 Editing reference manual
 
+!!! warning "This documentation is deprecated"
+    Every IPAC improves from the experience of the previous ones. Workflows, tools, even editing guidelines and rules vary. This page is kept here fore reference purposes only - many links can no longer work, for example. Please be aware of this and don't rely your actual work on this. Refer instead to this year's IPAC (or the latest available).
+
 ## Editors at Dawn (by Maurizio Montis, songwriter)
 
 This page performs better with this song playing in the background.
@@ -10,8 +13,6 @@ Your browser does not support the audio tag.
 </audio>
 
 *(content generated using Udio)*
-
-
 
 ## Web References
 

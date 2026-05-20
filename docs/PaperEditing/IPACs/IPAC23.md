@@ -1,5 +1,8 @@
 # IPAC'23 Editing instructions
 
+!!! warning "This documentation is deprecated"
+    Every IPAC improves from the experience of the previous ones. Workflows, tools, even editing guidelines and rules vary. This page is kept here fore reference purposes only - many links can no longer work, for example. Please be aware of this and don't rely your actual work on this. Refer instead to this year's IPAC (or the latest available).
+
 ## Editor Computers
 
 You can use any computer that is available, but use the same computer throughout the conference.
