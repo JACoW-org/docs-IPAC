@@ -1,0 +1,5030 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../IPAC25/">
+      
+      
+        <link rel="next" href="../../../Proceedings/intro/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.23">
+    
+    
+      
+        <title>IPAC'26 - JACoW - Running an IPAC</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/open_in_new_tab.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ipac26-editing-reference-manual" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="JACoW - Running an IPAC" class="md-header__button md-logo" aria-label="JACoW - Running an IPAC" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            JACoW - Running an IPAC
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              IPAC'26
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jacow-org/docs-IPAC" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jacow-org/docs-IPAC
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="JACoW - Running an IPAC" class="md-nav__button md-logo" aria-label="JACoW - Running an IPAC" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    JACoW - Running an IPAC
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jacow-org/docs-IPAC" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    jacow-org/docs-IPAC
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Overview
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Overview/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Overview/committees/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Organising Committees
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Overview/roles/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Roles and responsibilities
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Overview/timelines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    General Timelines
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    General instructions
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            General instructions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../General/JACoWlogin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to login to the Indico event
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../General/submission/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to submit an abstract
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../General/editing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to edit your abstracts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../General/contributions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How to edit your contributions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Delivery and Initial Setup - Admin
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Delivery and Initial Setup - Admin
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InitialSetup/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Access to new event
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Management area
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Management area
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InitialSetup/mgmt_area_01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Settings, Timetable, Protection
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InitialSetup/mgmt_area_02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Organization
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InitialSetup/mgmt_area_03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Workflows
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InitialSetup/mgmt_area_04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reports
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InitialSetup/mgmt_area_05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Customization
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Invited Oral Presentations
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Invited Oral Presentations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Scientific Secretariat/Admin
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Scientific Secretariat/Admin
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SSsetup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Intial Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SSsubmission/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How submission will work
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SScall/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Call for Proposals for Invited Oral Presentations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SSpostsubmit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Post submission duties
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SSinitialQA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Abstract Initial QA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SSSPCsetup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Setups for the SPC review
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SSpcodes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Creating sessions and assigning programme codes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SSpublishing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Publishing the programme
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SSinviteinvited/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Invitation to invited speakers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SStipsandtricks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tips and tricks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    SPC/OC/SAB
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            SPC/OC/SAB
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SABsubmission/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Submission of Proposals for Invited Oral Presentations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    SPC - normal workflow
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            SPC - normal workflow
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SPCtrackreview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC: proposal of track changes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/MCCtrackreview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC MC Coordinators: review tracks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SPCprioritization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC: give priority to proposals
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/MCCaccept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC MC Coordinators: accept proposals
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    SPC - simplified workflow
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            SPC - simplified workflow
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/SPCreview-s/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC: review abstracts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/MCCtrackreview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC MC Coordinators: review tracks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../InvitedOrals/MCCaccept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC MC Coordinators: accept proposals
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Contributed Abstracts
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Contributed Abstracts
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Scientific Secretariat/Admin
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Scientific Secretariat/Admin
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/SSsetup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Setup review
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/SSpostsubmit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Post submission duties
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/SSinitialQA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Abstract Initial QA
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/SSSPCsetup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Setups for the SPC review
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/SSPosters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Accept Poster presentations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/SSpcodes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Programme codes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/SSmultipleposterareas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Multiple Poster areas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    SPC - normal workflow
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            SPC - normal workflow
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/SPCtrackreview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC: proposal of track changes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/MCCtrackreview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC MC Coordinators: review tracks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/SPCprioritization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC: give priority to proposals
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/MCCaccept/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC MC Coordinators: accept proposals
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    SPC - simplified workflow
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            SPC - simplified workflow
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/SPCreview-s/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC: review abstracts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/MCCtrackreview-s/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC MC Coordinators: finalise classifications
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/MCCaccept-s/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    SPC MC Coordinators: accept proposals
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ContributedAbstracts/multiplesessions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contributions in multiple sessions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Abstract Booklet
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Abstract Booklet
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../AbstractBooklet/CAT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Abstracts booklet with CAT
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../AbstractBooklet/MailMerge/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mail Merge to RTF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Paper submission
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Paper submission
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Writing a paper
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            Writing a paper
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/Writing/general/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    General hints
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/Writing/latex/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LaTeX
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/Writing/word/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    MS Word
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Light Peer Review
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            Light Peer Review
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/LPRintro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/LPRsetup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    LPR module setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/LPRSubmit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Submitting a paper
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/LPRcomm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Communicating with reviewers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/LPRSubmit2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Submitting the paper for JACoW publication
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/LPRreviewer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reviewing a paper
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/LPRjudge/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Judging a paper
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    JACoW publication
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            JACoW publication
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Paper editing workflow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/submit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Submitting a paper
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/comment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sending comments to editors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/upload/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Uploading new version
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/approve/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Approving new version by editor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Paper editing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Paper editing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Paper/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Paper editing workflow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Editor-in-chief
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_2">
+            <span class="md-nav__icon md-icon"></span>
+            Editor-in-chief
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EIC/setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Setting up
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EIC/config/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuring
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EIC/team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Editing Team Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EIC/open/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Open & Start Editing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../EIC/publish/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Publishing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_3" id="__nav_9_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Editor
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_3">
+            <span class="md-nav__icon md-icon"></span>
+            Editor
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editor/assign/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Editables list and assignment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editor/edit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Editing an editable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editor/QA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quality Assurance (QA)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editor/ard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Author Reception Desk
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Editing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            Editing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editing/Crop%2BMove%2BStretch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Margins and objects
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editing/TextEditing%2BFontEmbedding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Text editing and fonts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editing/Hyperlinks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Removing hyperlinks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editing/AdvancedSearch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Quick check for references+
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editing/TemplateReview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    JACoW Template
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editing/ReferenceSearchTool/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reference Search Tool
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editing/CatScan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cat Scan Editor
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Editing/shortcuts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Acrobat/Word shortcuts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_5" id="__nav_9_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Slides Processing
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_5">
+            <span class="md-nav__icon md-icon"></span>
+            Slides Processing
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Slides/1_Intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Slides/2_Prerequisites/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Prerequisites
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Slides/3_PDF_slides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PDF slides
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Slides/4_PPT_slides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PPT slides
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Slides/5_Videos_and_Animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Videos and Animations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Slides/6_Tips_and_Tricks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tips and Tricks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Slides/7_SpeakerReadyRoom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Managing the Speaker Ready Room
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9_6" id="__nav_9_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    IPAC manuals
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9_6">
+            <span class="md-nav__icon md-icon"></span>
+            IPAC manuals
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IPAC23/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    IPAC'23
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IPAC24/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    IPAC'24
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../IPAC25/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    IPAC'25
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    IPAC'26
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    IPAC'26
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#history-of-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      History of updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passe-le-au-vert-by-maurizio-montis-songwriter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passe-le au Vert (by Maurizio Montis, songwriter)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-changes-with-respect-to-previous-ipacs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Main changes with respect to previous IPACs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-motivation-and-philosophy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing motivation and philosophy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Guidelines
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editor-computers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editor Computers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#programme-codes-explained" class="md-nav__link">
+    <span class="md-ellipsis">
+      Programme codes explained
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Programme codes explained">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presentation-type-codes-and-paper-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      Presentation type codes and paper length
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-a-paper" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing a paper
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Editing a paper">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visual-workflow-non-lpr-papers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual workflow (non LPR papers)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visual-workflow-lpr-papers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual workflow (LPR papers)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paper-statuses-recap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paper statuses recap
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-workflow-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing workflow, step-by-step
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#title-author-check-tac-giulia-lu-li" class="md-nav__link">
+    <span class="md-ellipsis">
+      Title Author Check (TAC - Giulia, Lu Li)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Title Author Check (TAC - Giulia, Lu Li)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tac-e01-authors-appear-in-the-indico-contribution-but-not-on-the-paper-or-vice-versa" class="md-nav__link">
+    <span class="md-ellipsis">
+      TAC-e01: Authors appear in the indico contribution but not on the paper, or vice-versa
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qa-quality-assurance-procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      QA - Quality Assurance procedure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="QA - Quality Assurance procedure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qa-editor-role-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      QA Editor Role Allocation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-you-filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up you Filters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#viewing-the-papers-you-will-qa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Viewing the Papers you will QA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-everything-is-ok" class="md-nav__link">
+    <span class="md-ellipsis">
+      If everything is OK
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-anything-is-not-ok" class="md-nav__link">
+    <span class="md-ellipsis">
+      If anything is NOT OK
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sentence-case-for-titles-how-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sentence case for titles: How-To
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggestions-to-indico-to-ipac27-organisers-etc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suggestions to Indico, to IPAC'27+ organisers etc.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      Web References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Proceedings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Proceedings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proceedings/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proceedings/paperchecks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Paper checks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proceedings/posterchecks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Presentation checks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proceedings/slideschecks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Slide/poster checks
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proceedings/authorslist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Authors' list
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proceedings/proceedings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Final Proceedings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proceedings/proceedings-publication/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Publishing the Proceedings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proceedings/doi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Digital Object Identifiers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proceedings/cleanup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cleanup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Proceedings/notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Notes on Proceedings
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../credits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Credits
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../FAQ/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    FAQ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#history-of-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      History of updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#passe-le-au-vert-by-maurizio-montis-songwriter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Passe-le au Vert (by Maurizio Montis, songwriter)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-changes-with-respect-to-previous-ipacs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Main changes with respect to previous IPACs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-motivation-and-philosophy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing motivation and philosophy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#guidelines" class="md-nav__link">
+    <span class="md-ellipsis">
+      Guidelines
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editor-computers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editor Computers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#programme-codes-explained" class="md-nav__link">
+    <span class="md-ellipsis">
+      Programme codes explained
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Programme codes explained">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presentation-type-codes-and-paper-length" class="md-nav__link">
+    <span class="md-ellipsis">
+      Presentation type codes and paper length
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#editing-a-paper" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing a paper
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Editing a paper">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visual-workflow-non-lpr-papers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual workflow (non LPR papers)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visual-workflow-lpr-papers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visual workflow (LPR papers)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paper-statuses-recap" class="md-nav__link">
+    <span class="md-ellipsis">
+      Paper statuses recap
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editing-workflow-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing workflow, step-by-step
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#title-author-check-tac-giulia-lu-li" class="md-nav__link">
+    <span class="md-ellipsis">
+      Title Author Check (TAC - Giulia, Lu Li)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Title Author Check (TAC - Giulia, Lu Li)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tac-e01-authors-appear-in-the-indico-contribution-but-not-on-the-paper-or-vice-versa" class="md-nav__link">
+    <span class="md-ellipsis">
+      TAC-e01: Authors appear in the indico contribution but not on the paper, or vice-versa
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qa-quality-assurance-procedure" class="md-nav__link">
+    <span class="md-ellipsis">
+      QA - Quality Assurance procedure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="QA - Quality Assurance procedure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#qa-editor-role-allocation" class="md-nav__link">
+    <span class="md-ellipsis">
+      QA Editor Role Allocation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-you-filters" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up you Filters
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#viewing-the-papers-you-will-qa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Viewing the Papers you will QA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#if-everything-is-ok" class="md-nav__link">
+    <span class="md-ellipsis">
+      If everything is OK
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#if-anything-is-not-ok" class="md-nav__link">
+    <span class="md-ellipsis">
+      If anything is NOT OK
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sentence-case-for-titles-how-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sentence case for titles: How-To
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suggestions-to-indico-to-ipac27-organisers-etc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suggestions to Indico, to IPAC'27+ organisers etc.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-references" class="md-nav__link">
+    <span class="md-ellipsis">
+      Web References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="ipac26-editing-reference-manual">IPAC'26 Editing reference manual</h1>
+<h2 id="history-of-updates">History of updates</h2>
+<ul>
+<li>
+<p>2026-05-12T01:16 <em>Nicolas Delerue</em>: first version</p>
+</li>
+<li>
+<p>2026-05-17T10:30 <em>Ivan Andrian</em>: 
+  <a href="#tac-e01-authors-appear-in-the-indico-contribution-but-not-on-the-paper-or-vice-versa">TAC-e01: Authors appear in the indico contribution but not on the paper, or vice-versa</a></p>
+</li>
+</ul>
+<h2 id="passe-le-au-vert-by-maurizio-montis-songwriter">Passe-le au Vert (by Maurizio Montis, songwriter)</h2>
+<p>This page performs better with this song playing in the background.</p>
+<p><audio controls>
+   <source src="../material/Passe-le_au_Vert.mp3" type="audio/mpeg">
+Your browser does not support the audio tag.
+</audio></p>
+<details class="abstract">
+<summary>Lyrics</summary>
+<p><strong><em>[verse 1]</em></strong><br />
+Where Pacino once walked these halls<br />
+Deauville, May — the PO comes to life<br />
+From CERN, from KEK, from every lab<br />
+We chase that elusive green  </p>
+<p><strong><em>[pre-chorus]</em></strong><br />
+Some of them come back yellow<br />
+Some come back red<br />
+Some of them go straight to green<br />
+Some need to be re-read  </p>
+<p><strong><em>[chorus]</em></strong><br />
+Turn it green — passe-le au vert<br />
+We're gonna turn it green  </p>
+<p>Turn it green — passe-le au vert<br />
+We're gonna turn it green  </p>
+<p><strong><em>[verse 2]</em></strong><br />
+Fonts embedded, page size right<br />
+Margins trimmed to JACoW's rule<br />
+Click "Get Next Paper", back again<br />
+We've got you, we'll come through  </p>
+<p><strong><em>[pre-chorus]</em></strong><br />
+Some of them come back yellow<br />
+Some come back red<br />
+Some of them go straight to green<br />
+Some need to be re-read  </p>
+<p><strong><em>[chorus]</em></strong><br />
+Turn it green — passe-le au vert<br />
+We're gonna turn it green  </p>
+<p>Turn it green — passe-le au vert<br />
+We're gonna turn it green  </p>
+<p><strong><em>[verse 3]</em></strong><br />
+De Niro walked these halls before<br />
+We read between the lines<br />
+Eastwood would have loved our job:<br />
+"Go ahead — make my case"  </p>
+<p><strong><em>[bridge]</em></strong><br />
+Dis-moi pourquoi tu fais ça<br />
+Sur les planches de Deauville?<br />
+Because the record must survive<br />
+Because the science has to stay  </p>
+<p><strong><em>[chorus]</em></strong><br />
+Turn it green — passe-le au vert<br />
+We're gonna turn it green  </p>
+<p>Turn it green — passe-le au vert<br />
+We're gonna turn it green  </p>
+<p>Passe-le au vert, on va<br />
+Le passer au vert  </p>
+<p><strong><em>[outro]</em></strong><br />
+Turn it green... passe-le au vert...  </p>
+</details>
+<p><em>Content created with <a href="https://suno.com/home">Suno</a></em>.</p>
+<h2 id="main-changes-with-respect-to-previous-ipacs">Main changes with respect to previous IPACs</h2>
+<ul>
+<li>
+<p>Some Scientific Program Committee (SPC) members expressed concern with the high rate (about 30%) of posters that were not converted in proceedings papers at previous IPACs. One concern expressed by some authors to SPC members was that publishing in the IPAC proceedings may prevent a journal publication later. To address this issue, in agreement with the JACoW board of directors, authors have been given the option to ask for their paper to have a preprint watermark (as was alredy done for papers accepted by the Light Peer Review volume).</p>
+</li>
+<li>
+<p>The SPC chair asked to remove the limit forbidding references to go on a 5th page of a paper. After checking with the JACoW board of directors and the IPAC CC, the origin of that rule could not be found and it has been removed. Papers are limited to 3 or 5 pages depending on their type but references can go on extra pages without limit. </p>
+</li>
+<li>
+<p>The SPC has decided to highlight some posters called "Invited Posters (V)". This is an opportunity to highlight more interesting contributions without increasing the number of oral contributions. These invited posters are allowed to submit 5 pages of proceedings like oral contributions.</p>
+</li>
+<li>
+<p>To make access to the author's work faster, all papers will be made available on the contribution page once submitted and they will be updated once the paper has passed QA.</p>
+</li>
+<li>
+<p>Like at IPAC'23, there is a call for peer-reviewed papers (Light Peer Review - LPR) to which 235 papers have been submitted. These papers will be published in a journal (for this IPAC it is the European Physics Journal who submitted the most competitive offer and has been chosen). In agreement with the LPR coordinator, we will edit the LPR papers before the second round of reviews and cross-check them once they are in their final version. The aim is to have the same papers published in the journal version and the JACoW proceedings, benefiting from both the reviewers' comments and the editors work (this is described further below).</p>
+</li>
+<li>
+<p>JACoW has introduced new templates for this years' conference season. More details on the changes to theses templates can be found at <a href="https://github.com/JACoW-org/JACoW_Templates/blob/master/Changelog.pdf">here: https://github.com/JACoW-org/JACoW_Templates/blob/master/Changelog.pdf</a>. </p>
+</li>
+<li>
+<p>JACoW has introduced a new policy requiring all authors affiliation to follow the <a href="https://ror.org/">Research Organization Registry</a> nomenclature (with some exceptions). To help authors use the right format authors have been provided with the possibility to download a custom template pre-filled with the authors lists and affiliations and the title and abstract of their papers.</p>
+</li>
+<li>
+<p>By lack of sufficient ressources and due to a late notification, we have not been able to update CatScan for this conference.</p>
+</li>
+</ul>
+<h2 id="editing-motivation-and-philosophy">Editing motivation and philosophy</h2>
+<p>The proceedings record what has been presented at the conference and give a snapshot of the state of the art for particle accelerators at the time of the conference. Each paper is a contribution to this snapshot. The editor's work is to ensure that this snapshot is not blurred by technical issues.</p>
+<p>However, at the same time, there is a pressure to ensure that the editorial team delivers good value for money. We should aim at delivering paper that are free of major typographical problems but should not loose too much time in minor details that do not affect the readability of the paper for accelerator scientists. We do not aim at delivering an artistic masterpiece of well polished papers. Looking at the Light Peer Reviewed papers from IPAC'23, which have been index by major publication databases, minor typographical issues were accepted by the journal and did not affect the papers referencing.</p>
+<p>References are especially important as they contribute to the reader's underatanding of a paper. Papers that do not give DOI for recent journal publications should be red-dot and returned to their authors.</p>
+<p>My personnal opinion is that we should educate the authors: when there are too many errors in a paper, we should return it to the author rather than loosing time fixing the errors.</p>
+<h2 id="guidelines">Guidelines</h2>
+<ul>
+<li>
+<p>JACoW templates: <a href="https://www.jacow.org/Authors/Templates">https://www.jacow.org/Authors/Templates</a></p>
+<ul>
+<li>
+<p><a href="https://github.com/JACoW-org/JACoW_Templates/raw/master/LaTeX/jacow_latex_template.tex">Current JACoW Template (LaTeX)</a></p>
+</li>
+<li>
+<p><a href="https://github.com/JACoW-org/JACoW_Templates/raw/master/MSWord/JACoW_MSWord.dotx">Current JACoW Template (Word)</a></p>
+</li>
+<li>
+<p><a href="https://github.com/JACoW-org/JACoW_Templates/archive/refs/heads/master.zip">ZIP file with all files</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Instructions for Authors:</p>
+<ul>
+<li>
+<p>Paper preparation Guidelines: <a href="https://www.ipac26.org/paper-preparation/">https://www.ipac26.org/paper-preparation/</a></p>
+</li>
+<li>
+<p>Speaker preparation guidelines: <a href="https://www.ipac26.org/speaker-preparation-guidelines/">https://www.ipac26.org/speaker-preparation-guidelines/</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="../../Editing/TemplateReview/#resources-cited-in-the-video">Paper editing checklist</a></p>
+</li>
+<li>
+<p><a href="../material/Editor_Quick_Start_Guide.pdf">Editor Quick Start Guide.pdf</a> <img alt="" src="/img/attachment.png" /> (<a href="../material/Editor_Quick_Start_Guide.docx">Word version</a> <img alt="" src="/img/attachment.png" />)</p>
+</li>
+<li>
+<p><a href="../../Editing/material/Editor_Quality_Matrix.pdf">Editor Quality Assurance Overview.pdf</a> <img alt="" src="/img/attachment.png" /></p>
+</li>
+<li>
+<p><a href="https://jict.ipac26.org/">JACoW Indico Conference Tools for IPAC'26</a></p>
+</li>
+</ul>
+<hr />
+<h2 id="editor-computers">Editor Computers</h2>
+<p>You have been placed at a workstation which has been selected based on you editing experises, and to distribute tranee editors amoungst experienced editors who can help them grow thier experties. You must stay on the same computer throughout the conference.</p>
+<p>All of the software settings and preferences should already be set, but if you thinks something's wrong, please contact the editor-in-chief.</p>
+<p>You will find on the Windows desktop a folder named <strong>PO</strong> (short for <strong>P</strong>roceedings <strong>O</strong>ffice). This is the only folder that is backed up, so please <strong>DO NOT RENAME OR MOVE IT</strong>. <strong>Use this folder for all the papers you are working on</strong>. There is also a folder named <strong>DONE</strong> inside PO (if missing, go and create it). When you are done processing a paper (successfully or not, it doesn't matter), create a sub-folder under the DONE folder and name it according to its paper code. Move all of that paper's files into the new sub-folder.</p>
+<p><em>Example</em> When working on paper MOPC999, all its files will stay in</p>
+<p><code>C:\Users\XXXX\Desktop\PO\MOPC999</code></p>
+<p>(i.e., the PO folder on your desktop). </p>
+<p>When you're done, all the processed files of that paper should be moved to</p>
+<p><code>C:\Users\XXXX\Desktop\PO\DONE\MOPC999</code></p>
+<hr />
+<h2 id="programme-codes-explained">Programme codes explained</h2>
+<h3 id="example">Example</h3>
+<p><em>Contribution code format:</em></p>
+<pre><code>    DDTML00
+</code></pre>
+<pre><code>DD=Day of week ("SU" | "MO" | "TU" | "WE" | "TH" | "FR")
+T = Type (I=Invited oral, O=contributed Oral, V = inVited poster, P = contributed Poster, E= Equal Opportunity, U = indUstrial, S= sponsored talk, Z= priZe acceptance oral)
+M = MC number (1-8) [0 may be used for contributions that fall outside the regular classification]
+L00= Location code + number
+    For orals (I,O, E, U, S, Z): M = Room Michel Ornano; T = Room Thalasso + 2 digits chronological sequence
+    For posters the first digit is related to the papers' primary author region: 
+        001-299  = EMEA (Europe Middle East and Africa)
+        301-599  = Americas
+        601-899  = Asia
+        901-999  = Unknown
+    To keep more freedom in oposter arrangements, the program code does not include an indication of the area where the poster will be presented.
+
+Note: Some authors may choose to affiliate themselves with IUPAP (International Union of Pure and Applied PHysics) whose headquarters is in Switzerland, in that case their region is EMEA.
+
+- Each MC will be presented during two different poster sessions, one mostly for EMEA posters and the other for the other regions.
+There might be exceptions to this rule due to authors request to have their poster presented on a different day.
+
+- Sunday: Students poster sesion. Papers with a code starting with SU are also presented during the conference main program under another code, we should reject (black dot) such paper and ask the author to resubmit with the code from the main program.
+
+- Monday:
+MC1 (Europe, Middle-East and Africa), MC6 (Americas and Asia), MC7 (Europe, Middle-East and Africa) and MC8 (Americas and Asia).
+
+- Tuesday:
+MC2 (Americas and Asia), MC3 (Europe, Middle-East and Africa), MC7 (Americas and Asia), MC8 (Europe, Middle-East and Africa)
+
+- Wednesday:
+MC1 (Americas and Asia), MC4 (Americas and Asia), MC5 (Europe, Middle-East and Africa), MC6 (Europe, Middle-East and Africa)
+
+- Thursday
+MC2 (Europe, Middle-East and Africa), MC3 (Americas and Asia), MC4 (Europe, Middle-East and Africa), MC5 (Americas and Asia)
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Day</th>
+<th>Presentation Type</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SU</strong> - Sunday</td>
+<td><strong>I</strong> – Invited Oral</td>
+<td><strong>M</strong> - Room Michel Ornano</td>
+</tr>
+<tr>
+<td><strong>MO</strong> - Monday</td>
+<td><strong>O</strong> – Contributed Oral</td>
+<td><strong>T</strong> - Room Thalasso</td>
+</tr>
+<tr>
+<td><strong>TU</strong> - Tuesday</td>
+<td><strong>V</strong> – Invited Poster</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>WE</strong> - Wednesday</td>
+<td><strong>P</strong> – Contributed Poster</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>TH</strong> - Thursday</td>
+<td><strong>E</strong> – Equal Opportunity session</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>FR</strong> - Friday</td>
+<td><strong>U</strong> – Industrial session</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>S</strong> – Sponsored talk</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Z</strong> – priZe acceptance talk</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="presentation-type-codes-and-paper-length">Presentation type codes and paper length</h3>
+<table>
+<thead>
+<tr>
+<th>Type code</th>
+<th>Paper length</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I, O, V, E, U, Z</td>
+<td><strong>5 pages</strong> + extra pages for references only</td>
+</tr>
+<tr>
+<td>P</td>
+<td><strong>3 pages</strong> + extra pages for references only</td>
+</tr>
+<tr>
+<td>S</td>
+<td>No paper will be included in the proceedings</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="editing-a-paper">Editing a paper</h2>
+<h3 id="visual-workflow-non-lpr-papers">Visual workflow (non LPR papers)</h3>
+<p><img alt="" src="../img/pickflow.svg" /></p>
+<h3 id="visual-workflow-lpr-papers">Visual workflow (LPR papers)</h3>
+<p><img alt="" src="../img/IPAC26_LPR_workflow_edited.png" /></p>
+<h3 id="paper-statuses-recap">Paper statuses recap</h3>
+<ul>
+<li>
+<p><code style="color: green">Green dot</code></p>
+<ul>
+<li>Perfect paper, also in JACoW size</li>
+<li>Paper can go to QA</li>
+</ul>
+</li>
+<li>
+<p><code style="color: gold">Yellow dot</code></p>
+<ul>
+<li>Source file changed to fix problems</li>
+<li>Author will proofread and approve or reject</li>
+</ul>
+</li>
+<li>
+<p><code style="color: red">Red dot</code></p>
+<ul>
+<li>Extensive work necessary, author should fix and resubmit</li>
+</ul>
+</li>
+<li>
+<p><code style="color: black">Black dot</code></p>
+<ul>
+<li>Paper rejected (for example paper from the student session)</li>
+</ul>
+</li>
+</ul>
+<h3 id="editing-workflow-step-by-step">Editing workflow, step-by-step</h3>
+<ol>
+<li>
+<p>Some papers will be assigned to you by the Editor-in-chief or <a href="../../Editor/assign/">Assign yourself a paper</a></p>
+</li>
+<li>
+<p><strong>[Word source files only]</strong> check the CatScan results in the comments. They will help you spot any problems in the PDF.
+   <img alt="" src="../img/catscan_comment.png" /></p>
+</li>
+<li>
+<p>Try and <strong>edit the latest PDF file first</strong>. Follow the <a href="../../Editing/TemplateReview/">Paper Editing Checklist</a>.</p>
+</li>
+<li>
+<p>Check that the <strong>number of pages</strong> is in the allowed range for that presentation type (see #Presentation-type-codes-and-paper-length).</p>
+</li>
+<li>
+<p>If the result is compliant with JACoW quality you can upload to Indico and <a href="../../Editor/edit/#accept-green">stick a <strong><code style="color: green">GREEN</code></strong> dot ("Accept")</a>.</p>
+<ul>
+<li>If you needed to do small fixes in the PDF, remember to upload it as well. Select Request approval (<code style="color: gold">YELLOW</code>) and then <a href="../../Editor/edit/#confirm-and-approve">Confirm and approve it</a> to have it green directly</li>
+</ul>
+<p>Go to step 6.</p>
+</li>
+<li>
+<p>Otherwise, <strong>working on the source files is needed</strong>. Choose one of the following options</p>
+<ol>
+<li>
+<p><strong>Lots of fixes are needed</strong>, this will take some time. Or, few fixes are needed but you will spend too much time (&gt;10'). Or, you may be not able to fix it due to lack of information (missing figure, missing reference, etc.).
+    <strong>Stick a <code style="color: red">RED</code> dot and <a href="Editor/edit/#request-changes-red">ask the author to resubmit a better version</a></strong>.</p>
+</li>
+<li>
+<p><strong>You can fix it quickly in the source file</strong>. 
+    Re-create the PDF and do all the checks again. Upload all the files (PDF+source) and <a href="../../Editor/edit/#request-approval-yellow">Request approval (<code style="color: gold">YELLOW</code>)</a>.</p>
+<p><strong>NOTE</strong>: For Word files on Windows , use the <strong>Adobe PDF Printer</strong> with JACoW's settings - <strong>DO NOT USE</strong> <em>»PDFMaker«</em> nor <em>»Save As PDF«</em> in Word nor any <em>»Generic PostScript Printer«</em>.</p>
+<p>Move on to another paper, back to step 1.</p>
+</li>
+</ol>
+</li>
+<li>
+<p>Whenever the paper is accepted (<code style="color: green">GREEN</code>) <strong>bring the paper copy to a QA editor</strong> for its last check.</p>
+</li>
+</ol>
+<h2 id="title-author-check-tac-giulia-lu-li">Title Author Check (TAC - <em>Giulia</em>, <em>Lu Li</em>)</h2>
+<p>The Title Author Check will be conducted in parallel, as early as possible after a paper is submitted and before QA assessment.</p>
+<p>Special cases that will need involvement of both TAC and editors (plus, of course, authors) are listed here below.</p>
+<h3 id="tac-e01-authors-appear-in-the-indico-contribution-but-not-on-the-paper-or-vice-versa">TAC-e01: Authors appear in the indico contribution but not on the paper, or vice-versa</h3>
+<p>Example:</p>
+<p><img alt="" src="../img/IPAC26-TAC-inconsistent-authors-list.png" /></p>
+<p>During TAC, if co-authors appear in the indico contribution but not on 
+the paper, or viceversa, we operate like this:</p>
+<ol>
+<li>
+<p><strong>TAC</strong> writes a comment in the timeline with the message below to notify the author (email sent by Indico)</p>
+</li>
+<li>
+<p><strong>TAC</strong> asks <strong>the editor</strong> (in presence, via mattermost...) to <strong>revert the green dot into yellow dot</strong>. For the latter, the editor needs to re-upload their latest files when yellow-dotting</p>
+</li>
+<li>
+<p><strong>the author</strong> has 2 options:</p>
+<ol>
+<li>
+<p><strong>modify the authors list in Indico</strong> and then accept <strong>the yellow dot</strong> that becomes green</p>
+</li>
+<li>
+<p><strong>reject the yellow dot</strong>, modify the paper and re-upload the correct 
+    one with authors list as per Indico. After that the editor will be 
+    notified and can review and eventually accept the paper </p>
+</li>
+</ol>
+</li>
+</ol>
+<p>Standard comment by TAC to the author:</p>
+<pre><code>Dear Author, please be informed that the paper author and co-authors list
+is not coherent with the Indico list. 
+Please make sure to modify the wrong one either in Indico or in the paper,
+so that they will be then identical. The editor will move the status of 
+the paper to yellow waiting for your actions:
+
+- accept the editing after modifying Indico
+- if you want to modify the paper, reject the editing and resubmit 
+  the corrected version based on the latest updated paper from Indico.
+</code></pre>
+<hr />
+<h2 id="qa-quality-assurance-procedure">QA - Quality Assurance procedure</h2>
+<h4 id="qa-editor-role-allocation">QA Editor Role Allocation</h4>
+<p>QA Editors is a <strong>Role</strong>, and before you can undertake QA Editing an admin needs to add your name to the Role <strong>JACoW - QA</strong> in the Indico Rolls Setup page.
+<img alt="" src="../img/QARoleSelect.png" /></p>
+<h4 id="setting-up-you-filters">Setting up you Filters</h4>
+<p>Viewing only the papers which are ready for QA can de achieved by using the Filter in the Editing &gt; List of Papers Page. You will click on the Filter, Select Tags &gt; <code style="color: yellow">QA02</code>. You should then see paper which have either <code style="color: green">Accepted by Submitter</code> or <code style="color: green">Accepted</code>. 
+<img alt="" src="../img/QASetFilter.png" /></p>
+<p>Sort the List by program <strong>Code</strong> which will display the list sorted by Program Code which is typically by day.</p>
+<h4 id="viewing-the-papers-you-will-qa">Viewing the Papers you will QA</h4>
+<p>You will be advised the Day or Day and Session which you will be allocated to QA which is unique to yourself so other editors don’t start working on papers you are working on.
+For example “MOP1”, but typing this into the Text Box next to the Filter button, any other contributions will be greyed out leaving only the papers you will QA.
+<img alt="" src="../img/QAMySelection.png" />
+Click here to get <a href="../../Editor/QA/">precise instructions on how to perform this with Indico</a>.</p>
+<h3 id="workflow">Workflow</h3>
+<ol>
+<li>
+<p>Take a paper that <strong>you did not process</strong> initially from the QA folder.</p>
+</li>
+<li>
+<p>Download the PDF file from the server.</p>
+</li>
+</ol>
+<p><strong>There are two minimum requirements for a paper to be accepted for publication on JACoW:</strong></p>
+<ul>
+<li>
+<p>It meets the technical requirements (fonts, page size, performance, etc.).</p>
+</li>
+<li>
+<p>Its general appearance is close to the template (i.e., the content fits within the margins and the title is in uppercase letters; Fig./Figure, missing punctuation, typos, and other minor errors do not matter at this point).</p>
+</li>
+</ul>
+<p>Then perform the following checks:</p>
+<ol>
+<li>
+<p>The <strong>number of pages</strong> is in the allowed range for that presentation type.</p>
+</li>
+<li>
+<p>All pages of the document display without error.</p>
+</li>
+<li>
+<p>All pages of the document display in &lt;5 seconds.</p>
+</li>
+<li>
+<p>Check the <strong>margins</strong> once more.</p>
+</li>
+<li>
+<p>Look carefully at the text and check equations and figures for strange or bad fonts.</p>
+</li>
+<li>
+<p>At this stage we can accept minor problems, however. If in doubt, consult with the Editor-in-Chief.</p>
+</li>
+</ol>
+<h4 id="if-everything-is-ok">If everything is OK</h4>
+<ul>
+<li>Choose <strong>Approve QA</strong> and submit.</li>
+<li>Mark or write "<strong>QA OK</strong>", sign the paper, and then return all paperwork to the QA'd folder on the Authors' reception desk</li>
+</ul>
+<h4 id="if-anything-is-not-ok">If anything is NOT OK</h4>
+<ul>
+<li>
+<p>Add a comment in the Indico timeline describing the issues you spotted. This will help the editor fix them or get them back to the author.</p>
+</li>
+<li>
+<p>Then, select <strong>Fail QA</strong> in Indico.</p>
+</li>
+<li>
+<p>Mark the printed paper as FAILED and return it to the editor. 
+  The editing process will then restart.</p>
+</li>
+</ul>
+<hr />
+<h2 id="sentence-case-for-titles-how-to">Sentence case for titles: How-To</h2>
+<p>Please note that in Indico now on titles should be written in <a href="https://writer.com/blog/sentence-case/">Sentence case</a> (no more in Title Case). Example: <code>This is a paper title in SCL: sentence case letters</code>.</p>
+<p>Remember that acronyms and specifically-written names of machines/institutes must
+ not be changed from their format.</p>
+<p>To quickly change a wrongly formatted title you can use <a href="https://titlecaseconverter.com/">https://titlecaseconverter.com/</a> with the <strong>Sentence case Style</strong>.</p>
+<p>Of course <strong>in the paper titles must be in FULL UPPERCASE</strong>.</p>
+<hr />
+<h2 id="suggestions-to-indico-to-ipac27-organisers-etc">Suggestions to Indico, to IPAC'27+ organisers etc.</h2>
+<p>Please share your idea, comments, suggestions for a better organisation of such events, in particular about the use of Indico.</p>
+<p>Open your browser to the <a href="https://telegra.ph/">Telegra.ph free online service</a>: <a href="https://telegra.ph/">https://telegra.ph/</a></p>
+<p>Here you can create a rich text page (text, images, etc.) editable only from your browser.<br />
+At the end of your editing be sure to <strong>Publish it</strong> (use the top-right <em>Publish</em> button), copy this page's URL and send it to the Editor-in-chief.</p>
+<p>We recommend to create one page only per person, but feel free to edit more than one to separate contexts (e.g., Indico, general organisation, Acrobat editing, LaTeX...). In this case you'll get one URL per page. Be sure to save them all!</p>
+<h2 id="web-references">Web References</h2>
+<ul>
+<li>
+<p>IPAC'26 website: <a href="https://ipac26.org">https://ipac26.org</a></p>
+</li>
+<li>
+<p>IPAC'26 Indico event: <a href="https://indico.jacow.org/e/IPAC26">https://indico.jacow.org/e/IPAC26</a></p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+        <script src="../../../js/open_in_new_tab.js"></script>
+      
+        <script src="../../../assets/external/unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
