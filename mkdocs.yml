@@ -29,6 +29,10 @@ plugins:
   - search
   - open-in-new-tab:
       add_icon: true
+  - git-revision-date-localized:
+      type: datetime
+      #type: timeago
+      #enable_creation_date: true
 nav:
   - Introduction: index.md
   - Overview:
