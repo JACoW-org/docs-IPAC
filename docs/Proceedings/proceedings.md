@@ -37,11 +37,14 @@ This feature is intended for the creation of the final proceedings to be publish
 
 Please refer to the [dedicated CAT/PURR documentation](https://purr-docs.jacow.org/Functionalities/finalProceedings/#pre-press-and-final-proceedings) for more information.
 
-## Notes on the "preprint" setting (LPR)
+## Notes on the "preprint" setting 
 
 IPAC has a long tradition of publishing a subset of the papers in a refereed Journal. These papers are usually Light Peer Reviewed (LPR) by a peer review team. This task is managed by the [Indico "peer review"](https://learn.getindico.io/conferences/papers/peer_reviewing/) module, where authors, reviewers and judges cooperate in a timeline similar to the one about editing.
 
 Since the accepted LPR papers are to be printed in a journal, the publication on JACoW.org or on any other website should be marked as "preprint". For every contribution CAT checks about its possible presence in the Indico peer review module. If this contribution is also accepted there (i.e., the paper is accepted for publication in the LPR journal), the sentence set in the "Preprint" field of PURR's settings is over-stamped in the PDF.
+
+It is possible to have this marking added also to other papers. For this a question starting with the string "CAT_preprint_marking" must be added to the contributions (hint: the question can be different during the conference and then be renamed after). All the contributions for whom the answer will be "I  wish my paper to be marked as preprint" will then also have this preprint marking.
+
 
 ## Notes on duplicate contributions
 
